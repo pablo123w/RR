@@ -13,6 +13,7 @@ public class LevelProgression : MonoBehaviour
 
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
+   
     public GameObject NTLevel;
 
     public GameObject NextLevelButton;
@@ -83,5 +84,5 @@ public class LevelProgression : MonoBehaviour
             NTLevel.SetActive(true);
         }
     }
-   
+  
 }
