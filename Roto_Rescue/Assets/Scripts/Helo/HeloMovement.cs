@@ -27,6 +27,7 @@ public class HeloMovement : MonoBehaviour
 
 	void Update()
 	{
+
 		rb.AddRelativeForce(lHorizontal * speed, lVertical * speed, 0, ForceMode.Acceleration);
 
 		//rotate helo with movement
@@ -35,7 +36,7 @@ public class HeloMovement : MonoBehaviour
 		transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * rotatesmooth);
 
 		//cap max speed for helicopter
-		//Debug.Log(rb.velocity.magnitude);
+
 		if (rb.velocity.magnitude > maxSpeed)
 		{
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
@@ -61,7 +62,7 @@ public class HeloMovement : MonoBehaviour
 	 ) * transform.up;
 
 		Vector3 torqueVector = Vector3.Cross(predictedUp, Vector3.up);
-		rb.AddTorque(torqueVector * speed * speed);
+		rb.AddTorque(torqueVector * speed);
 	}
 
 	public void Move(InputAction.CallbackContext context)
@@ -72,12 +73,12 @@ public class HeloMovement : MonoBehaviour
 
 	private void StabilizeVertical()
 	{
-		rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y * 0.99f, 0);
+		rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y * 0.9f * Time.deltaTime, 0);
 	}
 
 	private void StabilizeHorizontal()
 	{
-		rb.velocity = new Vector3(rb.velocity.x*0.99f, rb.velocity.y, 0);
+		rb.velocity = new Vector3(rb.velocity.x * 0.9f * Time.deltaTime, rb.velocity.y, 0);
 	}
 
 }
