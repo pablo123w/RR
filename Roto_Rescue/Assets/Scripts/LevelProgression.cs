@@ -80,6 +80,7 @@ public class LevelProgression : MonoBehaviour
     {
         if (ScorePercent > 0.5f)
         {
+            Debug.Log("50% has been reached!");
             NTLevel.SetActive(true);
         }
     }
