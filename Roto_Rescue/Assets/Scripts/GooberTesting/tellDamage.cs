@@ -6,6 +6,7 @@ public class tellDamage : MonoBehaviour
 {
 	public GameObject DaddyGoob;
 	goobScript GoobScript;
+	public float hpdivider = 0.5f;
 
 	public GameObject Player;
 
@@ -91,7 +92,8 @@ public class tellDamage : MonoBehaviour
 	{
 		if (HitImpact > GoobStrength)
 		{
-			GoobScript.TakeDamage(HitImpact);
+
+			GoobScript.TakeDamage((HitImpact*hpdivider));
 		}
 	}
 }
