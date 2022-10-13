@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class HeloMovement : MonoBehaviour
 {
     public Rigidbody rb;
-
+	 
     public float lHorizontal;
 	public float lVertical;
 	public float maxSpeed;

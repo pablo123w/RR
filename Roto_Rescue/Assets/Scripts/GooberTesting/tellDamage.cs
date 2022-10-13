@@ -11,7 +11,7 @@ public class tellDamage : MonoBehaviour
 	public GameObject Player;
 
 	private float HitImpact;
-
+	 
 	public float GoobStrength = 0;
 	public bool isGrabbed = false;
 
