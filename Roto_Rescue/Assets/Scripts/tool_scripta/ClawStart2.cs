@@ -27,6 +27,7 @@ public class ClawStart2 : MonoBehaviour
         HM = Ply.gameObject.GetComponent<HeloMovement>();
 	}
 
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Pickupable"))

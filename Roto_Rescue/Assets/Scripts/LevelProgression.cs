@@ -23,6 +23,7 @@ public class LevelProgression : MonoBehaviour
     float TotalGoobHP;
     float TotalGoobHPMax;
 
+
     public void Start()
     {
        // NTLevel.SetActive(false);
