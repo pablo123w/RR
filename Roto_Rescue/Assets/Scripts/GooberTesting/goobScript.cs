@@ -54,7 +54,7 @@ public class goobScript : MonoBehaviour
 		//{
 		//	transformG = GetComponent(typeof(Transform)) as Transform;
 		//}
-		//initialPosition = transform.localPosition;
+		initialPosition = transform.localPosition;
 	}
 
 	void Update()
@@ -63,7 +63,7 @@ public class goobScript : MonoBehaviour
 		{
 			death();
 		}
-		//ShakeGoob();
+		ShakeGoob();
 	}
 
 	public void death()
@@ -105,22 +105,25 @@ public class goobScript : MonoBehaviour
 	}
 	public void ShakeGoob()
     {
-		
-		//if(goobhp < 20)
-  //      {
-		//	if (shakeDuration > 0)
-		//	{
+		Rigidbody rg;
+		rg = GetComponent<Rigidbody>();
+        if (goobhp < 20)
+        {
+            if (shakeDuration > 0)
+            {
+
+                transform.localPosition = this.transform.position + Random.insideUnitSphere * shakeMagnitude;
 				
-		//		transform.localPosition = initialPosition + Random.insideUnitSphere * shakeMagnitude;
+                shakeDuration -= Time.deltaTime * dampingSpeed;
+            }
+            else
+            {
+                shakeDuration = 0f;
+				
+				
+                //transform.localPosition = this.transform.position;
+            }
 
-		//		shakeDuration -= Time.deltaTime * dampingSpeed;
-		//	}
-		//	else
-		//	{
-		//		shakeDuration = 0f;
-		//		transform.localPosition = this.transform.position;
-		//	}
-
-		//}
-	}
+        }
+    }
 }
