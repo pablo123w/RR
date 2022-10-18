@@ -13,6 +13,7 @@ public class LevelProgression : MonoBehaviour
 
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
+   
     public GameObject NTLevel;
 
     public GameObject NextLevelButton;
@@ -80,8 +81,9 @@ public class LevelProgression : MonoBehaviour
     {
         if (ScorePercent > 0.5f)
         {
+            Debug.Log("50% has been reached!");
             NTLevel.SetActive(true);
         }
     }
-   
+  
 }

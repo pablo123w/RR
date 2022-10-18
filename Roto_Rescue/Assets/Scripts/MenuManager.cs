@@ -80,7 +80,10 @@ public class MenuManager : MonoBehaviour
             levelSelectUI.SetActive(true);
         }
     }
-
+    public void Lem()
+    {
+        SceneManager.LoadScene("LevelsMenu");
+    }
     public void MainMenuScreen()
     {
         if (level == 0)

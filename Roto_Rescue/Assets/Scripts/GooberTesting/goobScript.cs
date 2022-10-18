@@ -27,6 +27,14 @@ public class goobScript : MonoBehaviour
 
 	public bool IsGrabbed;
 
+	//shaking
+	
+	private Transform transformG;
+	public float shakeDuration;
+	private float shakeMagnitude = 0.1f;
+	private float dampingSpeed = 1.0f;
+	Vector3 initialPosition;
+
 	void Start()
 	{
 		//set goober gameobject
@@ -41,6 +49,12 @@ public class goobScript : MonoBehaviour
 		//get canvas to report health to UI
 		Canvas = GameObject.Find("Canvas");
 		LP = Canvas.GetComponent<LevelProgression>();
+
+		//if (transformG == null)
+		//{
+		//	transformG = GetComponent(typeof(Transform)) as Transform;
+		//}
+		initialPosition = transform.localPosition;
 	}
 
 	void Update()
@@ -49,6 +63,7 @@ public class goobScript : MonoBehaviour
 		{
 			death();
 		}
+		ShakeGoob();
 	}
 
 	public void death()
@@ -88,4 +103,27 @@ public class goobScript : MonoBehaviour
 			}
 		}
 	}
+	public void ShakeGoob()
+    {
+		Rigidbody rg;
+		rg = GetComponent<Rigidbody>();
+        if (goobhp < 20)
+        {
+            if (shakeDuration > 0)
+            {
+
+                transform.localPosition = this.transform.position + Random.insideUnitSphere * shakeMagnitude;
+				
+                shakeDuration -= Time.deltaTime * dampingSpeed;
+            }
+            else
+            {
+                shakeDuration = 0f;
+				
+				
+                //transform.localPosition = this.transform.position;
+            }
+
+        }
+    }
 }
