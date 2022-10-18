@@ -31,7 +31,7 @@ public class goobScript : MonoBehaviour
 	
 	private Transform transformG;
 	public float shakeDuration;
-	private float shakeMagnitude = 0.1f;
+	public float shakeMagnitude;
 	private float dampingSpeed = 1.0f;
 	Vector3 initialPosition;
 
