@@ -1321,7 +1321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -607, y: 65}
+  m_AnchoredPosition: {x: -631.1, y: 34.4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153187912
@@ -2160,17 +2160,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1966796956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76569b91127a65a4188116e8e9c9401e, type: 3}
+  m_Script: {fileID: 11500000, guid: 868c6044c7d0cc14f93073163c944da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GooberConstraint: 1
-  Score: 0
-  ScorePercent: 0
-  GooberConstraintImage: {fileID: 0}
-  GooberSavedImage: {fileID: 0}
-  scoreg: {fileID: 1153187912}
-  NTLevel: {fileID: 0}
-  NextLevelButton: {fileID: 0}
+  highscore: 0
+  score: {fileID: 1153187912}
 --- !u!1 &2008108913
 GameObject:
   m_ObjectHideFlags: 0
