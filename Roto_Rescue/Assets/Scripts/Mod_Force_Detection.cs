@@ -10,6 +10,7 @@ public class Mod_Force_Detection : MonoBehaviour
     void Start()
     {
         rg = GetComponent<Rigidbody>();
+        rg.useGravity = false;
         rg.isKinematic = true;
     }
 
@@ -20,8 +21,9 @@ public class Mod_Force_Detection : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.relativeVelocity.magnitude > force)
+        if(collision.relativeVelocity.magnitude >= force)
         {
+            rg.useGravity = true;
             rg.isKinematic = false;
         }
     }
