@@ -92,7 +92,6 @@ public class tellDamage : MonoBehaviour
 	{
 		if (HitImpact > GoobStrength)
 		{
-
 			GoobScript.TakeDamage((HitImpact*hpdivider));
 		}
 	}

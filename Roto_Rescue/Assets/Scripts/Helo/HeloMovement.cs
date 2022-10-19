@@ -15,7 +15,7 @@ public class HeloMovement : MonoBehaviour
 	//autostabilize after rotating off center
 	public float stability;
 	public float stabilityspeed;
-
+	 
 	//animate rotation with movement
 	public float rotatesmooth = 1f;
 	public float tiltAngle;
@@ -28,8 +28,8 @@ public class HeloMovement : MonoBehaviour
 	void Update()
 	{
 
-		rb.AddRelativeForce(lHorizontal * speed * Time.fixedDeltaTime, lVertical * speed * Time.fixedDeltaTime, 0, ForceMode.Acceleration);
-
+		rb.AddRelativeForce(lHorizontal * speed * (Time.deltaTime * 10000), lVertical * speed * (Time.deltaTime * 10000), 0, ForceMode.Acceleration);
+		Debug.Log(rb.velocity);
 		//rotate helo with movement
 		float tiltAroundZ = lHorizontal * tiltAngle;
 		Quaternion target = Quaternion.Euler(0, 0, tiltAroundZ);
@@ -37,7 +37,7 @@ public class HeloMovement : MonoBehaviour
 
 		//cap max speed for helicopter
 
-		if (rb.velocity.magnitude > maxSpeed)
+		if (rb.velocity.magnitude >= maxSpeed)
 		{
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
 		}

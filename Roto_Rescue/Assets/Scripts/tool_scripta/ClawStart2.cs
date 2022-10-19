@@ -7,7 +7,7 @@ public class ClawStart2 : MonoBehaviour
 {
     //reference HeloMovement to get inertia for goober
     private HeloMovement HM;
-
+     
     public PlayerMain Ply;
     public GameObject Rope;
     private GameObject ObjectAbtInQuestion;
