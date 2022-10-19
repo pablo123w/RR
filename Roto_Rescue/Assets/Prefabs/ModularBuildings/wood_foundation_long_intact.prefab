@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 5174987876983713495}
   - component: {fileID: 5604691902581194448}
   - component: {fileID: 5764265409181638822}
+  - component: {fileID: 2955972105781814822}
   m_Layer: 0
   m_Name: wood_foundation_long_intact
   m_TagString: Destructible
@@ -162,6 +163,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12, y: 1, z: 4}
   m_Center: {x: -6, y: 0, z: -2}
+--- !u!114 &2955972105781814822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5174987876983713494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa96c1a1f7ece745bcc9cc9e6f4b1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rg: {fileID: 0}
+  force: 1
 --- !u!1 &8758472475328319569
 GameObject:
   m_ObjectHideFlags: 0
