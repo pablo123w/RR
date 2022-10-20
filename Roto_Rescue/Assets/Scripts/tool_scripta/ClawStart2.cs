@@ -100,6 +100,7 @@ public class ClawStart2 : MonoBehaviour
                         ObjectInQuestion.GetComponent<ConfigurableJoint>().xMotion = ConfigurableJointMotion.Locked;
                         ObjectInQuestion.GetComponent<ConfigurableJoint>().yMotion = ConfigurableJointMotion.Locked;
                         ObjectInQuestion.GetComponent<ConfigurableJoint>().zMotion = ConfigurableJointMotion.Locked;
+                        IsGoober = false;
                         //ObjectInQuestion.GetComponent<CharacterJoint>().connectedAnchor = ClawRigidbody.transform.position;
                         //ObjectInQuestion.GetComponent<CharacterJoint>().anchor = ClawRigidbody.transform.localPosition;
                     }

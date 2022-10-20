@@ -28,8 +28,7 @@ public class HeloMovement : MonoBehaviour
 	void Update()
 	{
 
-		rb.AddRelativeForce(lHorizontal * speed * (Time.deltaTime * 10000), lVertical * speed * (Time.deltaTime * 10000), 0, ForceMode.Acceleration);
-		Debug.Log(rb.velocity);
+		rb.AddForce(lHorizontal * speed * (Time.deltaTime * 10000), lVertical * speed * (Time.deltaTime * 10000), 0, ForceMode.Acceleration);
 		//rotate helo with movement
 		float tiltAroundZ = lHorizontal * tiltAngle;
 		Quaternion target = Quaternion.Euler(0, 0, tiltAroundZ);

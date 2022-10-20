@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 1700779653825030509}
   - component: {fileID: 4328585082738085647}
   - component: {fileID: 4428564053297577485}
+  - component: {fileID: 4036838300478085218}
   m_Layer: 0
   m_Name: crate_debris2
-  m_TagString: Pickupable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,6 +145,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 50, y: 100, z: 100}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4036838300478085218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6707668927106619563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba83faa778237341a36e926a5e880ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6915086368584471014
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,9 +170,10 @@ GameObject:
   - component: {fileID: 5348222015751939941}
   - component: {fileID: 1878278546740603892}
   - component: {fileID: 5756688724888658579}
+  - component: {fileID: 4766939597162051033}
   m_Layer: 0
   m_Name: crate_debris1
-  m_TagString: Pickupable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -256,3 +270,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 50, y: 100, z: 100}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4766939597162051033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915086368584471014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba83faa778237341a36e926a5e880ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
