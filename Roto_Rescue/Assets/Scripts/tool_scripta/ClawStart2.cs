@@ -7,7 +7,7 @@ public class ClawStart2 : MonoBehaviour
 {
     //reference HeloMovement to get inertia for goober
     private HeloMovement HM;
-     
+
     public PlayerMain Ply;
     public GameObject Rope;
     private GameObject ObjectAbtInQuestion;
@@ -101,7 +101,6 @@ public class ClawStart2 : MonoBehaviour
                         ObjectInQuestion.GetComponent<ConfigurableJoint>().xMotion = ConfigurableJointMotion.Locked;
                         ObjectInQuestion.GetComponent<ConfigurableJoint>().yMotion = ConfigurableJointMotion.Locked;
                         ObjectInQuestion.GetComponent<ConfigurableJoint>().zMotion = ConfigurableJointMotion.Locked;
-                        IsGoober = false;
                         //ObjectInQuestion.GetComponent<CharacterJoint>().connectedAnchor = ClawRigidbody.transform.position;
                         //ObjectInQuestion.GetComponent<CharacterJoint>().anchor = ClawRigidbody.transform.localPosition;
                     }

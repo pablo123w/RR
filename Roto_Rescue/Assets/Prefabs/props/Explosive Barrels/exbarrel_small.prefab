@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6438690921798047713}
   m_Layer: 0
   m_Name: exbarrel_small
-  m_TagString: Pickupable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4c1a041c8668e1d4a829b90b02102c88, type: 2}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,4 +128,3 @@ MonoBehaviour:
   expForce: 200
   radius: 4
   objectStrength: 5
-  explosion: {fileID: 5141389379725151250, guid: 3083a3d36e3a76746ab4c6d3257ea6f9, type: 3}
