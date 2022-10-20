@@ -23,6 +23,7 @@ public class LevelProgression : MonoBehaviour
     float TotalGoobHP;
     float TotalGoobHPMax;
 
+
     public void Start()
     {
        // NTLevel.SetActive(false);
@@ -30,7 +31,7 @@ public class LevelProgression : MonoBehaviour
 
         // Tracks the amount of the goobers in the scene.
         TotalGoobers = GameObject.FindGameObjectsWithTag("C_Goober");
-
+         
         GoobCount = TotalGoobers.Length;
         Debug.Log("goobcount is " + GoobCount);
 

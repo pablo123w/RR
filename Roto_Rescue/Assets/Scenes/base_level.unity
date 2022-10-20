@@ -2200,6 +2200,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3cdac3c0af2c184187ebcdee8c00144, type: 3}
+--- !u!1 &1899157330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6582945360419330865, guid: b3cdac3c0af2c184187ebcdee8c00144, type: 3}
+  m_PrefabInstance: {fileID: 1899157329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1899157331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899157330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa96c1a1f7ece745bcc9cc9e6f4b1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rg: {fileID: 0}
 --- !u!1001 &1929061043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2207,6 +2225,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4383670876000148066, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: speed
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383670876000148066, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: maxSpeed
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383670876000148066, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: stability
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383670876000148066, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: tiltAngle
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383670876000148066, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: stabilityspeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4383670876000148067, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2254,6 +2292,18 @@ PrefabInstance:
     - target: {fileID: 4383670876000148076, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
       propertyPath: m_Name
       value: player_Claw
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383670876000148079, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383670876000148079, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: m_AngularDrag
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383670876000148079, guid: cf74300737c2bcd43a132e725fca2811, type: 3}
+      propertyPath: m_Constraints
+      value: 72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf74300737c2bcd43a132e725fca2811, type: 3}

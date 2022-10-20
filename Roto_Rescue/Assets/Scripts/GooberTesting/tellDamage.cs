@@ -15,6 +15,7 @@ public class tellDamage : MonoBehaviour
 	public float GoobStrength = 0;
 	public bool isGrabbed = false;
 
+
 	private void Start()
 	{
 		GoobScript = DaddyGoob.GetComponent<goobScript>();
@@ -92,7 +93,6 @@ public class tellDamage : MonoBehaviour
 	{
 		if (HitImpact > GoobStrength)
 		{
-
 			GoobScript.TakeDamage((HitImpact*hpdivider));
 		}
 	}
