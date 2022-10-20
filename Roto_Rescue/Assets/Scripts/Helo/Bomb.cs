@@ -6,21 +6,24 @@ public class Bomb : MonoBehaviour
 {
 	public float expForce, radius;
 	public float objectStrength;
-
-	private breakObject breakObj;
+	public ParticleSystem explosion;
 
 
 	private void OnCollisionEnter(Collision other)
 	{
 		if (other.relativeVelocity.magnitude > objectStrength)
 		{
-			//RaycastHit hit;
-			//get all destructibles
-			//if(Physics.SphereCast(transform.position, 10f, transform.forward, out hit, 10))
+			//check if breakables, if so then break before exploding
+			Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+			foreach (Collider nearby in colliders)
+			{
+				if (nearby.GetComponent<breakObject>() != null)
+				{
+					nearby.GetComponent<breakObject>().Break();
 
+				}
+			}
 
-			breakObj.Break();
-			Debug.Log("break destructibles");
 			Knockback();
 			Destroy(gameObject);
 		}
@@ -28,12 +31,12 @@ public class Bomb : MonoBehaviour
 
 	void Knockback()
 	{
+		Instantiate(explosion, this.transform.position, Quaternion.identity);
 		Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
 
 		foreach (Collider nearby in colliders)
 		{
 			Rigidbody rb = nearby.GetComponent<Rigidbody>();
-			Debug.Log("get rb");
 
 			if (rb != null)
 			{
