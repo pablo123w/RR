@@ -20,12 +20,12 @@ public class PrioritySys : MonoBehaviour
     {
         if(other.gameObject.tag == "C_Goober")
         {
-            Priority = 1;
+            Priority = 2;
             Debug.Log("P = " + Priority);
         }
         else if(other.gameObject.tag == "Pickupable")
         {
-            Priority = 2;
+            Priority = 1;
             Debug.Log("P = " + Priority);
         }
     }
