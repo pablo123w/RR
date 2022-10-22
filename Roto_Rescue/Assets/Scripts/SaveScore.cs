@@ -17,7 +17,7 @@ public class SaveScore : MonoBehaviour
     {
         lvl = GetComponent<LevelProgression>();
         highscore = lvl.Score;
-        //PrintHigh();
+        //PrintHigh();  
     }
     
     
