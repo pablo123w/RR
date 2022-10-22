@@ -11,7 +11,7 @@ public class MenuManager : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject levelSelectUI;
     public int level;
-
+     
     // Update is called once per frame
     void Update()
     {

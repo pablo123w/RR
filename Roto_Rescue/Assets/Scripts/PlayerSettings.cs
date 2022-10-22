@@ -7,7 +7,7 @@ public class PlayerSettings : MonoBehaviour
 {
     [SerializeField]
     private Toggle toggle;
-
+     
     [SerializeField]
     private AudioSource myAudio;
 

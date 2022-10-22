@@ -6,6 +6,7 @@ public class PrintHighScore : SaveScore
 {
     public void Update()
     {
+
         PrintHigh();
     }
     public void PrintHigh()

@@ -8,7 +8,7 @@ public class goobScript : MonoBehaviour
 	private float originGoobhp;
 
 	public float impact;
-
+	 
 	//color change stuff
 	public GameObject daddyGoob;
 	public GameObject goobBody;

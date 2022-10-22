@@ -16,7 +16,7 @@ public class Priority : MonoBehaviour
     {
         collisions.Add(collision.gameObject);
         SetCollisionPriority();
-
+         
         bool shouldIgnore = collision.gameObject.GetComponent<PrioritySys>().Priority < collisionPriority;
         Physics.IgnoreCollision(GetComponent<Collider>(), collision.collider, shouldIgnore);
     }
