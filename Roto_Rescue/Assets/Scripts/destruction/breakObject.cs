@@ -21,8 +21,6 @@ public class breakObject : MonoBehaviour
     public float upwardsExplosion;
     bool isBroke = false;
 
-    private GameObject Debris;
-
     // When object hits the prefab hard enough destroys the object.
     private void OnCollisionEnter(Collision collision)
     {

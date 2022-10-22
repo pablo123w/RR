@@ -8,7 +8,7 @@ public class followPlayer : MonoBehaviour
     public float smooth;
     private Vector3 bPos;
     private Vector3 cPos;
-    private Vector3 camOffset = new Vector3(0, -2, -25);
+    private Vector3 camOffset = new Vector3(0, -2, -15);
     private void Start()
     {
         bPos = transform.position - player.position;

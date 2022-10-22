@@ -5,7 +5,6 @@ using UnityEngine;
 public class PrioritySys : MonoBehaviour
 {
     public int Priority;
-
     // Start is called before the first frame update
     void Start()
     {

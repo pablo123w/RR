@@ -15,23 +15,17 @@ public class ClawStart2 : MonoBehaviour
     public Animator Animator;
     public Rigidbody ClawRigidbody;
     public GameObject Claw;
-    public ConfigurableJoint GrabPos;
+    private bool HadParent;
     private bool IsGoober = false;
+
     private GameObject TempParent;
+
     private bool CanGrabSomething = false;
 
-    //lights
-    public GameObject ClawLight;
-    public Material RedLight;
-    public Material GreenLight;
-    public Material YellowLight;
-
-    private void Start()
+	private void Start()
 	{
         HM = Ply.gameObject.GetComponent<HeloMovement>();
-        GrabPos = GetComponent<ConfigurableJoint>();
-        ClawLight.GetComponent<MeshRenderer>().material = RedLight;
-    }
+	}
 
 
     private void OnTriggerEnter(Collider other)
@@ -39,19 +33,17 @@ public class ClawStart2 : MonoBehaviour
         if (other.CompareTag("Pickupable"))
 		{
             CanGrabSomething = true;
-            ClawLight.GetComponent<MeshRenderer>().material = GreenLight;
             ObjectAbtInQuestion = other.transform.gameObject;
         }
         if (other.CompareTag("C_Goober"))
 		{
             CanGrabSomething = true;
-            ClawLight.GetComponent<MeshRenderer>().material = YellowLight;
             ObjectAbtInQuestion = other.transform.gameObject;
         }
         if (other.CompareTag("Destructible"))
         {
-            CanGrabSomething = false;
-            ObjectAbtInQuestion = null;
+            CanGrabSomething = true;
+            ObjectAbtInQuestion = other.transform.gameObject;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -59,15 +51,13 @@ public class ClawStart2 : MonoBehaviour
         if (other.CompareTag("Pickupable") || other.CompareTag("C_Goober"))
 		{
             CanGrabSomething = false;
-            ClawLight.GetComponent<MeshRenderer>().material = RedLight;
-
             ObjectAbtInQuestion = null;
         }
     }
 
     public void Pickup(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.started)
 		{
             if (CanGrabSomething)
             {
@@ -87,35 +77,41 @@ public class ClawStart2 : MonoBehaviour
                     }
 
                     //check if object has parent or not
-                    Debug.Log(ObjectInQuestion.transform.parent);
                     if(ObjectInQuestion.transform.parent == null)
                     {
-                        TempParent = null;
+                        TempParent = ObjectInQuestion.transform.gameObject;
+                        HadParent = false;
                     }
 					else
 					{
                         TempParent = ObjectInQuestion.transform.parent.gameObject;
+                        HadParent = true;
                     }
 
-                    //SET THE MF PARENT FINALLY
                     ObjectInQuestion.transform.parent = gameObject.transform;
-                    Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
 
 					//add joint to picked up object
-					if (rb != null && !IsGoober)
+					if (ObjectInQuestion.GetComponent<Rigidbody>() != null && IsGoober == false)
 					{
-                        GrabPos.connectedBody = rb;
-                        GrabPos.anchor = Vector3.zero;
-                        GrabPos.connectedAnchor = Vector3.zero;
+						ObjectInQuestion.AddComponent<ConfigurableJoint>();
+						ObjectInQuestion.GetComponent<ConfigurableJoint>().connectedBody = ClawRigidbody;
+                        
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().anchor = Vector3.zero;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().connectedAnchor = Vector3.zero;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().xMotion = ConfigurableJointMotion.Locked;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().yMotion = ConfigurableJointMotion.Locked;
+                        ObjectInQuestion.GetComponent<ConfigurableJoint>().zMotion = ConfigurableJointMotion.Locked;
+                        IsGoober = false;
+                        //ObjectInQuestion.GetComponent<CharacterJoint>().connectedAnchor = ClawRigidbody.transform.position;
+                        //ObjectInQuestion.GetComponent<CharacterJoint>().anchor = ClawRigidbody.transform.localPosition;
                     }
 
 					//animate
 					Animator.SetBool("isClosed", true);
 
+                    Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
                     rb.velocity = Vector3.zero;
                     rb.useGravity = true;
-
-                    //set goober to kinematic
 					if (IsGoober)
 					{
                         rb.isKinematic = true;
@@ -130,28 +126,25 @@ public class ClawStart2 : MonoBehaviour
         {
             //animate
             Animator.SetBool("isClosed", false);
-            ClawLight.GetComponent<MeshRenderer>().material = RedLight;
 
             if (ObjectInQuestion == null) return;
 
             Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
 
-            if(TempParent == null)
+			if (HadParent)
 			{
-                Debug.Log("iss null");
-                ObjectInQuestion.transform.SetParent(null, true);
+                ObjectInQuestion.transform.SetParent(TempParent.transform, true);
             }
 			else
 			{
-                Debug.Log("not null :)");
-                ObjectInQuestion.transform.SetParent(TempParent.transform, true);
-            }
-            
+                ObjectInQuestion.transform.parent = null;
+			}
+            HadParent = false;
 
 			//delete joint
-			if (!IsGoober)
+			if (ObjectInQuestion.GetComponent<ConfigurableJoint>() != null && IsGoober == false)
 			{
-                GrabPos.connectedBody = null;
+				Destroy(ObjectInQuestion.GetComponent<ConfigurableJoint>());
 			}
             rb.useGravity = true;
             rb.isKinematic = false;
