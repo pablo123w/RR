@@ -8,6 +8,14 @@ public class Priority : MonoBehaviour
 
     int collisionPriority = 0; // 0 Means it its everything
     int priority;
+    float range = 2f;
+    public GameObject Object1;
+    public GameObject Object2;
+    private void Start()
+    {
+        Object1 = GameObject.FindGameObjectWithTag("C_Goober");
+        Object2 = GameObject.FindGameObjectWithTag("Pickupable");
+    }
     private void Update()
     {
        
@@ -16,9 +24,12 @@ public class Priority : MonoBehaviour
     {
         collisions.Add(collision.gameObject);
         SetCollisionPriority();
-
-        bool shouldIgnore = collision.gameObject.GetComponent<PrioritySys>().Priority < collisionPriority;
-        Physics.IgnoreCollision(GetComponent<Collider>(), collision.collider, shouldIgnore);
+        if (Vector3.Distance(Object1.transform.position, Object2.transform.position) < range)
+        {
+            bool shouldIgnore = collision.gameObject.GetComponent<PrioritySys>().Priority < collisionPriority;
+            Physics.IgnoreCollision(GetComponent<Collider>(), collision.collider, shouldIgnore);
+        }
+        
     }
 
     //void OnCollisionLeave(Collision collision)
