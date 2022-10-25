@@ -11,6 +11,7 @@ public class HeloMovement : MonoBehaviour
 	public float lVertical;
 	public float maxSpeed;
 	public float speed = 2f;
+	
 
 	//autostabilize after rotating off center
 	public float stability;
@@ -69,6 +70,7 @@ public class HeloMovement : MonoBehaviour
 	{
         lHorizontal = context.ReadValue<Vector2>().x;
 		lVertical = context.ReadValue<Vector2>().y;
+
 	}
 
 	//private void StabilizeVertical()
