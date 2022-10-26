@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Audio;
 
 public class HeloMovement : MonoBehaviour
 {
@@ -20,11 +21,11 @@ public class HeloMovement : MonoBehaviour
 	//animate rotation with movement
 	public float rotatesmooth = 1f;
 	public float tiltAngle;
-
-
+	
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody>();
+		
 	}
 
 	void Update()
@@ -42,6 +43,7 @@ public class HeloMovement : MonoBehaviour
 		{
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
 		}
+		
 
 		//if (lVertical == 0f)
 		//{
@@ -70,7 +72,7 @@ public class HeloMovement : MonoBehaviour
 	{
         lHorizontal = context.ReadValue<Vector2>().x;
 		lVertical = context.ReadValue<Vector2>().y;
-
+		
 	}
 
 	//private void StabilizeVertical()
