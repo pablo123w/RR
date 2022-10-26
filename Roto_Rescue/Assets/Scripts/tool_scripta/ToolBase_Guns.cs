@@ -8,7 +8,7 @@ public class ToolBase_Guns : MonoBehaviour
     public GameObject shot;
     public float shotSpeed = 1;
     public GameObject shotSpawn;
-    
+     
 
     public void shooting()
     {

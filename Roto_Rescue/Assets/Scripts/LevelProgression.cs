@@ -71,7 +71,7 @@ public class LevelProgression : MonoBehaviour
     }
     public void RT()
     {
-        Scene sn;
+        Scene sn; 
         sn = SceneManager.GetActiveScene();
         SceneManager.LoadScene(sn.buildIndex);
     }
