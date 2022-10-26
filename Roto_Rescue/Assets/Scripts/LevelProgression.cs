@@ -11,6 +11,7 @@ public class LevelProgression : MonoBehaviour
     public float Score = 0;
     public float ScorePercent = 0;
 
+
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
    

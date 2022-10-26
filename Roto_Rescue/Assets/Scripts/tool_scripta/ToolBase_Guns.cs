@@ -9,6 +9,7 @@ public class ToolBase_Guns : MonoBehaviour
     public float shotSpeed = 1;
     public GameObject shotSpawn;
     
+
     public void shooting()
     {
         GameObject bullet = (GameObject)Instantiate(shot);
