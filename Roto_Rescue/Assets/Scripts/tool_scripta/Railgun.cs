@@ -20,25 +20,29 @@ public class Railgun : ToolBase_Guns
     // Start is called before the first frame update
     void Awake()
     {
-        rg = GameObject.Find("RailGunSmoke").GetComponent<ParticleSystem>();
+        //rg = GameObject.Find("RailGunSmoke").GetComponent<ParticleSystem>();
         gunPivot = GameObject.Find("gunPivot");
         gunEnd = GameObject.Find("gunEnd");
         _shakeTimer = shakeLast;
         rand = Random.value;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("c"))
+        if (Input.GetKeyDown("f"))
         {
             shooting();
-            rg.Play();
+           
             //shshs();
-            
             KickBack();
         }
-       Aim();
+        if (Input.GetKeyUp("f"))
+        {
+            rg.Stop();
+        }
+        Aim();
     }
     
   public void Aim()
@@ -65,19 +69,19 @@ public class Railgun : ToolBase_Guns
 
    public void Fire(InputAction.CallbackContext context)
     {
-       // shooting();
+       shooting();
         KickBack();
     }
-    //public void aim(InputAction.CallbackContext context)
-    //{
-    //    targetPosition = context.ReadValue<Vector2>();
-    //    if (targetPosition.y < 0)
-    //        gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
-    //    else if (targetPosition.y > 0 && targetPosition.x < 0)
-    //        gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.left);
-    //    else if (targetPosition.y > 0 && targetPosition.x > 0)
-    //        gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.right);
-    //}
+    public void aim(InputAction.CallbackContext context)
+    {
+        targetPosition = context.ReadValue<Vector2>();
+        if (targetPosition.y < 0)
+            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
+        else if (targetPosition.y > 0 && targetPosition.x < 0)
+            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.left);
+        else if (targetPosition.y > 0 && targetPosition.x > 0)
+            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.right);
+    }
 
 }       
     
