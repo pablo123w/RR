@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.38f1 (8f5fde82e2dc) revision 9396190'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16086 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16321 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,10 +11,11 @@ C:\Program Files\Unity\Hub\Editor\2020.3.38f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/porky/OneDrive/Documents/GitHub/RR/Roto_Rescue
+D:/Users/jonmi/Downloads/Github/RR/Roto_Rescue
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,17 +45,24 @@ C:/Users/porky/OneDrive/Documents/GitHub/RR/Roto_Rescue
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 40.51 ms, found 2 plugins.
 >>>>>>> Pablo_branch
+=======
+51096
+Successfully changed project path to: D:/Users/jonmi/Downloads/Github/RR/Roto_Rescue
+D:/Users/jonmi/Downloads/Github/RR/Roto_Rescue
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 78.84 ms, found 2 plugins.
+>>>>>>> Jonathan's_Branch
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/porky/OneDrive/Documents/GitHub/RR/Roto_Rescue/Assets
+[Subsystems] Discovering subsystems at path D:/Users/jonmi/Downloads/Github/RR/Roto_Rescue/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   
-    VRAM:     3993 MB
-    Driver:   31.0.15.2225
+    VRAM:     4043 MB
+    Driver:   30.0.15.1259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
@@ -62,17 +70,22 @@ Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Mo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+>>>>>>> Jonathan's_Branch
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000889 seconds.
+Registered in 0.003400 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.430 seconds
+- Completed reload, in  0.745 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
 	ReloadAssembly (430ms)
 		BeginReloadAssembly (47ms)
 =======
@@ -106,6 +119,10 @@ Domain Reload Profiling:
 	ReloadAssembly (467ms)
 		BeginReloadAssembly (41ms)
 >>>>>>> Pablo_branch
+=======
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (91ms)
+>>>>>>> Jonathan's_Branch
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
@@ -114,11 +131,17 @@ Domain Reload Profiling:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		EndReloadAssembly (330ms)
 			LoadAssemblies (46ms)
+=======
+		EndReloadAssembly (562ms)
+			LoadAssemblies (86ms)
+>>>>>>> Jonathan's_Branch
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
+<<<<<<< HEAD
 			RebuildScriptCaches (19ms)
 			SetupLoadedEditorAssemblies (129ms)
 =======
@@ -176,6 +199,17 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (64ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 >>>>>>> Pablo_branch
+=======
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+>>>>>>> Jonathan's_Branch
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -185,70 +219,23 @@ Registering precompiled user dll's ...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.001741 seconds.
+=======
+Registered in 0.003870 seconds.
+>>>>>>> Jonathan's_Branch
 Begin MonoManager ReloadAssembly
-Symbol file data-000002742203CEA0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001527490EC90 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE3459E0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422FF7450 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422FF7450 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002742312B9B0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422DEC220 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002742300CA60 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002742324E020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002742327D830 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE266C20 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422ABE010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000274221DBD30 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002742312B9B0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002742272C010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422FAEA30 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE345DC0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE0856E0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE0856E0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FDED22C0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000274232A3020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422FAEA30 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE0856E0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE345DC0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE345410 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000275FE0856E0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422AF7420 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027422DA21D0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000274227B8010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-0000015275C4BD20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 68.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  1.506 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
 	ReloadAssembly (808ms)
 		BeginReloadAssembly (94ms)
 =======
@@ -335,24 +322,35 @@ Domain Reload Profiling:
 	ReloadAssembly (894ms)
 		BeginReloadAssembly (100ms)
 >>>>>>> Pablo_branch
+=======
+	ReloadAssembly (1507ms)
+		BeginReloadAssembly (201ms)
+>>>>>>> Jonathan's_Branch
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (14ms)
 		EndReloadAssembly (675ms)
 			LoadAssemblies (66ms)
+=======
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1221ms)
+			LoadAssemblies (148ms)
+>>>>>>> Jonathan's_Branch
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (288ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (482ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (42ms)
 				BeforeProcessingInitializeOnLoad (61ms)
 				ProcessInitializeOnLoadAttributes (168ms)
@@ -400,11 +398,20 @@ Domain Reload Profiling:
 >>>>>>> Pablo_branch
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (1ms)
+=======
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+>>>>>>> Jonathan's_Branch
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
@@ -444,6 +451,17 @@ Total: 2.690800 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.078000 m
 =======
 Total: 2.943600 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.598500 ms  DeleteObjects: 0.086600 ms)
 >>>>>>> Pablo_branch
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 146.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3657.
+Total: 4.541500 ms (FindLiveObjects: 0.366600 ms CreateObjectMapping: 0.314600 ms MarkObjects: 3.761700 ms  DeleteObjects: 0.097600 ms)
+>>>>>>> Jonathan's_Branch
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -457,6 +475,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,10 +798,47 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1834ms)
 		BeginReloadAssembly (136ms)
+=======
+  path: Assets/playerClaw.prefab
+  artifactKey: Guid(a2d749d114cd5cf4e864fe7d1db151f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerClaw.prefab using Guid(a2d749d114cd5cf4e864fe7d1db151f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7432f4e05b822b34d97804d60dbdf247') in 0.323375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b9f17ff219922461d349995487975') in 0.013898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.527496 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e0f578ab5120da64eb3ee7a2b4ea312c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e0f578ab5120da64eb3ee7a2b4ea312c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922e47c62b2a37fe06b967c0facdf57c') in 0.006331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.181613 seconds.
+  path: Assets/Scenes/Level 5.unity
+  artifactKey: Guid(db3a59e5ce7a4e049b56232c6bdb6cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 5.unity using Guid(db3a59e5ce7a4e049b56232c6bdb6cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0d43cc6a2de0ffa1e63e5dce472042') in 0.005310 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (188ms)
+>>>>>>> Jonathan's_Branch
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (38ms)
 		EndReloadAssembly (1624ms)
 			LoadAssemblies (119ms)
@@ -909,10 +965,21 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (46ms)
 			SetupLoadedEditorAssemblies (420ms)
+=======
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1116ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (405ms)
+>>>>>>> Jonathan's_Branch
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (98ms)
 				ProcessInitializeOnLoadAttributes (295ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
@@ -929,6 +996,24 @@ System memory in use after: 145.2 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3722.
 Total: 2.742200 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.461000 ms  DeleteObjects: 0.022500 ms)
+=======
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.1 MB.
+System memory in use after: 143.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 4.668700 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.370500 ms MarkObjects: 3.918000 ms  DeleteObjects: 0.028200 ms)
+>>>>>>> Jonathan's_Branch
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -943,6 +1028,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001782 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file data-000001DA903B2FF0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
@@ -1121,10 +1207,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1301ms)
 		BeginReloadAssembly (137ms)
+=======
+Registered in 0.004106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1421ms)
+		BeginReloadAssembly (154ms)
+>>>>>>> Jonathan's_Branch
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (47ms)
 		EndReloadAssembly (1094ms)
 			LoadAssemblies (115ms)
@@ -1256,9 +1355,31 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
+=======
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+>>>>>>> Jonathan's_Branch
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 145.0 MB.
 System memory in use after: 145.2 MB.
@@ -1377,6 +1498,14 @@ System memory in use after: 145.2 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3734.
 Total: 3.030300 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.724400 ms  DeleteObjects: 0.028000 ms)
+=======
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3715.
+Total: 5.151000 ms (FindLiveObjects: 0.440100 ms CreateObjectMapping: 0.522700 ms MarkObjects: 4.162600 ms  DeleteObjects: 0.024500 ms)
+>>>>>>> Jonathan's_Branch
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1389,6 +1518,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.001766 seconds.
@@ -7873,12 +8003,305 @@ Received Import Request.
   path: Assets/Prefabs/goobers/Goober 3.prefab
   artifactKey: Guid(8edb125fad9ac9e4d9744ec9a6844396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/goobers/Goober 3.prefab using Guid(8edb125fad9ac9e4d9744ec9a6844396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278403629ba3efe0c9bad76248196d2a') in 0.182458 seconds 
+=======
+Received Import Request.
+  Time since last request: 657.126623 seconds.
+  path: Assets/playerClaw.prefab
+  artifactKey: Guid(a2d749d114cd5cf4e864fe7d1db151f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerClaw.prefab using Guid(a2d749d114cd5cf4e864fe7d1db151f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a06efd362da200726c37229a5ceb661') in 0.238928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.430304 seconds.
+  path: Assets/Materials/W 1.mat
+  artifactKey: Guid(b9cbf1b559d34544b857fc069e63f874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/W 1.mat using Guid(b9cbf1b559d34544b857fc069e63f874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aa1f15da73611a68736b0942c52c74') in 0.060942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Materials/W.mat
+  artifactKey: Guid(3546d8b99710f444fb22257487594700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/W.mat using Guid(3546d8b99710f444fb22257487594700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927f815dda518586a7c32469dcd24e85') in 0.019865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.306085 seconds.
+  path: Assets/Materials/Jonathan's Materials
+  artifactKey: Guid(79d2c618cf8df3c4ea0b8cccd731bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials using Guid(79d2c618cf8df3c4ea0b8cccd731bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0edcacd431e75db02a70c5c7d1163f') in 0.005555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.503479 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall
+  artifactKey: Guid(0230d099678365e4caca53bcec097e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall using Guid(0230d099678365e4caca53bcec097e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f385b630f90406d239aa30ed3dfa643') in 0.005968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059412 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/Wooden Wall.mat
+  artifactKey: Guid(a4f11c5daa93ae74da7b0af8ec3369c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/Wooden Wall.mat using Guid(a4f11c5daa93ae74da7b0af8ec3369c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabf461ef854a3a25a0bd4dcf1756fca') in 0.041526 seconds 
+>>>>>>> Jonathan's_Branch
 ========================================================================
 Received Import Request.
   Time since last request: 0.000250 seconds.
-  path: Assets/Prefabs/goobers/Goober_3.prefab
-  artifactKey: Guid(60dc3915303f9fa4f959262a6b80c99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/goobers/Goober_3.prefab using Guid(60dc3915303f9fa4f959262a6b80c99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2547341fac1148337d9aa361ac0816') in 0.021172 seconds 
-=======
->>>>>>> Pablo_branch
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_MaskMap.png
+  artifactKey: Guid(f09a90587322ec2449db5fbffd148b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_MaskMap.png using Guid(f09a90587322ec2449db5fbffd148b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067ed623d37bb90d94436f05ad087879') in 0.111592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_BaseMap.png
+  artifactKey: Guid(396015db02933e74099e933b6d68b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_BaseMap.png using Guid(396015db02933e74099e933b6d68b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8854378a0a8206471ab9a2d05eed201b') in 0.016022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.199576 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall
+  artifactKey: Guid(af00830ca07884343b023c9333b52cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall using Guid(af00830ca07884343b023c9333b52cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ca39534bcbdd3c05fa114c93529e3c') in 0.005028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139437 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/BrokenWoodenWall.mat
+  artifactKey: Guid(1082e090cd1044449babfd4fb63c39be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/BrokenWoodenWall.mat using Guid(1082e090cd1044449babfd4fb63c39be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17afef073fb232db5f4366b4db7cad3c') in 0.194577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/struct_wooden4x4BROKENwall_lp_lambert1_Normal.png
+  artifactKey: Guid(38808ca168dc1914785cc716570164a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/struct_wooden4x4BROKENwall_lp_lambert1_Normal.png using Guid(38808ca168dc1914785cc716570164a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aeb9c2d3c6e5aefab3d1edfdf0b28d') in 0.039416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/struct_wooden4x4BROKENwall_lp_lambert1_MaskMap.png
+  artifactKey: Guid(b15cb4e4d662d5445aab00cfa6181a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/struct_wooden4x4BROKENwall_lp_lambert1_MaskMap.png using Guid(b15cb4e4d662d5445aab00cfa6181a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9ffe6db0f13b818ee534bc82839aa7') in 0.040836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/struct_wooden4x4BROKENwall_lp_lambert1_BaseMap.png
+  artifactKey: Guid(cba1502b1eec2cb43b4f80e9ecd2b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/struct_wooden4x4BROKENwall_lp_lambert1_BaseMap.png using Guid(cba1502b1eec2cb43b4f80e9ecd2b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b109dbce79634759b5a660eb0fb7cc') in 0.027705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.441215 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_BaseMap.png
+  artifactKey: Guid(de205b1c03c83f1489f6e9833b2210c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_BaseMap.png using Guid(de205b1c03c83f1489f6e9833b2210c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bd2c0a45874338fd6f3944ffcce49d') in 0.019380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_MaskMap.png
+  artifactKey: Guid(bd096e87bfc24b046b95360daee4d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_MaskMap.png using Guid(bd096e87bfc24b046b95360daee4d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cca08771ba9fa0b3eb5f145f6fd5d8') in 0.017623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_Normal.png
+  artifactKey: Guid(493c4d50f0905e0468ea1d5afd672197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_Normal.png using Guid(493c4d50f0905e0468ea1d5afd672197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383a28af0adbc2e23c73c9c10d35b1ff') in 0.015784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.896175 seconds.
+  path: Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_Normal.png
+  artifactKey: Guid(493c4d50f0905e0468ea1d5afd672197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Broken Wooden Wall/Liam Broken Wall_lambert1_Normal.png using Guid(493c4d50f0905e0468ea1d5afd672197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f395933d2723cec16012f0c182fce7c1') in 0.020846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.320430 seconds.
+  path: Assets/Prefabs/AH_64_Apache.fbx
+  artifactKey: Guid(f0574e7ceb29a30418f6b4f664c45e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AH_64_Apache.fbx using Guid(f0574e7ceb29a30418f6b4f664c45e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f47e2d59f0d8e79a2e58747ec8faafe') in 0.225120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/railgun_placeholder.prefab
+  artifactKey: Guid(92ac44303c52a4b4585d17aa38c06f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/railgun_placeholder.prefab using Guid(92ac44303c52a4b4585d17aa38c06f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f5356b46ffa1edab94467a76a7dfe') in 0.016869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Prefabs/player.prefab
+  artifactKey: Guid(d6b5e9be24bc4c8478488d2f0086ba63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player.prefab using Guid(d6b5e9be24bc4c8478488d2f0086ba63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e3435ea31b54b3ae44e8b10e1cea6c') in 0.033443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Prefabs/player_Claw.prefab
+  artifactKey: Guid(cf74300737c2bcd43a132e725fca2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player_Claw.prefab using Guid(cf74300737c2bcd43a132e725fca2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c97e2cff9267626ad55a84da368cae4') in 0.034370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Prefabs/Camera.prefab
+  artifactKey: Guid(3b723060e83b987479353edc15a69ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Camera.prefab using Guid(3b723060e83b987479353edc15a69ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005f61527766daaf476e910ccfc5a7fc') in 0.139080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/claw.prefab
+  artifactKey: Guid(03f6d0cc0a1885b4793369547597e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/claw.prefab using Guid(03f6d0cc0a1885b4793369547597e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e625a235fd3a6d0080c0c06b65e116') in 0.019405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/AH_64_Apache.prefab
+  artifactKey: Guid(387126d66f91b464aa19f5efa27105ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AH_64_Apache.prefab using Guid(387126d66f91b464aa19f5efa27105ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9c54e6e37aa335bc6c2cd56d253c2') in 0.013650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Prefabs/Railgun_Effect.prefab
+  artifactKey: Guid(9cbf1ea17d9e83e4d84441297bc6c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Railgun_Effect.prefab using Guid(9cbf1ea17d9e83e4d84441297bc6c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a967d9013aa818dd68cb6f64a654d6') in 0.040442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.040613 seconds.
+  path: Assets/Prefabs/ModularBuildings/stone_foundation_broke.prefab
+  artifactKey: Guid(b0815cc576d54384b8c7c56d8fba6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_foundation_broke.prefab using Guid(b0815cc576d54384b8c7c56d8fba6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6458dd587400d84c9b521b18814645') in 0.018018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/ModularBuildings/stone_foundation_long_intact.prefab
+  artifactKey: Guid(369cb8128a2085e43b87e4a8a57d66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_foundation_long_intact.prefab using Guid(369cb8128a2085e43b87e4a8a57d66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c76ae38b71359533a62109a8267afc') in 0.032817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/ModularBuildings/stone_wall_intact.prefab
+  artifactKey: Guid(ca3957539c98e3a4cb31d3d264064b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_wall_intact.prefab using Guid(ca3957539c98e3a4cb31d3d264064b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c921fb80b7e4d8f899e4dc799ce97870') in 0.010417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_thin_short_wall_broke.prefab
+  artifactKey: Guid(407ffbc368474574b8748305547e7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_thin_short_wall_broke.prefab using Guid(407ffbc368474574b8748305547e7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe9b0f9f8b13e46e4c632bbafef66c9') in 0.015645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_thin_wall_broke.prefab
+  artifactKey: Guid(b982773f6f372ea478f1fa5a2ca20aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_thin_wall_broke.prefab using Guid(b982773f6f372ea478f1fa5a2ca20aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b53f9166ffc1e3b10223167da5713') in 0.024799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Prefabs/ModularBuildings/stone_foundation_long_broke.prefab
+  artifactKey: Guid(24aff43c568666243ae31cb32fada6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_foundation_long_broke.prefab using Guid(24aff43c568666243ae31cb32fada6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb9c3e985c5b807c7fa66bca24e81a4') in 0.026362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_foundation_broke.prefab
+  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd502204af282fe7b9b5d184ce8ac4f47') in 0.022836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_wall_broke.prefab
+  artifactKey: Guid(8b7e274fff7d19e4daefa69364c8718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_wall_broke.prefab using Guid(8b7e274fff7d19e4daefa69364c8718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7784b12808462114bb6de78fd4dda7') in 0.021640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/ModularBuildings/stone_foundation_intact.prefab
+  artifactKey: Guid(c563ed3a7718f8a4c95acaea2fce9b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/stone_foundation_intact.prefab using Guid(c563ed3a7718f8a4c95acaea2fce9b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d65dcdba4cdb2339b85960e69842c81') in 0.021249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/ModularBuildings/wood_foundation_long_broke.prefab
+  artifactKey: Guid(e346471ae95ff324aa531a612e48c002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/wood_foundation_long_broke.prefab using Guid(e346471ae95ff324aa531a612e48c002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0aed37ef9e9ff6e1af539184e245823') in 0.023844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.448253 seconds.
+  path: Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_wooden4x4BROKENwall_lp.fbx
+  artifactKey: Guid(ed980b52f74ab55499be6259fe4f3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_wooden4x4BROKENwall_lp.fbx using Guid(ed980b52f74ab55499be6259fe4f3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65ad982bbab9fa74e39bee908fd033a') in 0.728894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_wooden4x4BROKENwall_lp.prefab
+  artifactKey: Guid(4751555c2e6245149801d9c72e1d4caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_wooden4x4BROKENwall_lp.prefab using Guid(4751555c2e6245149801d9c72e1d4caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b387800b7d897ba24875213deb726d3b') in 0.028146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_woodenWall4x4_lp.fbx
+  artifactKey: Guid(4b8b2d9531d136a49995d44efc138ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_woodenWall4x4_lp.fbx using Guid(4b8b2d9531d136a49995d44efc138ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7893133f0382a5f5b72766b39696fc98') in 0.031077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_woodenWall_intact.prefab
+  artifactKey: Guid(360b0b9a04b087840a932c69744a34df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/Jonathan's Test/struct_woodenWall_intact.prefab using Guid(360b0b9a04b087840a932c69744a34df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda655e529553e2f86f6b4909c8e054d') in 0.031813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.780793 seconds.
+  path: Assets/Prefabs/ModularBuildings/Jonathan's Test/Liam Broken Wall.fbx
+  artifactKey: Guid(557b3f07f268fc74fb6579775f089f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/Jonathan's Test/Liam Broken Wall.fbx using Guid(557b3f07f268fc74fb6579775f089f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad590de6cd05b951f74c96c8136c57b') in 0.783577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.054527 seconds.
+  path: Assets/Materials/Jonathan's Materials/Bullet/Bullet.mat
+  artifactKey: Guid(bb495a29864c4294e821e0cfab80dd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Bullet/Bullet.mat using Guid(bb495a29864c4294e821e0cfab80dd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944db86564337eb8295e7b5975cb9ca1') in 0.383983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Art/Particles/explosions/explosion2_mat.mat
+  artifactKey: Guid(2b2c1fd4677000148b3e1e81261277bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Particles/explosions/explosion2_mat.mat using Guid(2b2c1fd4677000148b3e1e81261277bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ceddd61d68e6aa29053928a9d0dcff') in 0.077945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Jonathan's Materials/Street Light/Street Light.mat
+  artifactKey: Guid(7498807f93775844aa2bc32232915461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Street Light/Street Light.mat using Guid(7498807f93775844aa2bc32232915461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab083858592afed7c10860ee4b9d760') in 0.374160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.583944 seconds.
+  path: Assets/Prefabs/ModularBuildings/Jonathan's Test/Liam Broken Wall.fbx
+  artifactKey: Guid(557b3f07f268fc74fb6579775f089f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/Jonathan's Test/Liam Broken Wall.fbx using Guid(557b3f07f268fc74fb6579775f089f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb5e2f4a30dcb964345dd029a2d0f00') in 0.884965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 406.365919 seconds.
+  path: Assets/Prefabs/ModularBuildings/Jonathan's Test/Liam Broken Wall.prefab
+  artifactKey: Guid(0c39898d155d33d4790d9cae28ce56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/Jonathan's Test/Liam Broken Wall.prefab using Guid(0c39898d155d33d4790d9cae28ce56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9f390ead10b1f618f0a544d2cf27f4') in 0.071416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3075.656752 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/Wooden Wall.mat
+  artifactKey: Guid(a4f11c5daa93ae74da7b0af8ec3369c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/Wooden Wall.mat using Guid(a4f11c5daa93ae74da7b0af8ec3369c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f947d71798eccc0d3107efcadfd2e0f4') in 0.044257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.385254 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_BaseMap.png
+  artifactKey: Guid(396015db02933e74099e933b6d68b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_BaseMap.png using Guid(396015db02933e74099e933b6d68b172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4264ffcfff7d6e30be6388da348223') in 0.033753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_MaskMap.png
+  artifactKey: Guid(f09a90587322ec2449db5fbffd148b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_MaskMap.png using Guid(f09a90587322ec2449db5fbffd148b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc9bfa14f906262517d85685e2db4de') in 0.033702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_Normal.png
+  artifactKey: Guid(375ef036432702c4d8ebcc8da247fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_Normal.png using Guid(375ef036432702c4d8ebcc8da247fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743927e504fe328982b4dd4807e61740') in 0.017890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.883586 seconds.
+  path: Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_Normal.png
+  artifactKey: Guid(375ef036432702c4d8ebcc8da247fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jonathan's Materials/Wooden Wall/WoodenWall4x4 TEST_lambert1_Normal.png using Guid(375ef036432702c4d8ebcc8da247fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a3dbd01ab0824efb8afd77867ad746') in 0.020562 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
