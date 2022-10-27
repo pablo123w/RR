@@ -8,6 +8,7 @@ public class tellDamage : MonoBehaviour
 	goobScript GoobScript;
 	public float hpdivider = 0.5f;
 
+
 	public GameObject Player;
 
 	private float HitImpact;

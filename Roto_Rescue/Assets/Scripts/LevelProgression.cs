@@ -11,6 +11,7 @@ public class LevelProgression : MonoBehaviour
     public float Score = 0;
     public float ScorePercent = 0;
 
+
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
    
@@ -48,7 +49,8 @@ public class LevelProgression : MonoBehaviour
     {
         TotalGoobHP -= impact;
         Debug.Log("total goob hp after losing blood: " + TotalGoobHP);
-        GooberConstraint = TotalGoobHP / TotalGoobHPMax;
+        //GooberConstraint = TotalGoobHP / TotalGoobHPMax;
+        
         Debug.Log("goober constraint: " + GooberConstraint);
 
         GooberConstraintImage.fillAmount = GooberConstraint;
@@ -57,7 +59,9 @@ public class LevelProgression : MonoBehaviour
     {
         Score += collectedhp;
         Debug.Log("score is: " + Score);
-        ScorePercent = (Score/100)/((TotalGoobHPMax)/100);
+        //ScorePercent = (Score/100)/((TotalGoobHPMax)/100);
+        ScorePercent = (Score / 100) / ((GoobCount) / 100);
+        // = (GoobCount/100) / ((Score)/100);
         Debug.Log("added " + collectedhp);
         GooberSavedImage.fillAmount = ScorePercent;
 	}
@@ -70,7 +74,7 @@ public class LevelProgression : MonoBehaviour
     }
     public void RT()
     {
-        Scene sn;
+        Scene sn; 
         sn = SceneManager.GetActiveScene();
         SceneManager.LoadScene(sn.buildIndex);
     }

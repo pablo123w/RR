@@ -12,7 +12,7 @@ public class SaveScore : MonoBehaviour
     public float highscore;
     private LevelProgression lvl;
     public Text score;
-    
+     
     public void Start()
     {
         lvl = GetComponent<LevelProgression>();

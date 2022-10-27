@@ -17,29 +17,29 @@ public class WeaponsSwitch : MonoBehaviour
     }
     public void switchWeapons()
     {
-        if (Input.GetKeyDown("v"))
+        if (Input.GetKeyDown("1"))
         {
             tool_1.SetActive(true);
             tool_2.SetActive(false);
-            tool_3.SetActive(false);
+            // tool_3.SetActive(false);
             GameObject oh;
             oh = tool_2;
-           // oh.GetComponent<Railgun>().Fire;
-            
+            //oh.GetComponent<Railgun>().Fire;
+
         }
-        if (Input.GetKeyDown("b"))
+        if (Input.GetKeyDown("2"))
         {
             tool_1.SetActive(false);
-            tool_3.SetActive(false);
+           // tool_3.SetActive(false);
             tool_2.SetActive(true);
             
         }
-        if (Input.GetKeyDown("1"))
-        {
-            tool_1.SetActive(false);
-            tool_2.SetActive(false);
-            tool_3.SetActive(true);
-        }
+        //if (Input.GetKeyDown("3"))
+        //{
+        //    tool_1.SetActive(false);
+        //    tool_2.SetActive(false);
+        //    tool_3.SetActive(true);
+        //}
         
     }
     public void sWeaponsFirst(InputAction.CallbackContext context)
