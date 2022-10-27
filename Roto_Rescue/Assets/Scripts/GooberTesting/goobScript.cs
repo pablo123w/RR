@@ -62,13 +62,14 @@ public class goobScript : MonoBehaviour
 		if (goobhp <= 0)
 		{
 			death();
-		}
+        }
 		ShakeGoob();
 	}
 
 	public void death()
 	{
 		mat.color = new Color(0.13f, 0f, 0.98f);
+        
 	}
 
 	public void TakeDamage(float impact)

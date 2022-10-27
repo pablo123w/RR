@@ -29,14 +29,13 @@ public class GoobTube : MonoBehaviour
     {
         if (other.CompareTag("C_Goober"))
         {
-            collectedhp = other.GetComponent<goobScript>().goobhp;
-            if (collectedhp > 0)
-			{
-
-                LP.AddGoober(collectedhp);
-
+            //collectedhp = other.GetComponent<goobScript>().goobhp;
+            if (other.GetComponent<goobScript>().goobhp > 0)
+            {
+                LP.AddGoober();
                 UpdateScoreText();
             }
+
             Destroy(other.transform.root.gameObject);
         }
     }

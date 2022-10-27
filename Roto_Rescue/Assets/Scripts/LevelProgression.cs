@@ -11,6 +11,8 @@ public class LevelProgression : MonoBehaviour
     public float Score = 0;
     public float ScorePercent = 0;
 
+    goobScript gS;
+
 
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
@@ -32,7 +34,6 @@ public class LevelProgression : MonoBehaviour
 
         // Tracks the amount of the goobers in the scene.
         TotalGoobers = GameObject.FindGameObjectsWithTag("C_Goober");
-         
         GoobCount = TotalGoobers.Length;
         Debug.Log("goobcount is " + GoobCount);
 
@@ -50,19 +51,17 @@ public class LevelProgression : MonoBehaviour
         TotalGoobHP -= impact;
         Debug.Log("total goob hp after losing blood: " + TotalGoobHP);
         //GooberConstraint = TotalGoobHP / TotalGoobHPMax;
-        
+        //GooberConstraint = GoobCount - gS.deadGoober;
         Debug.Log("goober constraint: " + GooberConstraint);
 
         GooberConstraintImage.fillAmount = GooberConstraint;
     }
-    public void AddGoober(float collectedhp)
+    public void AddGoober()
     {
-        Score += collectedhp;
+        Score ++;
         Debug.Log("score is: " + Score);
         //ScorePercent = (Score/100)/((TotalGoobHPMax)/100);
-        ScorePercent = (Score / 100) / ((GoobCount) / 100);
-        // = (GoobCount/100) / ((Score)/100);
-        Debug.Log("added " + collectedhp);
+        ScorePercent = (Score) / (GoobCount);
         GooberSavedImage.fillAmount = ScorePercent;
 	}
     public void NextLevel()
