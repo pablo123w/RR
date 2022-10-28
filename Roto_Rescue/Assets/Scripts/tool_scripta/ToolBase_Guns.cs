@@ -17,7 +17,7 @@ public class ToolBase_Guns : MonoBehaviour
        
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * shotSpeed;
         
-        Destroy(bullet, 5f);
+        Destroy(bullet, 2f);
     }
     public void shshs()
     {
