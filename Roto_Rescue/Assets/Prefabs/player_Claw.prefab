@@ -706,6 +706,7 @@ MonoBehaviour:
   ClawLight: {fileID: 281045873}
   RedLight: {fileID: 2100000, guid: 27b442f33e657694cafa51db8d4d77cc, type: 2}
   GreenLight: {fileID: 2100000, guid: 1899896da2d06294c8db9169714864bd, type: 2}
+  YellowLight: {fileID: 2100000, guid: f88d1c5411734eb438c3492887845af2, type: 2}
 --- !u!135 &1836685176693841783
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -747,7 +748,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 1.77, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 3.987389, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 8.137389, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0

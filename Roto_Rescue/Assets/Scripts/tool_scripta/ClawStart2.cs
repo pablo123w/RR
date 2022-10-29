@@ -17,6 +17,7 @@ public class ClawStart2 : MonoBehaviour
     public GameObject Claw;
     public ConfigurableJoint GrabPos;
     private bool IsGoober = false;
+    private bool IsGooberJoint = false;
     private GameObject TempParent;
     private bool CanGrabSomething = false;
 
@@ -42,11 +43,12 @@ public class ClawStart2 : MonoBehaviour
             ClawLight.GetComponent<MeshRenderer>().material = GreenLight;
             ObjectAbtInQuestion = other.transform.gameObject;
         }
-        if (other.CompareTag("C_Goober"))
+        if (other.CompareTag("C_Goober") || other.CompareTag("Goob_Part"))
 		{
             CanGrabSomething = true;
             ClawLight.GetComponent<MeshRenderer>().material = YellowLight;
             ObjectAbtInQuestion = other.transform.gameObject;
+            IsGoober = true;
         }
         if (other.CompareTag("Destructible"))
         {
@@ -71,24 +73,37 @@ public class ClawStart2 : MonoBehaviour
 		{
             if (CanGrabSomething)
             {
+                Debug.Log("can grab something");
                 {
+
                     ObjectInQuestion = ObjectAbtInQuestion;
 
-					if (ObjectInQuestion.transform.root.CompareTag("C_Goober"))
+					if (ObjectInQuestion.transform.CompareTag("C_Goober"))
 					{
-                        Debug.Log("Its a goober");
+                        Debug.Log("issa goob root");
                         IsGoober = true;
-					}
+                        IsGooberJoint = false;
 
-                    goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
-                    if (GS != null)
-                    {
+                        goobScript GS = ObjectInQuestion.transform.GetComponent<goobScript>();
+                        
+                        GS.TellGrabbed();
+                    }
+					if (ObjectInQuestion.transform.CompareTag("Goob_Part"))
+					{
+                        Debug.Log("issa part");
+                        IsGoober = true;
+                        IsGooberJoint = true;
+
+                        goobScript GS = ObjectInQuestion.transform.GetComponentInParent<goobScript>();
+
                         GS.TellGrabbed();
                     }
 
+
+
                     //check if object has parent or not
-                    Debug.Log(ObjectInQuestion.transform.parent);
-                    if(ObjectInQuestion.transform.parent == null)
+                    //Debug.Log(ObjectInQuestion.transform.parent);
+                    if (ObjectInQuestion.transform.parent == null)
                     {
                         TempParent = null;
                     }
@@ -138,12 +153,10 @@ public class ClawStart2 : MonoBehaviour
 
             if(TempParent == null)
 			{
-                Debug.Log("iss null");
                 ObjectInQuestion.transform.SetParent(null, true);
             }
 			else
 			{
-                Debug.Log("not null :)");
                 ObjectInQuestion.transform.SetParent(TempParent.transform, true);
             }
             
@@ -156,11 +169,24 @@ public class ClawStart2 : MonoBehaviour
             rb.useGravity = true;
             rb.isKinematic = false;
 
-            goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
-            if (GS != null)
-            {
-                GS.IsGrabbed = false;
+			if (IsGoober && !IsGooberJoint)
+			{
+                goobScript GS = ObjectInQuestion.transform.GetComponent<goobScript>();
+                if (GS != null)
+                {
+                    GS.TellNotGrabbed();
+                }
             }
+            if(IsGoober && IsGooberJoint)
+			{
+                goobScript GS = ObjectInQuestion.transform.root.GetComponent<goobScript>();
+                if (GS != null)
+                {
+                    GS.TellNotGrabbed();
+                }
+            }
+            
+            
 
             Rigidbody rootrb = ObjectInQuestion.transform.root.gameObject.GetComponent<Rigidbody>();
             if (rootrb != null)
@@ -175,6 +201,7 @@ public class ClawStart2 : MonoBehaviour
             ObjectInQuestion = null;
             TempParent = null;
             IsGoober = false;
+            IsGooberJoint = false;
 
         }
     }
