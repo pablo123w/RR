@@ -35,7 +35,7 @@ public class GoobTube : MonoBehaviour
                 LP.AddGoober();
                 UpdateScoreText();
             }
-
+            
             Destroy(other.transform.root.gameObject);
         }
     }

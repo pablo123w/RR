@@ -6,8 +6,9 @@ public class goobScript : MonoBehaviour
 {
 	public float goobhp = 100f;
 	private float originGoobhp;
-
-	public float impact;
+    public float deadGoober = 0f;
+	public bool isDead = false;
+    public float impact;
 
 	//color change stuff
 	public GameObject daddyGoob;
@@ -59,18 +60,34 @@ public class goobScript : MonoBehaviour
 
 	void Update()
 	{
-		if (goobhp <= 0)
+		if (goobhp <= 0 && isDead == false)
 		{
+			isDead = true;
 			death();
+			Debug.Log("[goobScript] Dead Goober Function Triggered");
+			GooberDead();
+			
         }
 		ShakeGoob();
+	}
+
+	public void GooberDead()
+	{
+		if (goobhp <= 0)
+		{
+			deadGoober = deadGoober - 0.1f;
+			Debug.Log("[goobScript] Goober is dead. NOTICE ME SENPAI");
+			Debug.Log("[goobScript] DEAD GOOBER VARIABLE = " + deadGoober);
+			Destroy(gameObject);
+		}
+		//deadGoober = deadGoober - 0.1f;
 	}
 
 	public void death()
 	{
 		mat.color = new Color(0.13f, 0f, 0.98f);
-        
-	}
+		//gameObject.tag = "Pickupable";
+    }
 
 	public void TakeDamage(float impact)
 	{
@@ -78,7 +95,7 @@ public class goobScript : MonoBehaviour
 		{
 			goobhp -= impact;
 			HealthConversion();
-			Debug.Log(this.name + " HEALTH: " + goobhp);
+			//Debug.Log(this.name + " HEALTH: " + goobhp);
 			LP.LoseBlood(impact);
 		}
 	}

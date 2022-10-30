@@ -6,19 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class LevelProgression : MonoBehaviour
 {
-    public float GooberConstraint = 1;
+    public float GooberConstraint = .5f;
 
     public float Score = 0;
     public float ScorePercent = 0;
-
+    
     goobScript gS;
-
+    public GameObject[] Goober;
 
     public Image GooberConstraintImage;
     public Image GooberSavedImage;
-   
     public GameObject NTLevel;
-
     public GameObject NextLevelButton;
 
     private GameObject[] TotalGoobers;
@@ -29,8 +27,13 @@ public class LevelProgression : MonoBehaviour
 
     public void Start()
     {
-       // NTLevel.SetActive(false);
-        GooberConstraintImage.fillAmount = GooberConstraint;
+        // NTLevel.SetActive(false);
+        //GooberConstraintImage.fillAmount = GooberConstraint;
+
+
+        //get canvas to report health to UI
+        Goober = GameObject.FindGameObjectsWithTag("C_Goober");
+        //gS = Goober.GetComponent<goobScript>();
 
         // Tracks the amount of the goobers in the scene.
         TotalGoobers = GameObject.FindGameObjectsWithTag("C_Goober");
@@ -41,21 +44,41 @@ public class LevelProgression : MonoBehaviour
         Debug.Log("total hp max: " + TotalGoobHPMax);
         TotalGoobHP = TotalGoobHPMax;
         Debug.Log("total goob HP at start: " + TotalGoobHP);
+        
+        GooberConstraint = GoobCount / 10;
     }
     public void Update()
     {
         POPUPNT();
+        //LosePoint();
+        
+        //TESTING PURPOSES
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Debug.Log("K Was Pressed");
+            LosePoint();     
+            //GooberConstraint = GooberConstraint - 0.1f;
+            GooberConstraint = GooberConstraint - 0.1f;
+        }
+
+        
     }
     public void LoseBlood(float impact)
     {
         TotalGoobHP -= impact;
-        Debug.Log("total goob hp after losing blood: " + TotalGoobHP);
+        //Debug.Log("total goob hp after losing blood: " + TotalGoobHP);
         //GooberConstraint = TotalGoobHP / TotalGoobHPMax;
-        //GooberConstraint = GoobCount - gS.deadGoober;
-        Debug.Log("goober constraint: " + GooberConstraint);
+    }
 
+    public void LosePoint()
+    {
+        Debug.Log("Goober ALIVE ===================================== " + GooberConstraint);
+        Debug.Log("Level Progression GooberConstraint gS.deadGoober " + gS.deadGoober);
+        //THIS SHOULD BE UPDATING THE LEVEL CONSTRAINT BAR BASED ON DEAD GOOBERS!
+        GooberConstraint -= gS.deadGoober;
         GooberConstraintImage.fillAmount = GooberConstraint;
     }
+
     public void AddGoober()
     {
         Score ++;

@@ -33,7 +33,7 @@ public class tellDamage : MonoBehaviour
 		//check if other is player
 		if (other.gameObject.CompareTag("Player"))
 		{
-			Debug.Log("impact helo" + HitImpact);
+			//Debug.Log("impact helo" + HitImpact);
 			return;
 		}
 
@@ -41,12 +41,12 @@ public class tellDamage : MonoBehaviour
 		//check if other is self
 		if (other.transform.IsChildOf(DaddyGoob.transform) && isGrabbed == true)
 		{
-			Debug.Log("collided with itself");
+			//Debug.Log("collided with itself");
 			return;
 		}
 		if (other.transform.IsChildOf(Player.transform) && isGrabbed == true)
 		{
-			Debug.Log("collided with itself2");
+			//Debug.Log("collided with itself2");
 			return;
 		}
 		DealDamage();
