@@ -55,8 +55,8 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""fireGuns"",
-                    ""type"": ""PassThrough"",
+                    ""name"": ""LetGO"",
+                    ""type"": ""Value"",
                     ""id"": ""d412ba41-71d5-4d70-a1dc-bd3bd752d5ca"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
@@ -94,15 +94,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""name"": ""pause"",
                     ""type"": ""Button"",
                     ""id"": ""cb6e7179-b703-46b8-883e-cbe0631c6301"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Restart"",
-                    ""type"": ""Button"",
-                    ""id"": ""3f57ae02-6059-4b30-b5ac-75b1a8bd4b2d"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -277,6 +268,17 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""b9375b94-f6d4-414c-9163-c250d6d790e9"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": ""StickDeadzone"",
+                    ""groups"": """",
+                    ""action"": ""Aim"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""abe71c91-6a69-4b26-a96b-8bfb9286a958"",
                     ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",
@@ -299,12 +301,23 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""0c546e72-d306-41a9-b7e2-13b43b1ff7a5"",
-                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""id"": ""1b744ce8-437a-4300-90eb-edaf1ce9909f"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""fireGuns"",
+                    ""action"": ""LetGO"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0c546e72-d306-41a9-b7e2-13b43b1ff7a5"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LetGO"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -322,7 +335,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a454fa05-deb0-4da5-b676-0a4ec056d1f4"",
-                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""path"": ""<Gamepad>/dpad/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -333,7 +346,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""dc407615-f6ed-4624-b007-77625b3129ba"",
-                    ""path"": ""<Gamepad>/dpad/right"",
+                    ""path"": ""<Gamepad>/dpad/down"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -351,28 +364,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""action"": ""pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""f36512e9-01a7-42c2-8d94-0758145525aa"",
-                    ""path"": ""<Gamepad>/select"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Restart"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""c44a9429-33b5-4d39-a781-93e532d5de08"",
-                    ""path"": ""<Keyboard>/r"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Restart"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -384,12 +375,11 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Aim = m_Player.FindAction("Aim", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
-        m_Player_fireGuns = m_Player.FindAction("fireGuns", throwIfNotFound: true);
+        m_Player_LetGO = m_Player.FindAction("LetGO", throwIfNotFound: true);
         m_Player_WeaponSwitch_1 = m_Player.FindAction("WeaponSwitch_1", throwIfNotFound: true);
         m_Player_WeaponSwitch_2 = m_Player.FindAction("WeaponSwitch_2", throwIfNotFound: true);
         m_Player_WeaponSwitch_3 = m_Player.FindAction("WeaponSwitch_3", throwIfNotFound: true);
         m_Player_pause = m_Player.FindAction("pause", throwIfNotFound: true);
-        m_Player_Restart = m_Player.FindAction("Restart", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -452,12 +442,11 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Aim;
     private readonly InputAction m_Player_Fire;
-    private readonly InputAction m_Player_fireGuns;
+    private readonly InputAction m_Player_LetGO;
     private readonly InputAction m_Player_WeaponSwitch_1;
     private readonly InputAction m_Player_WeaponSwitch_2;
     private readonly InputAction m_Player_WeaponSwitch_3;
     private readonly InputAction m_Player_pause;
-    private readonly InputAction m_Player_Restart;
     public struct PlayerActions
     {
         private @HeloInput m_Wrapper;
@@ -465,12 +454,11 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Aim => m_Wrapper.m_Player_Aim;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
-        public InputAction @fireGuns => m_Wrapper.m_Player_fireGuns;
+        public InputAction @LetGO => m_Wrapper.m_Player_LetGO;
         public InputAction @WeaponSwitch_1 => m_Wrapper.m_Player_WeaponSwitch_1;
         public InputAction @WeaponSwitch_2 => m_Wrapper.m_Player_WeaponSwitch_2;
         public InputAction @WeaponSwitch_3 => m_Wrapper.m_Player_WeaponSwitch_3;
         public InputAction @pause => m_Wrapper.m_Player_pause;
-        public InputAction @Restart => m_Wrapper.m_Player_Restart;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -489,9 +477,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Fire.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
                 @Fire.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
                 @Fire.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
-                @fireGuns.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireGuns;
-                @fireGuns.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireGuns;
-                @fireGuns.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireGuns;
+                @LetGO.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGO;
+                @LetGO.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGO;
+                @LetGO.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLetGO;
                 @WeaponSwitch_1.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_1;
                 @WeaponSwitch_1.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_1;
                 @WeaponSwitch_1.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWeaponSwitch_1;
@@ -504,9 +492,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @pause.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
                 @pause.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
                 @pause.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                @Restart.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
-                @Restart.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
-                @Restart.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -520,9 +505,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Fire.started += instance.OnFire;
                 @Fire.performed += instance.OnFire;
                 @Fire.canceled += instance.OnFire;
-                @fireGuns.started += instance.OnFireGuns;
-                @fireGuns.performed += instance.OnFireGuns;
-                @fireGuns.canceled += instance.OnFireGuns;
+                @LetGO.started += instance.OnLetGO;
+                @LetGO.performed += instance.OnLetGO;
+                @LetGO.canceled += instance.OnLetGO;
                 @WeaponSwitch_1.started += instance.OnWeaponSwitch_1;
                 @WeaponSwitch_1.performed += instance.OnWeaponSwitch_1;
                 @WeaponSwitch_1.canceled += instance.OnWeaponSwitch_1;
@@ -535,9 +520,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @pause.started += instance.OnPause;
                 @pause.performed += instance.OnPause;
                 @pause.canceled += instance.OnPause;
-                @Restart.started += instance.OnRestart;
-                @Restart.performed += instance.OnRestart;
-                @Restart.canceled += instance.OnRestart;
             }
         }
     }
@@ -547,11 +529,10 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnAim(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
-        void OnFireGuns(InputAction.CallbackContext context);
+        void OnLetGO(InputAction.CallbackContext context);
         void OnWeaponSwitch_1(InputAction.CallbackContext context);
         void OnWeaponSwitch_2(InputAction.CallbackContext context);
         void OnWeaponSwitch_3(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
-        void OnRestart(InputAction.CallbackContext context);
     }
 }

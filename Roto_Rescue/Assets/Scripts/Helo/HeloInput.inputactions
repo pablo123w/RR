@@ -33,8 +33,8 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "fireGuns",
-                    "type": "PassThrough",
+                    "name": "LetGO",
+                    "type": "Value",
                     "id": "d412ba41-71d5-4d70-a1dc-bd3bd752d5ca",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -72,15 +72,6 @@
                     "name": "pause",
                     "type": "Button",
                     "id": "cb6e7179-b703-46b8-883e-cbe0631c6301",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Restart",
-                    "type": "Button",
-                    "id": "3f57ae02-6059-4b30-b5ac-75b1a8bd4b2d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -255,6 +246,17 @@
                 },
                 {
                     "name": "",
+                    "id": "b9375b94-f6d4-414c-9163-c250d6d790e9",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "StickDeadzone",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "abe71c91-6a69-4b26-a96b-8bfb9286a958",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
@@ -277,12 +279,23 @@
                 },
                 {
                     "name": "",
-                    "id": "0c546e72-d306-41a9-b7e2-13b43b1ff7a5",
-                    "path": "<Gamepad>/rightTrigger",
+                    "id": "1b744ce8-437a-4300-90eb-edaf1ce9909f",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "fireGuns",
+                    "action": "LetGO",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c546e72-d306-41a9-b7e2-13b43b1ff7a5",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LetGO",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -300,7 +313,7 @@
                 {
                     "name": "",
                     "id": "a454fa05-deb0-4da5-b676-0a4ec056d1f4",
-                    "path": "<Gamepad>/dpad/down",
+                    "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -311,7 +324,7 @@
                 {
                     "name": "",
                     "id": "dc407615-f6ed-4624-b007-77625b3129ba",
-                    "path": "<Gamepad>/dpad/right",
+                    "path": "<Gamepad>/dpad/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -327,28 +340,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f36512e9-01a7-42c2-8d94-0758145525aa",
-                    "path": "<Gamepad>/select",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Restart",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c44a9429-33b5-4d39-a781-93e532d5de08",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Restart",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
