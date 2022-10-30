@@ -19,6 +19,10 @@ public abstract class Splosive : MonoBehaviour
 			{
 				nearby.GetComponent<breakObject>().Break();
 			}
+			if(nearby.tag == ("C_Goober"))
+			{
+				nearby.GetComponent<goobScript>().TakeDamage(15);
+			}
 		}
 		Knockback();
 		Destroy(gameObject);

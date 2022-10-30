@@ -8,6 +8,7 @@ public class GoobTube : MonoBehaviour
     public float Score;
     public TMP_Text score_text;
     private float collectedhp;
+    public bool IsTut;
 
     public GameObject Canvas;
     LevelProgression LP;
@@ -37,7 +38,7 @@ public class GoobTube : MonoBehaviour
 
                 UpdateScoreText();
             }
-            Destroy(other.transform.root.gameObject);
+            Destroy(other.transform.gameObject);
         }
     }
 }

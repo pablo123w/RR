@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 4676762502291176088}
   m_Layer: 0
   m_Name: wood_foundation_intact
-  m_TagString: Destructible
+  m_TagString: Pickupable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyedObject: {fileID: 6582945360419330869, guid: 217ca664cc2c2ad4eb663a290096db31, type: 3}
-  objectStrength: 4
+  objectStrength: 10
   objectExplosionRadius: 0
   explosionPower: 0
   upwardsExplosion: 0
