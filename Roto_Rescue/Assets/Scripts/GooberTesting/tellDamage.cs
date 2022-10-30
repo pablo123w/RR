@@ -9,7 +9,6 @@ public class tellDamage : MonoBehaviour
 	public float hpdivider = 0.5f;
 	public float BloodMagnitude = 10;
 
-
 	public GameObject Player;
 
 	private float HitImpact;
