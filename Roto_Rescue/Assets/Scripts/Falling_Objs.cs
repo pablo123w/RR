@@ -17,7 +17,7 @@ public class Falling_Objs : MonoBehaviour
             GameObject bullet = Instantiate(objectToCreate);
             bullet.transform.position = shotSpawn.transform.position;
             bullet.GetComponent<Rigidbody>().AddForce(Vector3.down * speed, ForceMode.Force);
-            Destroy(bullet, 20f);
+            Destroy(bullet, 10f);
             timer -= interval;
         }
     }
