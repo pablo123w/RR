@@ -68,7 +68,7 @@ public class goobScript : MonoBehaviour
 
 	public void death()
 	{
-		mat.color = new Color(0.13f, 0f, 0.98f);
+		mat.color = new Color(0.4f, 0.4f, 0.4f);
 	}
 
 	public void TakeDamage(float impact)
