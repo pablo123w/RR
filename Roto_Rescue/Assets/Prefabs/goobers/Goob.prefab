@@ -62,7 +62,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.111563, y: 0.584082, z: 0}
+  m_ConnectedAnchor: {x: 0.11156337, y: 0.584082, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -265,9 +265,7 @@ MonoBehaviour:
   Player: {fileID: 0}
   GoobStrength: 2
   isGrabbed: 0
-  Splat:
-  - {fileID: 6229238895884961285}
-  - {fileID: 6016297511990917343}
+  Splat: []
 --- !u!135 &5206846242507755272
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -345,7 +343,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.9376612, y: -27.426598, z: 0}
+  m_ConnectedAnchor: {x: 0.93760204, y: -27.426598, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -525,7 +523,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.28268608, y: 0.86303586, z: 0}
+  m_ConnectedAnchor: {x: -0.2826856, y: 0.86303586, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -844,7 +842,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.11156287, y: 0.5840816, z: 0}
+  m_ConnectedAnchor: {x: -0.11156337, y: 0.58408165, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1035,7 +1033,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -27.760166, y: 0.000005722046, z: 0}
+  m_ConnectedAnchor: {x: -27.760164, y: -0.0000019073486, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1215,7 +1213,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.282686, y: 0.86303604, z: 0}
+  m_ConnectedAnchor: {x: 0.2826856, y: 0.86303604, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1436,7 +1434,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.9377003, y: 27.4266, z: -3.3587897e-15}
+  m_ConnectedAnchor: {x: -0.93774223, y: 27.426596, z: -3.3587895e-15}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1618,7 +1616,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 27.760157, y: 0.000049591064, z: -5.9292306e-21}
+  m_ConnectedAnchor: {x: 27.760166, y: 0, z: 5.293956e-23}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1797,14 +1795,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
---- !u!198 &3868308278986996148 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3839239831722762130, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
-  m_PrefabInstance: {fileID: 65660271857067558}
-  m_PrefabAsset: {fileID: 0}
 --- !u!198 &3504469639318275950 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 3479916070566912328, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
+  m_PrefabInstance: {fileID: 65660271857067558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3868308278986996148 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3839239831722762130, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
   m_PrefabInstance: {fileID: 65660271857067558}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &7797246680859926570 stripped
@@ -1949,9 +1947,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
---- !u!198 &2678729989546697359 stripped
+--- !u!198 &2314955521587682389 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3479916070566912328, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3839239831722762130, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
   m_PrefabInstance: {fileID: 1542455939545531335}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &8771816497008281035 stripped
@@ -1959,9 +1957,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7844187670260123148, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
   m_PrefabInstance: {fileID: 1542455939545531335}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &2314955521587682389 stripped
+--- !u!198 &2678729989546697359 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3839239831722762130, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3479916070566912328, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
   m_PrefabInstance: {fileID: 1542455939545531335}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6095867546373421545
@@ -2053,7 +2051,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 47809501590104064, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284088461905098791, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369491660724603765, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7844187670260123148, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
       propertyPath: m_RootOrder
@@ -2104,15 +2110,5 @@ PrefabInstance:
 --- !u!4 &1146496699640979355 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7844187670260123148, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
-  m_PrefabInstance: {fileID: 7148632682448591255}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &6229238895884961285 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3839239831722762130, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
-  m_PrefabInstance: {fileID: 7148632682448591255}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &6016297511990917343 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3479916070566912328, guid: b9eccdc53d1408844b1702035dd75a9b, type: 3}
   m_PrefabInstance: {fileID: 7148632682448591255}
   m_PrefabAsset: {fileID: 0}

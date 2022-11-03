@@ -63,10 +63,10 @@ public class tellDamage : MonoBehaviour
 			Debug.Log("goob impact is " + HitImpact);
 			if (HitImpact > BloodMagnitude && GoobScript.goobhp > 0)
 			{
-				for (int i = 0; i < Splat.Length; i++)
-				{
-					Splat[i].Play();
-				}
+				//for (int i = 0; i < Splat.Length; i++)
+				//{
+				//	Splat[i].Play();
+				//}
 			}
 
 			//take damage
