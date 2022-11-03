@@ -15,11 +15,11 @@ D:/Users/jonmi/Downloads/Github/RR/Roto_Rescue
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57026
+52070
 Successfully changed project path to: D:/Users/jonmi/Downloads/Github/RR/Roto_Rescue
 D:/Users/jonmi/Downloads/Github/RR/Roto_Rescue
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,145 +35,145 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003059 seconds.
+Registered in 0.003367 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.726 seconds
 Domain Reload Profiling:
-	ReloadAssembly (688ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (523ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (164ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (216ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (200ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004162 seconds.
+Registered in 0.003567 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021086E1C820 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002086165EA10 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021088361DC0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-0000020860A12D70 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087045010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000002086135A010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087149010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020861761010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108707C220 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000020861391220 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108707C220 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000020861391220 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087179030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000020861322D20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087456010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000208617B5010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087179030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000020861791030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086CF3C30 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000208612D9080 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210874C9420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-0000020861828420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097E492C0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000002086152B440 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210871C8A40 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002086183CE30 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087383020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000002086168E010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210880970B0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002086183CE30 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021083603C20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000208621C2C00 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086590080 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000209FD1A4D00 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086590080 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000209FD1A4D00 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086D09020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000020860FD9030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086E33010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000002086168E010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210868D1630 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000020861322D20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086590080 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000208616EC420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021088362360 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-0000020860A13310 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021083603C20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000208621C2630 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086590080 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000209FD1A4D00 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086E91420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020861322D20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108362C7A0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000020861243010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210865B8690 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000209FD1CD310 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.599 seconds
+- Completed reload, in  1.427 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1600ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (1428ms)
+		BeginReloadAssembly (195ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1331ms)
-			LoadAssemblies (132ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1155ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (421ms)
+			SetupTypeCache (383ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (607ms)
+			SetupLoadedEditorAssemblies (478ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (229ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (1ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 146.3 MB.
 System memory in use after: 146.5 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3664.
-Total: 4.155400 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.139700 ms MarkObjects: 3.650600 ms  DeleteObjects: 0.127400 ms)
+Total: 4.638600 ms (FindLiveObjects: 0.326800 ms CreateObjectMapping: 0.276900 ms MarkObjects: 3.942700 ms  DeleteObjects: 0.091300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -187,463 +187,169 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Font
-  artifactKey: Guid(f4349e00eb2c2de47ac12b49808594a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Font using Guid(f4349e00eb2c2de47ac12b49808594a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8705f2b50119e282001cd4c4fd43d742') in 0.009723 seconds 
+  path: Assets/Art/UI Art/UI Bar/Old
+  artifactKey: Guid(9b6df75e50eaec6488e044e9dbece747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Old using Guid(9b6df75e50eaec6488e044e9dbece747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b260eb573a81422af604dc0b69d4e70d') in 0.010164 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.568548 seconds.
-  path: Assets/Art/Font/DK Smiling Cat.otf
-  artifactKey: Guid(272d199cadced074d9099ab4af9da391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Font/DK Smiling Cat.otf using Guid(272d199cadced074d9099ab4af9da391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101405abb7a28d7fb52a770697c9084a') in 0.299750 seconds 
+  Time since last request: 25.488575 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562a383c74f405c95382e746a18bc4a2') in 0.192929 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 179.441953 seconds.
-  path: Assets/Art/Font/DK Smiling Cat SDF.asset
-  artifactKey: Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Font/DK Smiling Cat SDF.asset using Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7baabceee22996642a1b7e308e413b') in 0.058255 seconds 
+  Time since last request: 4.470644 seconds.
+  path: Assets/Art/UI Art/UI Bar/Percentage Bar Box.png
+  artifactKey: Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Percentage Bar Box.png using Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1895382c70cdc5d9f96d378306c574c6') in 0.025774 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.969219 seconds.
-  path: Assets/Art/Font/DK Smiling Cat SDF.asset
-  artifactKey: Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Font/DK Smiling Cat SDF.asset using Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4bdd9e5b8e3668e293393e96b53978') in 0.039363 seconds 
+  Time since last request: 7.233642 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png
+  artifactKey: Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png using Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03350040f076da43898d102a9c73a364') in 0.020142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.091754 seconds.
-  path: Assets/Art/Font/DK Smiling Cat SDF.asset
-  artifactKey: Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Font/DK Smiling Cat SDF.asset using Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef7e1dbccebfecbf88fb3fd388edd15') in 0.039236 seconds 
+  Time since last request: 7.500921 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png
+  artifactKey: Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png using Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8be0d41550171c6e415140f579275') in 0.029064 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.680119 seconds.
-  path: Assets/Art/Font/DK Smiling Cat SDF.asset
-  artifactKey: Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Font/DK Smiling Cat SDF.asset using Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f8b92ba87b04296837ca16f1e90ecd') in 0.040670 seconds 
+  Time since last request: 6.094197 seconds.
+  path: Assets/Art/UI Art/UI Bar/Percentage Bar Box.png
+  artifactKey: Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Percentage Bar Box.png using Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56868df262b18e6cf040ea8c152a290c') in 0.025757 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.227319 seconds.
-  path: Assets/Art/UI Art/Buttons
-  artifactKey: Guid(4afe672bad1011a4999270242aec0bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons using Guid(4afe672bad1011a4999270242aec0bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895c8c3a29170465fc2a54bae94ce6e8') in 0.006106 seconds 
+  Time since last request: 26.598707 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png
+  artifactKey: Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png using Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82f9b670b2e14d94ff8f8cd791abf0f') in 0.069467 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.755405 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e8ed4fd8de0b14d2adf697e2a57887') in 0.089888 seconds 
+  Time since last request: 8.698984 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad4fd39c3b766511c35e19d032b5739') in 0.039233 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.612462 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3684e15f4f9b9ee3264a133616d9c21f') in 0.055535 seconds 
+  Time since last request: 6.442497 seconds.
+  path: Assets/Art/UI Art/UI Bar/Percentage Bar Box.png
+  artifactKey: Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Percentage Bar Box.png using Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3801075760ce35d176ae18c4c14f9e') in 0.024684 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.150226 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fab4131f8c61b7a5b8466dd55db8f1b') in 0.057371 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003895 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210834B8020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210918969F0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108BE14010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108350E020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021088A8B020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108C2C96D0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210888EF420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108693B5A0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108A82D030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210836170B0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210874AA010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021091A7C820 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108803F620 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210866E6310 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021082B71F80 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021088499FE0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210874BEA20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108ABFC420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021089F7A010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108A24A020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021082B71F80 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210874BEA20 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021091897AD0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021088499440 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108ABFC420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210888EF420 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210820844E0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108AC24A30 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.354 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1355ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1076ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (388ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.5 MB.
-System memory in use after: 143.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3755.
-Total: 4.690700 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.275100 ms MarkObjects: 4.048400 ms  DeleteObjects: 0.025900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 4.263876 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png
+  artifactKey: Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png using Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87eee085964a406275c19cc02d19a3c') in 0.067023 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 356.190110 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334ff40be4a2698247ab7cf2b0039917') in 0.056475 seconds 
+  Time since last request: 28.659222 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png
+  artifactKey: Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Bar.png using Guid(1a8bf7603d1a1fa46b458134b8f99057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaffdfbd4856a51c5dd63dd7f20d3dc') in 0.071101 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.729044 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88f2178f3cf6eed8f32d3a319d02518') in 0.037969 seconds 
+  Time since last request: 47.114009 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ae947f80f6460358b1e85f593bc806') in 0.028105 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.581572 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c2cb7692eb54089191ea91b98ad9d6') in 0.018420 seconds 
+  Time since last request: 88.753767 seconds.
+  path: Assets/Art/UI Art/UI Bar/Percentage Bar Box.png
+  artifactKey: Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Percentage Bar Box.png using Guid(dfc2986b9cfd64847b470b92b37af4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb4a030f808838dc799ee3bc5373a6') in 0.050218 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.067554 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eed818bfad1775ab79b455a40d93db') in 0.061185 seconds 
+  Time since last request: 1608.203257 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc897061304cb9ef1ca7ef55f8f7ef22') in 0.017713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.385860 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc9f1aa11340e6147e206b0766c697e') in 0.014753 seconds 
+  Time since last request: 7.822078 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563e45d7e56c4b47d2e270c800399b1d') in 0.054287 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.408993 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494f06aa2ea4832767da89cfc789837') in 0.017871 seconds 
+  Time since last request: 5.976049 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cdaf342e9a21373c9b5a3d29c06621') in 0.032914 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.174135 seconds.
-  path: Assets/Art/UI Art/Buttons/Buttons.png
-  artifactKey: Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Buttons/Buttons.png using Guid(1d911101a7ee3ad43b75acc43984184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2b5c5f38ce2fb1e88fe30dba1a2294') in 0.030082 seconds 
+  Time since last request: 146.111315 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa60d18d1649399bb3cdf31172e2c81') in 0.036928 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.230103 seconds.
-  path: Assets/Art/UI Art/Menu
-  artifactKey: Guid(61413f78bfae2f74dab16c4d297acf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Menu using Guid(61413f78bfae2f74dab16c4d297acf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c915a0eda8cd182d4a14781c09c56aa') in 0.006640 seconds 
+  Time since last request: 13.985072 seconds.
+  path: Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png
+  artifactKey: Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Level Progression Bar Saved.png using Guid(b6baf875de4fae940a81888ba9a09bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f19f5aca7f8689a88d8b86153200733') in 0.025790 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.071027 seconds.
-  path: Assets/Art/UI Art/Menu/Roto R Background.png
-  artifactKey: Guid(73dd021dab3a2f74ca17d7b7bce370d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Menu/Roto R Background.png using Guid(73dd021dab3a2f74ca17d7b7bce370d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934c1586db3986af6dcb516d06510c67') in 0.028622 seconds 
+  Time since last request: 1054.489721 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools
+  artifactKey: Guid(206d764c590158840995452ab3afc41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools using Guid(206d764c590158840995452ab3afc41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68652efdc6a052268433eb02943b948c') in 0.004982 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.811928 seconds.
-  path: Assets/Art/UI Art/Menu/Roto R Background.png
-  artifactKey: Guid(73dd021dab3a2f74ca17d7b7bce370d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Menu/Roto R Background.png using Guid(73dd021dab3a2f74ca17d7b7bce370d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811df5302c216d513de78e16402334bf') in 0.046799 seconds 
+  Time since last request: 7.682239 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Claw.png
+  artifactKey: Guid(8060ae33c15ab4b46a337da92cb3b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Claw.png using Guid(8060ae33c15ab4b46a337da92cb3b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170cc054c7847b6074ff91607f7c8d2d') in 0.021625 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.678670 seconds.
-  path: Assets/Art/UI Art/Menu/Roto R Background.png
-  artifactKey: Guid(73dd021dab3a2f74ca17d7b7bce370d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Art/Menu/Roto R Background.png using Guid(73dd021dab3a2f74ca17d7b7bce370d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc3a492c5f9bdb4f5fd90157c428243') in 0.033287 seconds 
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Minigun.png
+  artifactKey: Guid(2a88b426f1c7e7741b839f56b0caf0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Minigun.png using Guid(2a88b426f1c7e7741b839f56b0caf0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56517026b60a884bdad8fcaf1c3b69c') in 0.014939 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003845 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002109175D030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A0405240 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210831AB010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108696D5B0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210907A9320 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108C931120 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002109095F850 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108C9403A0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A0646020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021091BEE190 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A0526520 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021091A79D00 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108CDBF2A0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108A237D50 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108BD95020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021095049EB0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A0526520 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086FD6020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021089F7A010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086C95020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108BD95020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108CC96210 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A0401FA0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021095049310 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108CB62F80 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108C931120 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108C96D5C0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A0526520 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.279 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1280ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1068ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (399ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.6 MB.
-System memory in use after: 143.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3759.
-Total: 4.333500 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.217900 ms MarkObjects: 3.816600 ms  DeleteObjects: 0.025500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Rail gun.png
+  artifactKey: Guid(09538a0d54a695740bea3445057d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Rail gun.png using Guid(09538a0d54a695740bea3445057d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c5c27af42df4e4e9954e2acfb0332f') in 0.015532 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004276 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002109175D030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087F6EE70 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210831AB010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021090E4E040 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108AB59030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108A921040 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002109095F850 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108CA9DFE0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108C84B030 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A053BB30 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108CC7B060 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000212A09F74B0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021092534010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108B126020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108BD95020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021083603840 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210909DA870 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108A647020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021089F7A010 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021086C95020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108BD95020 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210909DA870 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021087F6E6F0 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021083602E90 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108CBFDF00 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108A921040 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002108CA9CA50 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210909DA870 doesn't match image D:\Users\jonmi\Downloads\Github\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.488 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1489ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1227ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (419ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (38ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.6 MB.
-System memory in use after: 143.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3762.
-Total: 3.931100 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.134800 ms MarkObjects: 3.516000 ms  DeleteObjects: 0.023200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 8.498980 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Claw.png
+  artifactKey: Guid(8060ae33c15ab4b46a337da92cb3b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Claw.png using Guid(8060ae33c15ab4b46a337da92cb3b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd71b065e0615d30a2e468cd70e243f') in 0.021069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.677348 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Minigun.png
+  artifactKey: Guid(2a88b426f1c7e7741b839f56b0caf0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Minigun.png using Guid(2a88b426f1c7e7741b839f56b0caf0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2ad46ce72cc146f9d2bbf9bd70d8e7') in 0.046372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.071761 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Rail gun.png
+  artifactKey: Guid(09538a0d54a695740bea3445057d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Rail gun.png using Guid(09538a0d54a695740bea3445057d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f3be3d1956b285dc695fbe856e8ca1') in 0.016796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.213550 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Minigun.png
+  artifactKey: Guid(2a88b426f1c7e7741b839f56b0caf0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Minigun.png using Guid(2a88b426f1c7e7741b839f56b0caf0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519de33b31c0c0bf23dbb811cdeb9a75') in 0.023781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.608835 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Claw.png
+  artifactKey: Guid(8060ae33c15ab4b46a337da92cb3b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Claw.png using Guid(8060ae33c15ab4b46a337da92cb3b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9436d9ef00dc83a7bf2e1bfb8fb24d2a') in 0.023277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.327227 seconds.
+  path: Assets/Art/UI Art/UI Bar/Tools/Tools Rail gun.png
+  artifactKey: Guid(09538a0d54a695740bea3445057d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Art/UI Bar/Tools/Tools Rail gun.png using Guid(09538a0d54a695740bea3445057d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647d65eb87ddca815db9bea6112e9ec7') in 0.039314 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
