@@ -69,7 +69,6 @@ public class HeloMovement : MonoBehaviour
 	{
         lHorizontal = context.ReadValue<Vector2>().x;
 		lVertical = context.ReadValue<Vector2>().y;
-
 	}
 
 	//private void StabilizeVertical()

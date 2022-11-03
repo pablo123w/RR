@@ -8,7 +8,7 @@ public class ToolBase_Guns : MonoBehaviour
     public GameObject shot;
     public float shotSpeed = 1;
     public GameObject shotSpawn;
-    
+     
 
     public void shooting()
     {
@@ -17,7 +17,7 @@ public class ToolBase_Guns : MonoBehaviour
        
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * shotSpeed;
         
-        Destroy(bullet, 5f);
+        Destroy(bullet, 2f);
     }
     public void shshs()
     {

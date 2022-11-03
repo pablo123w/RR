@@ -118,6 +118,18 @@ public class goobScript : MonoBehaviour
 			if(transform.GetComponent<tellDamage>() != null)
 			{
 				transform.GetComponent<tellDamage>().isGrabbed = true;
+				Debug.Log("is grabbed = " + transform.GetComponent<tellDamage>().isGrabbed);
+			}
+		}
+	}
+
+	public void TellNotGrabbed()
+	{
+		foreach (Transform transform in this.GetComponentsInChildren<Transform>())
+		{
+			if (transform.GetComponent<tellDamage>() != null)
+			{
+				transform.GetComponent<tellDamage>().isGrabbed = false;
 			}
 		}
 	}
