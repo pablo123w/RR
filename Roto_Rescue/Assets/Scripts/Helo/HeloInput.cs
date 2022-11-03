@@ -102,7 +102,16 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Restart"",
                     ""type"": ""Button"",
-                    ""id"": ""3f57ae02-6059-4b30-b5ac-75b1a8bd4b2d"",
+                    ""id"": ""3d15c2cf-9af5-4306-b9de-3e6bda076760"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RF"",
+                    ""type"": ""Button"",
+                    ""id"": ""e409b8ce-9210-49a6-8892-92eecb3d2e58"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -223,7 +232,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Forward Gamepad"",
                     ""id"": ""c4cfc1a5-c356-4456-8b37-b5f7f13de1df"",
-                    ""path"": ""2DVector(mode=2)"",
+                    ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": ""StickDeadzone"",
                     ""groups"": """",
@@ -274,17 +283,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                     ""action"": ""Aim"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""b9375b94-f6d4-414c-9163-c250d6d790e9"",
-                    ""path"": ""<Mouse>/delta"",
-                    ""interactions"": """",
-                    ""processors"": ""StickDeadzone"",
-                    ""groups"": """",
-                    ""action"": ""Aim"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
@@ -376,7 +374,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""f36512e9-01a7-42c2-8d94-0758145525aa"",
+                    ""id"": ""d6b31abe-bdb1-43e4-a27e-121ac3daa145"",
                     ""path"": ""<Gamepad>/select"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -387,12 +385,23 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""c44a9429-33b5-4d39-a781-93e532d5de08"",
+                    ""id"": ""0bf76182-3db5-4ffd-a170-0bd4a296c921"",
                     ""path"": ""<Keyboard>/r"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cf377f42-6e3c-4244-b807-33352976dc4d"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RF"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -412,6 +421,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         m_Player_WeaponSwitch_3 = m_Player.FindAction("WeaponSwitch_3", throwIfNotFound: true);
         m_Player_pause = m_Player.FindAction("pause", throwIfNotFound: true);
         m_Player_Restart = m_Player.FindAction("Restart", throwIfNotFound: true);
+        m_Player_RF = m_Player.FindAction("RF", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -480,6 +490,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_WeaponSwitch_3;
     private readonly InputAction m_Player_pause;
     private readonly InputAction m_Player_Restart;
+    private readonly InputAction m_Player_RF;
     public struct PlayerActions
     {
         private @HeloInput m_Wrapper;
@@ -493,6 +504,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         public InputAction @WeaponSwitch_3 => m_Wrapper.m_Player_WeaponSwitch_3;
         public InputAction @pause => m_Wrapper.m_Player_pause;
         public InputAction @Restart => m_Wrapper.m_Player_Restart;
+        public InputAction @RF => m_Wrapper.m_Player_RF;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -529,6 +541,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Restart.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
                 @Restart.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
                 @Restart.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
+                @RF.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRF;
+                @RF.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRF;
+                @RF.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRF;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -560,6 +575,9 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 @Restart.started += instance.OnRestart;
                 @Restart.performed += instance.OnRestart;
                 @Restart.canceled += instance.OnRestart;
+                @RF.started += instance.OnRF;
+                @RF.performed += instance.OnRF;
+                @RF.canceled += instance.OnRF;
             }
         }
     }
@@ -575,5 +593,6 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
         void OnWeaponSwitch_3(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
         void OnRestart(InputAction.CallbackContext context);
+        void OnRF(InputAction.CallbackContext context);
     }
 }

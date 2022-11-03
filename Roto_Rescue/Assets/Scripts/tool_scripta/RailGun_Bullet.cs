@@ -43,15 +43,7 @@ public class RailGun_Bullet : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Goober")
-        {
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.tag == "break_wall")
-        {
-            // Destroy(other.gameObject);
-            explode = true;
-        }
+       
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -59,6 +51,14 @@ public class RailGun_Bullet : MonoBehaviour
         {
             explode = true;
         }
-
+        if (collision.gameObject.tag == "C_Goober")
+        {
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "Pickupable")
+        {
+            // Destroy(other.gameObject);
+            explode = true;
+        }
     }
 }

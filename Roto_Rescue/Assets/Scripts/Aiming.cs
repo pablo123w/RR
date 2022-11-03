@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Aiming : MonoBehaviour
 {
-    float speedRot = .1f;
+    float speedRot = 1f;
     private void Update()
     {
-        transform.LookAt(speedRot * new Vector3(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2, 0));
+        transform.LookAt(speedRot * new Vector3(Input.mousePosition.x , Input.mousePosition.y - Screen.height / 2, 0));
     }
 
 }
