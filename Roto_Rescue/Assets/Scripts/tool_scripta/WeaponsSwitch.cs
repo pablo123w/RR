@@ -50,7 +50,7 @@ public class WeaponsSwitch : MonoBehaviour
        
         tool_1.SetActive(true);
         tool_2.SetActive(false);
-        tool_3.SetActive(false);
+      //  tool_3.SetActive(false);
         GameObject.Find("railgun_placeholder").GetComponent<Railgun>().enabled = false;
 
     }
