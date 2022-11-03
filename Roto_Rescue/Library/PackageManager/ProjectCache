@@ -514,7 +514,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: A new input system which can be used as a more extensible and
         customizable alternative to Unity's classic input system in UnityEngine.Input.
       status: 4
@@ -556,6 +556,7 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
+        - 1.4.4
         compatible:
         - 0.1.2-preview
         - 0.2.0-preview
@@ -592,7 +593,8 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
-        verified: 1.4.3
+        - 1.4.4
+        verified: 1.4.4
       dependencies:
       - name: com.unity.modules.uielements
         version: 1.0.0
@@ -624,7 +626,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3496,7 +3498,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: 'This package defines common components used by multiple Game
         Service packages.
 
@@ -3522,6 +3524,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.5.2
+        - 1.6.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3539,6 +3542,7 @@ m_PackageAssets:
         - 1.4.2
         - 1.4.3
         - 1.5.2
+        - 1.6.0
         verified: 1.4.3
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3555,7 +3559,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
