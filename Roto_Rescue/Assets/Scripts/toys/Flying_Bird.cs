@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Flying_Bird : MonoBehaviour
 {
@@ -22,6 +23,14 @@ public class Flying_Bird : MonoBehaviour
         {
             isRight = true;
             isLeft = false;
+        }
+        if(other.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        if(other.gameObject.tag == "RGBullet")
+        {
+            Destroy(gameObject);
         }
     }
     public void Move()
