@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class LevelProgression : MonoBehaviour
 {
     public float GooberConstraint = .5f;
+    public TextMeshProUGUI scoreUI;
 
     public float Score = 0;
     public float ScorePercent = 0;
@@ -51,6 +53,8 @@ public class LevelProgression : MonoBehaviour
     {
         POPUPNT();
         //LosePoint();
+
+        //scoreUI.SetText.ToString(GoobCount);
         
         //TESTING PURPOSES
         if (Input.GetKeyDown(KeyCode.K))
