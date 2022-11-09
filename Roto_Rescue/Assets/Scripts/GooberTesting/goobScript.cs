@@ -85,9 +85,14 @@ public class goobScript : MonoBehaviour
 
 	public void death()
 	{
+<<<<<<< HEAD
 		mat.color = new Color(0.13f, 0f, 0.98f);
 		//gameObject.tag = "Pickupable";
     }
+=======
+		mat.color = new Color(0.4f, 0.4f, 0.4f);
+	}
+>>>>>>> origin/LIAM-New
 
 	public void TakeDamage(float impact)
 	{
