@@ -42,13 +42,13 @@ public class Railgun : ToolBase_Guns
         {
             rg.Stop();
         }
-        Aim();
+       // Aim();
     }
     
-  public void Aim()
-  {
-        transform.LookAt(speedRot * new Vector3(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2, 0));
-  }
+  //public void Aim()
+  //{
+  //      transform.LookAt(speedRot * new Vector3(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2, 0));
+  //}
     public void KickBack()
     {
         if (_shakeTimer > 0)
