@@ -9,6 +9,7 @@ public class LevelProgression : MonoBehaviour
 {
     public float GooberConstraint = .5f;
     public TextMeshProUGUI scoreUI;
+    public float scorePercentUI;
 
     public float Score = 0;
     public float ScorePercent = 0;
@@ -54,7 +55,7 @@ public class LevelProgression : MonoBehaviour
         POPUPNT();
         //LosePoint();
 
-        scoreUI.text = ScorePercent + "%";
+        scoreUI.text = scorePercentUI + "%";
         
         //TESTING PURPOSES
         if (Input.GetKeyDown(KeyCode.K))
@@ -89,6 +90,7 @@ public class LevelProgression : MonoBehaviour
         Debug.Log("score is: " + Score);
         //ScorePercent = (Score/100)/((TotalGoobHPMax)/100);
         ScorePercent = (Score) / (GoobCount);
+        scorePercentUI = ScorePercent * 100;
         GooberSavedImage.fillAmount = ScorePercent;
 	}
     public void NextLevel()
