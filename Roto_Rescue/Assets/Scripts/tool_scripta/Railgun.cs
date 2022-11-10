@@ -16,7 +16,7 @@ public class Railgun : ToolBase_Guns
     public float _shakeTimer;
     public float shakeLast;
     float speedRot = 1f;
-    public ParticleSystem rg;
+    //public ParticleSystem rg;
     // Start is called before the first frame update
     void Awake()
     {
@@ -40,7 +40,7 @@ public class Railgun : ToolBase_Guns
         }
         if (Input.GetKeyUp("f"))
         {
-            rg.Stop();
+            //rg.Stop();
         }
        // Aim();
     }
