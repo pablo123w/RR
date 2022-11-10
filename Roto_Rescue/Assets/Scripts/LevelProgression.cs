@@ -7,12 +7,13 @@ using UnityEngine.SceneManagement;
 
 public class LevelProgression : MonoBehaviour
 {
-    public float GooberConstraint = .5f;
+    public float GooberConstraint = 1f;
     public TextMeshProUGUI scoreUI;
     public float scorePercentUI;
 
     public float Score = 0;
     public float ScorePercent = 0;
+    public float totalDeadGoober = 0f;
     
     goobScript gS;
     public GameObject[] Goober;
@@ -48,14 +49,15 @@ public class LevelProgression : MonoBehaviour
         TotalGoobHP = TotalGoobHPMax;
         Debug.Log("total goob HP at start: " + TotalGoobHP);
         
-        GooberConstraint = GoobCount / 10;
+        //GooberConstraint = GoobCount / 10;
     }
     public void Update()
     {
         POPUPNT();
+        scoreUI.text = scorePercentUI + "%";
+
         //LosePoint();
 
-        scoreUI.text = scorePercentUI + "%";
         
         //TESTING PURPOSES
         if (Input.GetKeyDown(KeyCode.K))
@@ -77,11 +79,13 @@ public class LevelProgression : MonoBehaviour
 
     public void LosePoint()
     {
+        GooberConstraint = GooberConstraint - totalDeadGoober;
+        GooberConstraintImage.fillAmount = GooberConstraint;
         Debug.Log("Goober ALIVE ===================================== " + GooberConstraint);
         Debug.Log("Level Progression GooberConstraint gS.deadGoober " + gS.deadGoober);
+        //GooberConstraint -= gS.deadGoober;
         //THIS SHOULD BE UPDATING THE LEVEL CONSTRAINT BAR BASED ON DEAD GOOBERS!
-        GooberConstraint -= gS.deadGoober;
-        GooberConstraintImage.fillAmount = GooberConstraint;
+        //GooberConstraint = GooberConstraint - Score;
     }
 
     public void AddGoober()
@@ -90,7 +94,7 @@ public class LevelProgression : MonoBehaviour
         Debug.Log("score is: " + Score);
         //ScorePercent = (Score/100)/((TotalGoobHPMax)/100);
         ScorePercent = (Score) / (GoobCount);
-        scorePercentUI = ScorePercent * 100;
+        scorePercentUI = Score * 10;
         GooberSavedImage.fillAmount = ScorePercent;
 	}
     public void NextLevel()

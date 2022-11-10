@@ -60,7 +60,7 @@ public class tellDamage : MonoBehaviour
 			//splat
 			//Instantiate(Splat1, this.transform.position, Quaternion.identity);
 			//Instantiate(Splat2, this.transform.position, Quaternion.identity);
-			Debug.Log("goob impact is " + HitImpact);
+			//Debug.Log("goob impact is " + HitImpact);
 			if (HitImpact > BloodMagnitude && GoobScript.goobhp > 0)
 			{
 				//for (int i = 0; i < Splat.Length; i++)

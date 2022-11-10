@@ -75,7 +75,9 @@ public class goobScript : MonoBehaviour
 	{
 		if (goobhp <= 0)
 		{
-			deadGoober = deadGoober - 0.1f;
+			deadGoober = deadGoober + 0.1f;
+            LP.totalDeadGoober = 0.1f;
+            LP.LosePoint();
 			Debug.Log("[goobScript] Goober is dead. NOTICE ME SENPAI");
 			Debug.Log("[goobScript] DEAD GOOBER VARIABLE = " + deadGoober);
 			Destroy(gameObject);
