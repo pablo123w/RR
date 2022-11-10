@@ -31,7 +31,7 @@ public class LevelProgression : MonoBehaviour
     {
         // NTLevel.SetActive(false);
         //GooberConstraintImage.fillAmount = GooberConstraint;
-
+        //scoreUI = GetComponent<TextMeshProUGUI>();
 
         //get canvas to report health to UI
         Goober = GameObject.FindGameObjectsWithTag("C_Goober");
@@ -54,7 +54,7 @@ public class LevelProgression : MonoBehaviour
         POPUPNT();
         //LosePoint();
 
-        //scoreUI.SetText.ToString(GoobCount);
+        scoreUI.text = ScorePercent + "%";
         
         //TESTING PURPOSES
         if (Input.GetKeyDown(KeyCode.K))

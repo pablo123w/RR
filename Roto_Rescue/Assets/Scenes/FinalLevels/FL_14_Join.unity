@@ -7305,14 +7305,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 328276584}
     m_Modifications:
-    - target: {fileID: 2040626337161612040, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
-      propertyPath: m_FillAmount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2040626337161612041, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2040626337320960976, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -7348,10 +7340,6 @@ PrefabInstance:
     - target: {fileID: 2040626337320960976, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
       propertyPath: m_SizeDelta.y
       value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2040626337320960976, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.52502
       objectReference: {fileID: 0}
     - target: {fileID: 2040626337320960976, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7404,22 +7392,6 @@ PrefabInstance:
     - target: {fileID: 2040626337320960977, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
       propertyPath: m_Name
       value: Bar GRP
-      objectReference: {fileID: 0}
-    - target: {fileID: 2040626337710715884, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2040626337710715885, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2040626339067751753, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2040626339067751754, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b54b14941eaeba4ab30dfac9abfbfbf, type: 3}
@@ -12312,6 +12284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19006e47f5e8e1744abf14aaddcc69ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TutManager: {fileID: 0}
 --- !u!65 &1723313641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14215,6 +14188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24649f8c0ab68d2499f3c00d2a954ecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreArrow: {fileID: 0}
+  GoobTube: {fileID: 0}
 --- !u!1 &2037127398
 GameObject:
   m_ObjectHideFlags: 0
@@ -14633,7 +14608,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2089772652
 MonoBehaviour:
   m_ObjectHideFlags: 0
