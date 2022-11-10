@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6885146112444344138
 Transform:
   m_ObjectHideFlags: 0
@@ -111,3 +111,11 @@ MonoBehaviour:
   shot: {fileID: 815776445238946793, guid: ed0a9c2b0a234864f98d808c2562e923, type: 3}
   shotSpeed: 2
   shotSpawn: {fileID: 0}
+  gunPivot: {fileID: 0}
+  player: {fileID: 0}
+  rand: 0
+  amp: 0
+  freq: 0
+  _shakeTimer: 0
+  shakeLast: 0
+  rg: {fileID: 0}

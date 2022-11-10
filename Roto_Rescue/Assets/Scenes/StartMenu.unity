@@ -977,6 +977,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757861622}
   m_CullTransparentMesh: 1
+--- !u!1 &800095887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800095889}
+  - component: {fileID: 800095888}
+  m_Layer: 0
+  m_Name: spawner (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &800095888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800095887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f063fb3cb2f283148bbd0609346642ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToCreate: {fileID: 6438690921798047714, guid: 5af1075a4ccf6ac478e276eec4fabfbc, type: 3}
+  shotSpawn: {fileID: 800095887}
+  speed: 100
+  interval: 5
+--- !u!4 &800095889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800095887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1050.8, y: 433.6, z: -809}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &827905816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,7 +1188,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1533,7 +1580,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394086421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1007, y: 433.6, z: -809}
+  m_LocalPosition: {x: 993.8, y: 433.6, z: -809}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2086,6 +2133,7 @@ GameObject:
   - component: {fileID: 1553431086}
   - component: {fileID: 1553431085}
   - component: {fileID: 1553431084}
+  - component: {fileID: 1553431087}
   m_Layer: 5
   m_Name: Button Play
   m_TagString: Untagged
@@ -2207,6 +2255,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553431082}
   m_CullTransparentMesh: 1
+--- !u!65 &1553431087
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553431082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 437.5, y: 32.71, z: 524.7}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1629763045
 GameObject:
   m_ObjectHideFlags: 0
