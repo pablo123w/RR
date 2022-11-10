@@ -10,55 +10,73 @@ public class RailGun_Bullet : MonoBehaviour
     public float lift = 30;
     //public float speed = 10;
     public bool explode = false;
+    private bool IsSet = false;
+
+    public GameObject Light;
+    public Material RedLight;
+    public Material GreenLight;
+    public Material OrangeLight;
+
+    public ParticleSystem Explosion;
 
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Move();
-        if (explode)
-        {
-            Vector3 explosionPos = transform.position;
-            Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
-            foreach (Collider hit in colliders)
-            {
-                if (hit.GetComponent<Rigidbody>())
-                {
-                    hit.GetComponent<Rigidbody>().AddExplosionForce(power, explosionPos, radius, lift);
-                }
-
-
-            }
+        if(IsSet == false)
+		{
+            Move();
         }
+        
     }
     public void Move()
     {
-        Vector3 bulletSpeed = Vector3.right * speed;
+        Vector3 bulletSpeed = Vector3.forward * speed;
         transform.Translate(bulletSpeed * Time.deltaTime);
-    }
-    public void OnTriggerEnter(Collider other)
-    {
-       
     }
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "break_wall")
         {
-            explode = true;
+            IsSet = true;
+            StartCoroutine(TimedCharge());
         }
         if (collision.gameObject.tag == "C_Goober")
         {
-            Destroy(collision.gameObject);
+            IsSet = true;
+            StartCoroutine(TimedCharge());
         }
         if (collision.gameObject.tag == "Pickupable")
         {
-            // Destroy(other.gameObject);
-            explode = true;
+            IsSet = true;
+            StartCoroutine(TimedCharge());
         }
+    }
+
+    public IEnumerator TimedCharge()
+	{
+		//timer bullshit
+
+		Light.GetComponent<MeshRenderer>().material = RedLight;
+        yield return new WaitForSeconds(3f);
+
+		//explode
+		Instantiate(Explosion, this.transform.position, Quaternion.identity);
+
+        //Vector3 explosionPos = transform.position;
+        //Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
+        //foreach (Collider hit in colliders)
+        //{
+        //    if (hit.GetComponent<Rigidbody>())
+        //    {
+        //        hit.GetComponent<Rigidbody>().AddExplosionForce(power, explosionPos, radius, lift);
+        //    }
+        //}
+
+        yield return null;
     }
 }
