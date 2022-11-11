@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RailGun_Bullet : MonoBehaviour
+public class RailGun_Bullet : Splosive
 {
-    private float speed = 10f;
-    public float radius = 5.0F;
-    public float power = 10.0F;
+    public float speed = 10f;
+    //public float radius = 5.0F;
+    //public float power = 10.0F;
     public float lift = 30;
     //public float speed = 10;
     public bool explode = false;
@@ -17,21 +17,24 @@ public class RailGun_Bullet : MonoBehaviour
     public Material GreenLight;
     public Material OrangeLight;
 
+    private GameObject ThisBullet;
+
     public ParticleSystem Explosion;
 
     // Start is called before the first frame update
     void Start()
     {
+        ThisBullet = this.gameObject;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(IsSet == false)
-		{
+        if (IsSet == false)
+        {
             Move();
         }
-        
+
     }
     public void Move()
     {
@@ -40,43 +43,48 @@ public class RailGun_Bullet : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "break_wall")
-        {
-            IsSet = true;
-            StartCoroutine(TimedCharge());
-        }
-        if (collision.gameObject.tag == "C_Goober")
-        {
-            IsSet = true;
-            StartCoroutine(TimedCharge());
-        }
-        if (collision.gameObject.tag == "Pickupable")
-        {
-            IsSet = true;
-            StartCoroutine(TimedCharge());
-        }
-    }
+        if (collision.gameObject.tag == "break_wall" || collision.gameObject.tag == "C_Goober" || collision.gameObject.tag == "Pickupable" || collision.gameObject.tag == "Destructible")
 
-    public IEnumerator TimedCharge()
+        {
+			IsSet = true;
+			StartCoroutine(TimedCharge(collision));
+		}
+	}
+
+    public IEnumerator TimedCharge(Collision collision)
 	{
-		//timer bullshit
+        //stick to wall
+        this.transform.parent = collision.gameObject.transform;
+        this.GetComponent<Rigidbody>().useGravity = false;
+        this.GetComponent<Rigidbody>().isKinematic = true;
+        this.GetComponent<Collider>().enabled = false;
 
+        //timer bullshit
 		Light.GetComponent<MeshRenderer>().material = RedLight;
         yield return new WaitForSeconds(3f);
 
-		//explode
-		Instantiate(Explosion, this.transform.position, Quaternion.identity);
+        //explode
 
-        //Vector3 explosionPos = transform.position;
-        //Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
-        //foreach (Collider hit in colliders)
-        //{
-        //    if (hit.GetComponent<Rigidbody>())
-        //    {
-        //        hit.GetComponent<Rigidbody>().AddExplosionForce(power, explosionPos, radius, lift);
-        //    }
-        //}
+        Explode();
 
-        yield return null;
-    }
+		//Instantiate(Explosion, this.transform.position, Quaternion.identity);
+
+		//Vector3 explosionPos = transform.position;
+		//Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
+		//foreach (Collider hit in colliders)
+		//{
+		//	if (hit.GetComponent<Rigidbody>())
+		//	{
+		//		hit.GetComponent<Rigidbody>().AddExplosionForce(power, explosionPos, radius, lift);
+		//	}
+		//}
+
+        //stop existing as a bullet leave this fucking planet now go away i hate this bullet jesus fuck
+        Destroy(ThisBullet);
+	}
+
+	public override void OnCollide()
+	{
+        return;
+	}
 }
