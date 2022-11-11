@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 281045874}
   - component: {fileID: 281045877}
   - component: {fileID: 281045876}
-  - component: {fileID: 281045875}
   m_Layer: 0
   m_Name: claw_light
   m_TagString: Untagged
@@ -82,19 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &281045875
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281045873}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &406949431
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,17 +398,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63e79be17afc9c4c900070a85bb0ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 4805004446091058423, guid: e4d6ac10b59402b4a99b4ff5a7c208a4, type: 3}
+  Projectile: {fileID: 8022623613730829177, guid: cec560a76222b4a4d8876083901eec8b, type: 3}
   shotSpeed: 2
   shotSpawn: {fileID: 5744250808218717388}
-  gunPivot: {fileID: 0}
+  gunPivot: {fileID: 4383670877005400587}
   player: {fileID: 0}
   rand: 0
   amp: 0
   freq: 0
   _shakeTimer: 0
   shakeLast: 0
-  rg: {fileID: 0}
+  FireRate: 0
 --- !u!1 &2101765831472365280
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abec6f3fcaa440a40b9bcc0f65a87b89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 3123090121685514505, guid: 22d958f63ed25e74da2321e8897d8a55, type: 3}
+  Projectile: {fileID: 0}
   shotSpeed: 3
   shotSpawn: {fileID: 2516438631485115928}
   gunPivot: {fileID: 0}
@@ -876,7 +862,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 1.77, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.9083369, y: 5.808003, z: 1.8326368}
+  m_ConnectedAnchor: {x: 2.9083369, y: 11.808002, z: 1.8326368}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1563,7 +1549,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6803078065254738466
 Transform:
   m_ObjectHideFlags: 0

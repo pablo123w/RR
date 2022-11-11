@@ -232,7 +232,7 @@ public partial class @HeloInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Forward Gamepad"",
                     ""id"": ""c4cfc1a5-c356-4456-8b37-b5f7f13de1df"",
-                    ""path"": ""2DVector"",
+                    ""path"": ""2DVector(mode=2)"",
                     ""interactions"": """",
                     ""processors"": ""StickDeadzone"",
                     ""groups"": """",
