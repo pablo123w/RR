@@ -125,7 +125,7 @@ Transform:
   m_GameObject: {fileID: 8022623613730829177}
   m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.7071079}
   m_LocalPosition: {x: 2.9869328, y: 11.75, z: 1.8499031}
-  m_LocalScale: {x: 0.0064045, y: 0.0064045, z: 0.0064045}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 1916158263878594274}
   m_Father: {fileID: 0}
@@ -138,7 +138,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8022623613730829177}
-  m_Mesh: {fileID: -7204647971529134275, guid: 98f840832b3a4c24eabb761ff17a4173, type: 3}
+  m_Mesh: {fileID: -7204647971529134275, guid: 2dce452c31d599140bccc45c1b6fbb9f, type: 3}
 --- !u!23 &8383144887259337388
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -205,15 +205,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dd341c17e9300d4286f1fdfd387dcbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 5
-  power: 10
-  lift: 30
+  expForce: 600
+  radius: 2
+  objectStrength: 0
+  explosion: {fileID: 5141389379725151250, guid: c15f6c74f55f3ed4bbb6e21b0905b145, type: 3}
+  speed: 100
+  lift: 0
   explode: 0
   Light: {fileID: 6082705025797665415}
   RedLight: {fileID: 2100000, guid: 27b442f33e657694cafa51db8d4d77cc, type: 2}
   GreenLight: {fileID: 2100000, guid: 1899896da2d06294c8db9169714864bd, type: 2}
   OrangeLight: {fileID: 2100000, guid: f88d1c5411734eb438c3492887845af2, type: 2}
-  Explosion: {fileID: 5141389379725151250, guid: 3083a3d36e3a76746ab4c6d3257ea6f9, type: 3}
+  Explosion: {fileID: 5141389379725151250, guid: c15f6c74f55f3ed4bbb6e21b0905b145, type: 3}
 --- !u!54 &7003504756490020993
 Rigidbody:
   m_ObjectHideFlags: 0

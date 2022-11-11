@@ -17,7 +17,11 @@ public class Railgun : ToolBase_Guns
     public float shakeLast;
     float speedRot = 1f;
     //public ParticleSystem rg;
-    // Start is called before the first frame update
+
+    //timer variables so the player can only shoot one at a time
+    public float FireRate;
+    private bool CanShoot = true;
+
     void Awake()
     {
         //rg = GameObject.Find("RailGunSmoke").GetComponent<ParticleSystem>();
@@ -33,22 +37,21 @@ public class Railgun : ToolBase_Guns
     {
         if (Input.GetKeyDown("f"))
         {
-            shooting();
-           
-            //shshs();
-            KickBack();
+                shooting();
+                //shshs();
+                KickBack();
         }
         if (Input.GetKeyUp("f"))
         {
             //rg.Stop();
         }
-        Aim();
+        //Aim();
     }
     
-  public void Aim()
-  {
-        transform.LookAt(speedRot * new Vector3(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2, 0));
-  }
+  //public void Aim()
+  //{
+  //      transform.LookAt(speedRot * new Vector3(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2, 0));
+  //}
     public void KickBack()
     {
         if (_shakeTimer > 0)
@@ -69,19 +72,35 @@ public class Railgun : ToolBase_Guns
 
    public void Fire(InputAction.CallbackContext context)
     {
-       shooting();
-        KickBack();
+		if (CanShoot)
+		{
+            shooting();
+            KickBack();
+            StartCoroutine(WaitToShoot());
+        }
     }
     public void aim(InputAction.CallbackContext context)
     {
-        targetPosition = context.ReadValue<Vector2>();
-        if (targetPosition.y < 0)
-            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
-        else if (targetPosition.y > 0 && targetPosition.x < 0)
-            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.left);
-        else if (targetPosition.y > 0 && targetPosition.x > 0)
-            gunPivot.transform.localRotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.right);
+        
+        //targetPosition = context.ReadValue<Vector2>();
+
+        //gunPivot.transform.rotation = Quaternion.Euler(0, 0, targetPosition.x * 90 + targetPosition.y * 90);
+
+
+        //if (targetPosition.y < 0)
+        //    gunPivot.transform.rotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
+        //else if (targetPosition.y > 0 && targetPosition.x < 0)
+        //    gunPivot.transform.rotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.left);
+        //else if (targetPosition.y > 0 && targetPosition.x > 0)
+        //    gunPivot.transform.rotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.right);
     }
+
+	public IEnumerator WaitToShoot()
+	{
+        CanShoot = false;
+        yield return new WaitForSeconds(1f);
+        CanShoot = true;
+	}
 
 }       
     
