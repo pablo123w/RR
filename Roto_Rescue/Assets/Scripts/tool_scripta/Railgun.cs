@@ -11,6 +11,8 @@ public class Railgun : ToolBase_Guns
     public GameObject player;
     private GameObject gunEnd;
     public float rand;
+    public AudioSource fg;
+    
     public float amp;
     public float freq;
     public float _shakeTimer;
@@ -29,9 +31,12 @@ public class Railgun : ToolBase_Guns
         gunEnd = GameObject.Find("gunEnd");
         _shakeTimer = shakeLast;
         rand = Random.value;
+       
+    }
+    private void Start()
+    {
         
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -40,6 +45,9 @@ public class Railgun : ToolBase_Guns
                 shooting();
                 //shshs();
                 KickBack();
+            fg.Play();
+            StartCoroutine(WaitToShoot());
+           
         }
         if (Input.GetKeyUp("f"))
         {
@@ -69,7 +77,7 @@ public class Railgun : ToolBase_Guns
         }
     }
 
-
+   
    public void Fire(InputAction.CallbackContext context)
     {
 		if (CanShoot)
