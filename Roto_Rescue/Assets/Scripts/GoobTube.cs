@@ -8,7 +8,6 @@ public class GoobTube : MonoBehaviour
     public float Score;
     public TMP_Text score_text;
     private float collectedhp;
-    public bool IsTut;
 
     public GameObject Canvas;
     LevelProgression LP;
@@ -30,15 +29,14 @@ public class GoobTube : MonoBehaviour
     {
         if (other.CompareTag("C_Goober"))
         {
-            collectedhp = other.GetComponent<goobScript>().goobhp;
-            if (collectedhp > 0)
-			{
-
-                LP.AddGoober(collectedhp);
-
+            //collectedhp = other.GetComponent<goobScript>().goobhp;
+            if (other.GetComponent<goobScript>().goobhp > 0)
+            {
+                LP.AddGoober();
                 UpdateScoreText();
             }
-            Destroy(other.transform.gameObject);
+            
+            Destroy(other.transform.root.gameObject);
         }
     }
 }

@@ -45,7 +45,7 @@ public class Priority : MonoBehaviour
         foreach (GameObject obj in collisions)
         {
             
-            var objPriority = obj.GetComponent<PrioritySys>().Priority;
+            int objPriority = obj.GetComponent<PrioritySys>().Priority;
             if (objPriority > priority)
                 priority = objPriority;
         }
