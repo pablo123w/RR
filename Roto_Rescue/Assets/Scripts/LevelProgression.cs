@@ -38,7 +38,7 @@ public class LevelProgression : MonoBehaviour
 
         //get canvas to report health to UI
         Goober = GameObject.FindGameObjectsWithTag("C_Goober");
-        //gS = GetComponent<goobScript>();
+        gS = GetComponent<goobScript>();
 
         // Tracks the amount of the goobers in the scene.
         TotalGoobers = GameObject.FindGameObjectsWithTag("C_Goober");
@@ -56,9 +56,9 @@ public class LevelProgression : MonoBehaviour
     {
         POPUPNT();
         scoreUI.text = scorePercentUI + "%";
-       //POPfail();
+       POPfail();
         //LosePoint();
-
+        Debug.Log("k: " + TotalGoobHP);
         
         //TESTING PURPOSES
         //if (Input.GetKeyDown(KeyCode.K))
@@ -124,12 +124,13 @@ public class LevelProgression : MonoBehaviour
             NTLevel.SetActive(true);
         }
     }
-    //public void POPfail()
-    //{
-    //    if (totalDeadGoober)
-    //    {
-    //        fail.SetActive(true);
-    //        Debug.Log("Light Yagami Almost Became a God");
-    //    }
-    //}
+    public void POPfail()
+    {
+        if (TotalGoobHP <= 0)
+        {
+            fail.SetActive(true);
+            Debug.Log("Light Yagami Almost Became a God");
+           // Debug.Log("Names In deathnote: " + gS.deathNote);
+        }
+    }
 }
