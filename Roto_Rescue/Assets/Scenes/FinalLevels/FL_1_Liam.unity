@@ -11389,6 +11389,7 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 1071042560}
   levelSelectUI: {fileID: 0}
   level: 0
+  goreAllowed: 0
 --- !u!114 &1672824721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14984,6 +14985,8 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  men: {fileID: 1672824718}
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -15369,6 +15372,8 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  men: {fileID: 0}
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -45700,6 +45705,8 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  men: {fileID: 0}
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -56256,6 +56263,8 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  men: {fileID: 0}
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -61260,7 +61269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!198 &7265425531509272660
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -66066,6 +66075,8 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  men: {fileID: 0}
   GoobStrength: 2
   isGrabbed: 0
   Splat:
