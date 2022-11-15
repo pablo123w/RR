@@ -9,7 +9,7 @@ public class goobScript : MonoBehaviour
     public float deadGoober = 0f;
 	public bool isDead = false;
     public float impact;
-
+	public int deathNote = 0;
 	//color change stuff
 	public GameObject daddyGoob;
 	public GameObject goobBody;
@@ -78,6 +78,7 @@ public class goobScript : MonoBehaviour
 			deadGoober = deadGoober + 0.1f;
             LP.totalDeadGoober = 0.1f;
             LP.LosePoint();
+			//deathNote += 1;
 			Debug.Log("[goobScript] Goober is dead. NOTICE ME SENPAI");
 			Debug.Log("[goobScript] DEAD GOOBER VARIABLE = " + deadGoober);
 			Destroy(gameObject);
@@ -89,6 +90,7 @@ public class goobScript : MonoBehaviour
 	{
 
 		mat.color = new Color(0.13f, 0f, 0.98f);
+		//deathNote++;
 		//gameObject.tag = "Pickupable";
     }
 

@@ -22,6 +22,7 @@ public class LevelProgression : MonoBehaviour
     public Image GooberSavedImage;
     public GameObject NTLevel;
     public GameObject NextLevelButton;
+    public GameObject fail;
 
     private GameObject[] TotalGoobers;
     float GoobCount = 0.0f;
@@ -37,7 +38,7 @@ public class LevelProgression : MonoBehaviour
 
         //get canvas to report health to UI
         Goober = GameObject.FindGameObjectsWithTag("C_Goober");
-        //gS = Goober.GetComponent<goobScript>();
+        gS = GetComponent<goobScript>();
 
         // Tracks the amount of the goobers in the scene.
         TotalGoobers = GameObject.FindGameObjectsWithTag("C_Goober");
@@ -55,18 +56,18 @@ public class LevelProgression : MonoBehaviour
     {
         POPUPNT();
         scoreUI.text = scorePercentUI + "%";
-
+       POPfail();
         //LosePoint();
-
+        Debug.Log("k: " + TotalGoobHP);
         
         //TESTING PURPOSES
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            Debug.Log("K Was Pressed");
-            LosePoint();     
-            //GooberConstraint = GooberConstraint - 0.1f;
-            GooberConstraint = GooberConstraint - 0.1f;
-        }
+        //if (Input.GetKeyDown(KeyCode.K))
+        //{
+        //    Debug.Log("K Was Pressed");
+        //    LosePoint();     
+        //    //GooberConstraint = GooberConstraint - 0.1f;
+        //    GooberConstraint = GooberConstraint - 0.1f;
+        //}
 
         
     }
@@ -94,6 +95,7 @@ public class LevelProgression : MonoBehaviour
         Debug.Log("score is: " + Score);
         //ScorePercent = (Score/100)/((TotalGoobHPMax)/100);
         ScorePercent = (Score) / (GoobCount);
+       // Debug.Log("Light: " + ScorePercent);
         scorePercentUI = Score * 10;
         GooberSavedImage.fillAmount = ScorePercent;
 	}
@@ -122,5 +124,13 @@ public class LevelProgression : MonoBehaviour
             NTLevel.SetActive(true);
         }
     }
-  
+    public void POPfail()
+    {
+        if (TotalGoobHP <= 0)
+        {
+            fail.SetActive(true);
+            Debug.Log("Light Yagami Almost Became a God");
+           // Debug.Log("Names In deathnote: " + gS.deathNote);
+        }
+    }
 }
