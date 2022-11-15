@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 772.8
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 47
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 48
+  controlID: 138
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 49
+  controlID: 40
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 50
+  controlID: 41
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,8 +216,8 @@ MonoBehaviour:
     y: 0
     width: 290.4
     height: 451.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -420,9 +420,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a0700000e0700000447000001070000066e5ffff0672ffff
-      m_LastClickedID: -36346
-      m_ExpandedIDs: 0672ffffe8c0ffff66e5ffff02e6ffff28f5ffff68fbfffff4ffffff6e570000e6570000f25b00005c700000be700000f0700000f29c0000
+      m_SelectedIDs: d4530000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2c17ffffe464ffff1a67ffff026cffff5287ffff0e99fffff4abffff86c0fffff2ddffffd2eeffff68fbffff964c0000a04c0000024d0000344d0000d4920000de92000040930000d4a60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -482,9 +482,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1023, y: 331, z: -785}
+    m_Target: {x: 26.5, y: 1.5, z: 2}
     speed: 2
-    m_Value: {x: 1023, y: 331, z: -785}
+    m_Value: {x: 26.5, y: 1.5, z: 2}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -535,9 +535,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.04346748, y: -0.03566337, z: 0.0015511218, w: -0.9984169}
   m_Size:
-    m_Target: 114.686226
+    m_Target: 14.913282
     speed: 2
-    m_Value: 114.686226
+    m_Value: 14.913282
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -600,22 +600,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/tool_scripta
+    - Assets/Scenes/FinalLevels
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/tool_scripta
+  - Assets/Scenes/FinalLevels
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 89.400024}
-    m_SelectedIDs: 08570000
-    m_LastClickedID: 22280
-    m_ExpandedIDs: 00000000ca560000cc560000ce560000d056000000ca9a3b
+    scrollPos: {x: 0, y: 161.40002}
+    m_SelectedIDs: 6a500000
+    m_LastClickedID: 20586
+    m_ExpandedIDs: 000000004c5000004e500000505000005250000064500000b8a1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -643,7 +643,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca560000cc560000ce560000d0560000
+    m_ExpandedIDs: 000000004c5000004e5000005050000052500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -756,7 +756,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 504
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
