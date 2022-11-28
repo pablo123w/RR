@@ -15,19 +15,11 @@ C:/Users/porky/OneDrive/Documents/GitHub/RR/Roto_Rescue
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< HEAD
-57629
+55675
 Successfully changed project path to: C:/Users/porky/OneDrive/Documents/GitHub/RR/Roto_Rescue
 C:/Users/porky/OneDrive/Documents/GitHub/RR/Roto_Rescue
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.45 ms, found 2 plugins.
-=======
-62319
-Successfully changed project path to: E:/CAGD 470/New Repository/Project/RR/Roto_Rescue
-E:/CAGD 470/New Repository/Project/RR/Roto_Rescue
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.90 ms, found 2 plugins.
->>>>>>> LIAM-New
+Refreshing native plugins compatible for Editor in 42.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -43,271 +35,145 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<< HEAD
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001660 seconds.
+Registered in 0.000837 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.556 seconds
+- Completed reload, in  0.420 seconds
 Domain Reload Profiling:
-	ReloadAssembly (557ms)
-		BeginReloadAssembly (56ms)
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000682 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.311 seconds
-Domain Reload Profiling:
-	ReloadAssembly (311ms)
-		BeginReloadAssembly (32ms)
->>>>>>> LIAM-New
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (439ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (328ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (176ms)
-=======
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (244ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (102ms)
->>>>>>> LIAM-New
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (135ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-<<<<<<< HEAD
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-=======
-				RefreshPlugins (34ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (42ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
->>>>>>> LIAM-New
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< HEAD
-Registered in 0.002411 seconds.
+Registered in 0.001794 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B8787EB040 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002ED63AEDBD0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8735F1D20 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000002EEFFB30E20 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8776A6650 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000002ED646AC010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8776A6650 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002ED64708010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87858D9C0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002ED6463E0F0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8774D8220 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002ED646E3220 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8776BBC60 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002ED6468B810 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87694EC90 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002ED64446010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87697E4A0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002ED64738030 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8787EB040 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000002ED63AEDBD0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B6C5641A70 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000002ED65883B60 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B877099660 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000002ED64419220 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87858D9C0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002ED6442DC30 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8776DF020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000002ED649FA020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87858D9C0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002ED64694220 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8735F1940 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002EEFFB30E20 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B877211010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002ED62F69020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B877211010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002ED62F69020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87331E520 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002ED64888010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B876FE8010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000002ED648E9010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87858D9C0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002ED64694220 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87721F020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000002ED62F69020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8735F1750 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002EEFFB30E20 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8735F0F90 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002EEFFB30E20 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87331E520 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002ED62F69020 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B87752E420 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002ED63B3C420 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8769900B0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002ED6394C1D0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8784047F0 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000002ED636F7010 doesn't match image C:\Users\porky\OneDrive\Documents\GitHub\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.309 seconds
+- Completed reload, in  0.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1310ms)
-		BeginReloadAssembly (161ms)
-=======
-Registered in 0.001185 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000252F1C56880 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1C9DA10 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F28C5420 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F28C5420 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F369F9E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F26F2220 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F28DAA30 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F2907010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F2936820 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F369F9E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F32F6AC0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F2469010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F369F9E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1D73200 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F369F9E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1C12EA0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F247DA20 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1B4D010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F223A600 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1E971C0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F369F9E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F247DA20 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1C128D0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1C13090 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1B4D010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F3203630 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252EE75E0E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1B4D010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
-Domain Reload Profiling:
-	ReloadAssembly (669ms)
-		BeginReloadAssembly (76ms)
->>>>>>> LIAM-New
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1090ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (657ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (477ms)
-=======
-			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (560ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (247ms)
->>>>>>> LIAM-New
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-<<<<<<< HEAD
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (4ms)
-=======
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
->>>>>>> LIAM-New
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.0 MB.
-System memory in use after: 148.2 MB.
+System memory in use before: 147.9 MB.
+System memory in use after: 148.1 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3709.
-<<<<<<< HEAD
-Total: 4.592800 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.123200 ms MarkObjects: 3.932500 ms  DeleteObjects: 0.151400 ms)
-=======
-Total: 2.182300 ms (FindLiveObjects: 0.142300 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.920500 ms  DeleteObjects: 0.055800 ms)
->>>>>>> LIAM-New
+Total: 2.743700 ms (FindLiveObjects: 0.165500 ms CreateObjectMapping: 0.073900 ms MarkObjects: 2.417000 ms  DeleteObjects: 0.085700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -321,563 +187,295 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< HEAD
-  path: Assets/Scenes/FinalLevels/FL_19_Pablo.unity
-  artifactKey: Guid(37ce5d9a634c675468f12058688cb876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FinalLevels/FL_19_Pablo.unity using Guid(37ce5d9a634c675468f12058688cb876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d9a311a9fefebea23bbd8a6cb09577') in 0.069720 seconds 
-=======
-  path: Assets/Art/Buildings/Wood
-  artifactKey: Guid(fe21e194bd640d84eb8de8a58fb21c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Wood using Guid(fe21e194bd640d84eb8de8a58fb21c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980850a3d9d2a7ad68482722e5ddf216') in 0.010272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.361731 seconds.
-  path: Assets/Art/Buildings/Wood/foundation and metal
-  artifactKey: Guid(1467e903504ed98469da1da07a6d58a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Wood/foundation and metal using Guid(1467e903504ed98469da1da07a6d58a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f734ae9a00702f3262766da13d8ce4') in 0.006853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.738765 seconds.
-  path: Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal_lambert1_BaseMap.png
-  artifactKey: Guid(26dea3854690e2a4db59024c71092855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal_lambert1_BaseMap.png using Guid(26dea3854690e2a4db59024c71092855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7e3a6b46c18edd38cb33f4b004db9f') in 0.072994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.863244 seconds.
   path: Assets/Art/Buildings/Wood/foundation and metal/woodfoundmetal_mat.mat
   artifactKey: Guid(38391e48cf358364ba910cdcf3260d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Wood/foundation and metal/woodfoundmetal_mat.mat using Guid(38391e48cf358364ba910cdcf3260d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d2949231c900592812ed9574e16293') in 0.114467 seconds 
+Start importing Assets/Art/Buildings/Wood/foundation and metal/woodfoundmetal_mat.mat using Guid(38391e48cf358364ba910cdcf3260d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21a968dcc2e7178a544392910428bab') in 0.206399 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.436657 seconds.
-  path: Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal.fbx
-  artifactKey: Guid(fc59f095810bc684581dcf12d4720145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal.fbx using Guid(fc59f095810bc684581dcf12d4720145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b479acf1d40ffa07394ca917b2ac2e4e') in 0.058384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 130.961729 seconds.
-  path: Assets/Art/Buildings/Wood/foundation and metal/woodfoundmetal_mat.mat
-  artifactKey: Guid(38391e48cf358364ba910cdcf3260d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Wood/foundation and metal/woodfoundmetal_mat.mat using Guid(38391e48cf358364ba910cdcf3260d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ae8df3fef585ffe00129cc51cd3f92') in 0.016940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.026865 seconds.
-  path: Assets/Prefabs/Building Strut Prefabs/Building 1.prefab
-  artifactKey: Guid(1e66c7040e69e0e4dad936ca062b38ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/Building 1.prefab using Guid(1e66c7040e69e0e4dad936ca062b38ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c9fb0376be16ad7907f904d620c82b') in 0.055218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Prefabs/Building Strut Prefabs/Building 7.prefab
-  artifactKey: Guid(bf66bb3370f3e4f4aa28830735fb5d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/Building 7.prefab using Guid(bf66bb3370f3e4f4aa28830735fb5d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ee5a4143286a68bb343584058bceeb') in 0.036493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Prefabs/Building Strut Prefabs/WoodBuilding.prefab
-  artifactKey: Guid(0c53fd2681629d24f9fc8f08bcc887e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/WoodBuilding.prefab using Guid(0c53fd2681629d24f9fc8f08bcc887e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e3d74484bd2da8e0839c379e084ba0') in 0.022241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
+  Time since last request: 0.021873 seconds.
   path: Assets/Prefabs/Building Strut Prefabs/struct_mixedBuilding_lp.prefab
   artifactKey: Guid(f8dab6f1a12db3345aade6d6755288d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/struct_mixedBuilding_lp.prefab using Guid(f8dab6f1a12db3345aade6d6755288d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf6c333762d3ba3fbdffa957fa1cb7b') in 0.021719 seconds 
+Start importing Assets/Prefabs/Building Strut Prefabs/struct_mixedBuilding_lp.prefab using Guid(f8dab6f1a12db3345aade6d6755288d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6ad0f2f139a33d2ab1335150194495') in 0.036575 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Prefabs/Building Strut Prefabs/struct_woodenBuilding_lp.prefab
-  artifactKey: Guid(8b7670fbba62d7a408ae84aae6c7742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/struct_woodenBuilding_lp.prefab using Guid(8b7670fbba62d7a408ae84aae6c7742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8232b7196e4084bcca92e3abd69f2f4a') in 0.022347 seconds 
+  Time since last request: 0.005489 seconds.
+  path: Assets/Prefabs/ModularBuildings/structs/metal_found.prefab
+  artifactKey: Guid(2c7136bb57025744191484b995ec9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/structs/metal_found.prefab using Guid(2c7136bb57025744191484b995ec9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd797ecf924489a6bafadd4ddb83ee7bb') in 0.012155 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000083 seconds.
+  Time since last request: 0.254806 seconds.
+  path: Assets/Scripts/MenuManager.cs
+  artifactKey: Guid(fb3dd0a2ecacf0545a6765242117a723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuManager.cs using Guid(fb3dd0a2ecacf0545a6765242117a723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355d30c468797b3f034e82928230e6d7') in 0.013373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040591 seconds.
+  path: Assets/Art/lvlpng/lvl1.png
+  artifactKey: Guid(40747c9158b8b6c4bb011685d4cfab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl1.png using Guid(40747c9158b8b6c4bb011685d4cfab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd496607cda45c0a63daad75deeb4675a') in 0.030028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027950 seconds.
+  path: Assets/Scenes/FinalLevels/rotorMain.anim
+  artifactKey: Guid(b69d7df56055eb14db70bc056b5d5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/rotorMain.anim using Guid(b69d7df56055eb14db70bc056b5d5ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee699200893ae0ba1c3af5bbf5bb119') in 0.007340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026702 seconds.
+  path: Assets/Scripts/tool_scripta/GoreSetting.cs
+  artifactKey: Guid(3de2ebcf24376f34e83a72e83f37ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/tool_scripta/GoreSetting.cs using Guid(3de2ebcf24376f34e83a72e83f37ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ef7750a7732b60c58a2d4e618f5f10') in 0.005859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057950 seconds.
+  path: Assets/Scripts/toys/Flying_Bird.cs
+  artifactKey: Guid(0bb637415fd868b4ba0db36caf58bda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/toys/Flying_Bird.cs using Guid(0bb637415fd868b4ba0db36caf58bda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7323537c15cafcff6b0ee683998ee79d') in 0.005895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014493 seconds.
+  path: Assets/Prefabs/props/Explosive Barrels/exbarrel_small.prefab
+  artifactKey: Guid(79baf374733c64c4f993f2f016a09809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/props/Explosive Barrels/exbarrel_small.prefab using Guid(79baf374733c64c4f993f2f016a09809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112d9391d044549eaa22276cdc3a8034') in 0.017452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005814 seconds.
+  path: Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal_lambert1_BaseMap.png
+  artifactKey: Guid(26dea3854690e2a4db59024c71092855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal_lambert1_BaseMap.png using Guid(26dea3854690e2a4db59024c71092855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc46f0d5bb56c6aaf75dc189df03d046') in 0.017152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066606 seconds.
+  path: Assets/Art/lvlpng/lvl3.png
+  artifactKey: Guid(80d13323960fe0542a573be27f2db2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl3.png using Guid(80d13323960fe0542a573be27f2db2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025683e02cd102fa8b3c229d0153c3ec') in 0.018774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011818 seconds.
+  path: Assets/Art/lvlpng/lvl6.png
+  artifactKey: Guid(f56c21adf9da433489a6bc4c6cb2ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl6.png using Guid(f56c21adf9da433489a6bc4c6cb2ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0c07304308ad14185e69078563ce5c') in 0.018169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085657 seconds.
+  path: Assets/Scenes/Testing/Programmer_Test.unity
+  artifactKey: Guid(db7f595460328054b81a8865db154ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Testing/Programmer_Test.unity using Guid(db7f595460328054b81a8865db154ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874ec6d549cebd1a7c98a705714fed69') in 0.007777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058065 seconds.
+  path: Assets/Art/lvlpng/lvl8.png
+  artifactKey: Guid(71a2a1c15cddd244288c393aad766615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl8.png using Guid(71a2a1c15cddd244288c393aad766615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04836d99a0a27670735b53e46d640cc1') in 0.019677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157440 seconds.
   path: Assets/Prefabs/Building Strut Prefabs/WoodBuilding2.prefab
   artifactKey: Guid(64abd85b0e31e514b8941f261d585f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/WoodBuilding2.prefab using Guid(64abd85b0e31e514b8941f261d585f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782208ced94b6f38349054ed1e72683b') in 0.026520 seconds 
+Start importing Assets/Prefabs/Building Strut Prefabs/WoodBuilding2.prefab using Guid(64abd85b0e31e514b8941f261d585f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471629899d78c4a0a0f3f8ac80759b11') in 0.025649 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Prefabs/Building Strut Prefabs/Building 3.prefab
-  artifactKey: Guid(9ad6cdf7190a7734180fb347a4597d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/Building 3.prefab using Guid(9ad6cdf7190a7734180fb347a4597d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86ede3a6f96f6164998c4f8a86a3158') in 0.016866 seconds 
+  Time since last request: 0.014075 seconds.
+  path: Assets/Scenes/FinalLevels/LevelsMenu.unity
+  artifactKey: Guid(4127fe87f85bf7844bc428666049b8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/LevelsMenu.unity using Guid(4127fe87f85bf7844bc428666049b8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ebc77a7fa8faa62d973054454f79af') in 0.008148 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000091 seconds.
+  Time since last request: 0.049541 seconds.
+  path: Assets/Art/lvlpng/lvl2.png
+  artifactKey: Guid(d59b7e47bc20be44f86784796e606f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl2.png using Guid(d59b7e47bc20be44f86784796e606f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6720067fd209be0da9f7c2af5f8a7fb5') in 0.020061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036616 seconds.
+  path: Assets/Prefabs/Building Strut Prefabs/WoodBuilding.prefab
+  artifactKey: Guid(0c53fd2681629d24f9fc8f08bcc887e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Strut Prefabs/WoodBuilding.prefab using Guid(0c53fd2681629d24f9fc8f08bcc887e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2e67dbddbbac2774aa9773a282984e') in 0.022859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.134315 seconds.
+  path: Assets/Art/Buildings/Wood/foundation and metal
+  artifactKey: Guid(1467e903504ed98469da1da07a6d58a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buildings/Wood/foundation and metal using Guid(1467e903504ed98469da1da07a6d58a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfb6b2d1b424b3c3090cf5621640211') in 0.007742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027647 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d05d14ff9a75556abac3531d6e93cac') in 0.037124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068909 seconds.
   path: Assets/Prefabs/Building Strut Prefabs/Building 6.prefab
   artifactKey: Guid(7fe0f29746179df4db1bb977058e8b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Strut Prefabs/Building 6.prefab using Guid(7fe0f29746179df4db1bb977058e8b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863eb882885caae6c40faaa55952cfa2') in 0.021806 seconds 
+Start importing Assets/Prefabs/Building Strut Prefabs/Building 6.prefab using Guid(7fe0f29746179df4db1bb977058e8b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8118a3059daf540ca26f015aa1c98b1b') in 0.033142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.856894 seconds.
+  Time since last request: 0.072833 seconds.
+  path: Assets/Art/lvlpng/lvl7.png
+  artifactKey: Guid(a3075e2eb9dcad34bb85fe6133fe3183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl7.png using Guid(a3075e2eb9dcad34bb85fe6133fe3183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eafc2c1eff1760eb360bd694f09202') in 0.023172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040061 seconds.
+  path: Assets/Prefabs/UI/Bar GRP.prefab
+  artifactKey: Guid(3b54b14941eaeba4ab30dfac9abfbfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Bar GRP.prefab using Guid(3b54b14941eaeba4ab30dfac9abfbfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f35335548aa9bcc47e3dd74cc24594') in 0.040241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006800 seconds.
+  path: Assets/Prefabs/Building Strut Prefabs/Building 1.prefab
+  artifactKey: Guid(1e66c7040e69e0e4dad936ca062b38ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Strut Prefabs/Building 1.prefab using Guid(1e66c7040e69e0e4dad936ca062b38ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1640137ac406d5b660007bb4651b798c') in 0.028927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266067 seconds.
+  path: Assets/Scenes/FinalLevels/FL_17_Pablo.unity
+  artifactKey: Guid(db4902cc1b3f73945a8a522fd1af6393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/FL_17_Pablo.unity using Guid(db4902cc1b3f73945a8a522fd1af6393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043e28c5779a902588612a0ce5787f22') in 0.008295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037951 seconds.
+  path: Assets/Scenes/FinalLevels/FL_1_Liam.unity
+  artifactKey: Guid(f7c0a49100122eb40b9753ac1cf21444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/FL_1_Liam.unity using Guid(f7c0a49100122eb40b9753ac1cf21444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f200a821b4d25f53aac3660e7e9dcab4') in 0.012423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038104 seconds.
+  path: Assets/Scenes/FinalLevels/Main_Rotor.controller
+  artifactKey: Guid(2237afd419d124e4c9582a3bda320578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/Main_Rotor.controller using Guid(2237afd419d124e4c9582a3bda320578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e4e7ffb6f564d5756a6265def0d0a0') in 0.015093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.237879 seconds.
+  path: Assets/Scenes/FinalLevels/Controls.unity
+  artifactKey: Guid(1921f6939786a3d49b8bd06f024058dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/Controls.unity using Guid(1921f6939786a3d49b8bd06f024058dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17da501ffb5d09ff005761ca64e0a28c') in 0.008676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035357 seconds.
+  path: Assets/Scenes/Testing
+  artifactKey: Guid(b672a32b1c83fc14bb24bbb33b52b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Testing using Guid(b672a32b1c83fc14bb24bbb33b52b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1695a7f0b9b5b1b92cad2221fbdd46c') in 0.007024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.209251 seconds.
+  path: Assets/Art/lvlpng/lvl5.png
+  artifactKey: Guid(10a6b9de81856f648b1ed32f6ae411cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl5.png using Guid(10a6b9de81856f648b1ed32f6ae411cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b065eabf8950411ca9d9829fc36af3') in 0.021531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035871 seconds.
+  path: Assets/Scripts/GooberTesting/tellDamage.cs
+  artifactKey: Guid(5de7007762e38894580acde3043a40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GooberTesting/tellDamage.cs using Guid(5de7007762e38894580acde3043a40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230a8ee66c9dd927bc21205bd994576d') in 0.006536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.241572 seconds.
+  path: Assets/Prefabs/Building Strut Prefabs/struct_woodenBuilding_lp.prefab
+  artifactKey: Guid(8b7670fbba62d7a408ae84aae6c7742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Strut Prefabs/struct_woodenBuilding_lp.prefab using Guid(8b7670fbba62d7a408ae84aae6c7742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905972038ad025807e4423951664ba9a') in 0.026374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170807 seconds.
+  path: Assets/Prefabs/Building Strut Prefabs/Building 7.prefab
+  artifactKey: Guid(bf66bb3370f3e4f4aa28830735fb5d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Strut Prefabs/Building 7.prefab using Guid(bf66bb3370f3e4f4aa28830735fb5d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40cbbc5bfc5130569cafd5e81bd0278') in 0.031395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118982 seconds.
+  path: Assets/Scripts/LevelProgression.cs
+  artifactKey: Guid(76569b91127a65a4188116e8e9c9401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelProgression.cs using Guid(76569b91127a65a4188116e8e9c9401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3c9120a5f7ac8c2289e4e8253547f8') in 0.011425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006284 seconds.
+  path: Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal.fbx
+  artifactKey: Guid(fc59f095810bc684581dcf12d4720145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buildings/Wood/foundation and metal/woodfound and metal.fbx using Guid(fc59f095810bc684581dcf12d4720145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e483ae816714103bd2c32d6751d771ee') in 0.077924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009924 seconds.
+  path: Assets/Art/lvlpng/lvl4.png
+  artifactKey: Guid(362f51cc6b453b34d8b34acb1249ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl4.png using Guid(362f51cc6b453b34d8b34acb1249ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c025aab740b9b3e3247aefaeffc9a57b') in 0.018609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011412 seconds.
+  path: Assets/Prefabs/Building Strut Prefabs/Building 3.prefab
+  artifactKey: Guid(9ad6cdf7190a7734180fb347a4597d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Strut Prefabs/Building 3.prefab using Guid(9ad6cdf7190a7734180fb347a4597d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0194d2dcffc3f9db2e506c3773f77b6') in 0.019514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035983 seconds.
+  path: Assets/Art/Font/DK Smiling Cat SDF.asset
+  artifactKey: Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Font/DK Smiling Cat SDF.asset using Guid(d88094e238d3cef48ae64985173f0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f91848e1b6f15498975be1c9c060b1') in 0.045754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028919 seconds.
+  path: Assets/Art/lvlpng/lvl17.png
+  artifactKey: Guid(a5c9f39f8a3688f4f9fb95671ce877a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng/lvl17.png using Guid(a5c9f39f8a3688f4f9fb95671ce877a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f3ac466b0422ecb9a7e0a97973e408') in 0.022600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024936 seconds.
+  path: Assets/Audio/Explosion_03.wav
+  artifactKey: Guid(9021e80de88b4a54a812d07f84f9aaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Explosion_03.wav using Guid(9021e80de88b4a54a812d07f84f9aaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b93b982398ff81f0823d64dbbc5b966') in 0.022376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032123 seconds.
+  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
+  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ab7c32f3dae94d7f5d66db0d95b72c') in 0.016165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029470 seconds.
+  path: Assets/Scenes/FinalLevels/FL_19_Pablo.unity
+  artifactKey: Guid(37ce5d9a634c675468f12058688cb876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/FL_19_Pablo.unity using Guid(37ce5d9a634c675468f12058688cb876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf53110b7d2102a0b4315a9ad0835e2') in 0.011141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035654 seconds.
+  path: Assets/Scenes/FinalLevels/FL_18_Pablo.unity
+  artifactKey: Guid(a14c30ace92dda44e95ea649b5f7dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/FL_18_Pablo.unity using Guid(a14c30ace92dda44e95ea649b5f7dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325f32bb9345141018f32f6a9e4a7d07') in 0.008261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022242 seconds.
+  path: Assets/Scenes/FinalLevels/StartMenu.unity
+  artifactKey: Guid(3cd5f464a9061604f857afaf95d370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/StartMenu.unity using Guid(3cd5f464a9061604f857afaf95d370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ebe63cc0368f8ce80196d9c0e73a21') in 0.008188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016659 seconds.
+  path: Assets/Scenes/FinalLevels/FL_16_Pablo.unity
+  artifactKey: Guid(a77778c84be1c1f4693f55db790d0ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/FL_16_Pablo.unity using Guid(a77778c84be1c1f4693f55db790d0ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eaaa67b2439fee1d1911c70b7bdddb') in 0.007534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016707 seconds.
+  path: Assets/Art/lvlpng
+  artifactKey: Guid(b7abe458ecb66ae4f98169e3f15c8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/lvlpng using Guid(b7abe458ecb66ae4f98169e3f15c8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01820350658c354a1a196f119377c480') in 0.007353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064863 seconds.
+  path: Assets/Scenes/FinalLevels/FL_5_Liam.unity
+  artifactKey: Guid(b86d1a31cd21e97458710a362fd65777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinalLevels/FL_5_Liam.unity using Guid(b86d1a31cd21e97458710a362fd65777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b602500f81abeb89ab7d324116cf051a') in 0.008709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050003 seconds.
   path: Assets/Prefabs/ModularBuildings/structs/wood_foundation_intact.prefab
   artifactKey: Guid(59d93cdd09508de4babb1ed01b54e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/wood_foundation_intact.prefab using Guid(59d93cdd09508de4babb1ed01b54e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295cb000a9da30ff3d7cadbb6bde9de8') in 0.022552 seconds 
+Start importing Assets/Prefabs/ModularBuildings/structs/wood_foundation_intact.prefab using Guid(59d93cdd09508de4babb1ed01b54e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935424c5ffc857b0bc5208ceba61a299') in 0.013772 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.633865 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1797a26373027e7515d799c641357ff0') in 0.016990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.770198 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939e32acaa607fe78075788cd84842f1') in 0.018048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.603840 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d10b40d7199ffc0bc8fa0295221c8a') in 0.016189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.257577 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f5f9a1b25e975039945d73ef09d73c') in 0.015908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.992732 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1267fb5d8ffc53e522149a5ade1be5') in 0.011507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.405627 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c89b72ce6792a43e6b3fb31c883704') in 0.016837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.207175 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a1752b5c33ae5b25cd61a000ed4658') in 0.015962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.822736 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284657c019834e1db327bd61ae401acd') in 0.028021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.173397 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa5d97a791ba9d2814454d73c26d7f3') in 0.016497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.792573 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187d904426f751863769e1406d442e8f') in 0.015105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.004750 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce6395b0764503f57152e9f506fad5f') in 0.012828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.195994 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd2d07ca0d680cdffcfb4fcf150b43a') in 0.016280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.384835 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548d0378c7fd92f4ba406e11ab20ae70') in 0.014607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.793011 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec5ea1259942e71a12cbc77c49d36ed') in 0.017957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.194425 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a90a632f828227f62aea9120739b08a') in 0.015815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.989775 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856502c5f0ddce47fcd93fa782b29071') in 0.015185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.406250 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1448153e10764711ae1b2d2c32b2d77') in 0.011973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.488137 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cef5718e9a6a07b7d648538cd69749a') in 0.015418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.792663 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317521bcb586a5a3532cea5ffa08e5bd') in 0.012538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.326969 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fba0d5339bd59085fafc0a3a74df99e') in 0.013214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.206465 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff48b6aaa8fd69304060acf5b595b37') in 0.012421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.987279 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7113a1f7e140a452cdff533f96dc450c') in 0.014022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.824864 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ccf2466c3c2c6806732214d104cc81') in 0.014858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.399415 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6223ffe64b4bb7d0658c8244c75711e') in 0.014545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.602179 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3fcdbc0a24f46794f36d5a6565b67d') in 0.014342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.790014 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c542789f7bea4becd761e8631c76d1') in 0.013829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.941911 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f166bcb41334181efdeeb1cb0234df7') in 0.014110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.804380 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53623dce36d35c8020a35ed7986dd59') in 0.015112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.394232 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53d2c28bec1b93be22af325bc0b3db1') in 0.014677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.404018 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb3c50f0724074121d8574524734dc3') in 0.014890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.794427 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a736f3d315866bfd2feb86757669b0') in 0.016499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.797255 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2a1f09edad3b63be9ffbabfa83693f') in 0.017177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.619741 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e4fdbaf7be4690b0dfb82d4d21ce30') in 0.014500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.077427 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8392dcbd328f3fbc6f6663b19a6e336') in 0.021873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.003125 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae66e8436f042b88784c149e40216bf6') in 0.013492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.997214 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fa0eb1ceb99bc865a2f0400db3a18c') in 0.019637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.560045 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f7b182790dee4b5e3b024df87057d0') in 0.027999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.268112 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a44a20b8aa5bdf3c199967318620723') in 0.016991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.597583 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d0ef7b4c0b6c0b1dddcd7d57d41e89') in 0.012576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.023474 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327741c7f3744d4b2d3fb7dfe155d076') in 0.014563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.788312 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b397d31ca0806e847d1ea5105eb81e') in 0.019896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.205802 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecb747a66d4ba1a5798d9a4ec459d87') in 0.014577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.192736 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd8024a852e8b401f906c50b389f1c4') in 0.015023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.389793 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af75a85de4c2121d88232a9b3ec3cf82') in 0.016850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.589688 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74af498f75323d3950cd2e1864c43eb0') in 0.018636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.594658 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd713eee8c96ddc6ae8c20117a4cc520f') in 0.013055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.806274 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db27d445c618d2ff3565b4270413962a') in 0.016037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.194135 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d44a67f6b648253e89dda75e06ff31') in 0.016385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.596236 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c00c6e85455d3eff70c91336066d29') in 0.015847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.188747 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace5b4fe499ac9bf6f4c681be6a50a67') in 0.016633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.597934 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e2df58ee6fd4e0b685235409b6af62') in 0.016075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.199875 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd457961428280df7a07fed16d4a9ddd3') in 0.016530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.985912 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fae4e37fb7a16324d005d7bed92d48') in 0.016451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.230793 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50610a36a9d5f901459afdc247799e9') in 0.014702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.990919 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef1e23fe643d20baaf63d1cd66750b7') in 0.015540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.668831 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab
-  artifactKey: Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/wood_foundation_broke.prefab using Guid(217ca664cc2c2ad4eb663a290096db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655a2a4fe61b54b1e0fb904d63ee0fe4') in 0.013645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.951161 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/metal_found.prefab
-  artifactKey: Guid(2c7136bb57025744191484b995ec9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/metal_found.prefab using Guid(2c7136bb57025744191484b995ec9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd127003e74ab9803bc08ccc15fcd3ee8') in 0.017936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.174523 seconds.
-  path: Assets/Prefabs/ModularBuildings/structs/broke/metal_found.prefab
-  artifactKey: Guid(2c7136bb57025744191484b995ec9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModularBuildings/structs/broke/metal_found.prefab using Guid(2c7136bb57025744191484b995ec9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e00526d71afaad1393c3858787f613') in 0.016337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.556245 seconds.
-  path: Assets/Scenes/FinalLevels/FL_2_Liam.unity
-  artifactKey: Guid(fa064631b092adf48aa64efdd8c35f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FinalLevels/FL_2_Liam.unity using Guid(fa064631b092adf48aa64efdd8c35f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c5a6812661ab90fe20aa3cd60c106e') in 0.008937 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001122 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000252F1B7B420 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252FA469FF0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F28B3010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7B2A030 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7370620 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1BA9010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252FA95E350 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1E47840 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1C89C50 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1BB4E30 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252FA8E0320 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1F77990 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7370620 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F37A4710 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F378E010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252FA14D6E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7A7E3F0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7A7E3F0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252EE8BE920 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1DEBD10 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F378E010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7A7E3F0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252FA14D6E0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252FA14EA40 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7A7E3F0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F1FAC3B0 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252FAD19010 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000252F7AA6A00 doesn't match image E:\CAGD 470\New Repository\Project\RR\Roto_Rescue\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
-Domain Reload Profiling:
-	ReloadAssembly (668ms)
-		BeginReloadAssembly (85ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (550ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (222ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3148 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.0 MB.
-System memory in use after: 146.3 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3798.
-Total: 2.278200 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.012500 ms  DeleteObjects: 0.022500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
->>>>>>> LIAM-New
+  Time since last request: 0.022901 seconds.
+  path: Assets/Art/Buildings/Wood
+  artifactKey: Guid(fe21e194bd640d84eb8de8a58fb21c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buildings/Wood using Guid(fe21e194bd640d84eb8de8a58fb21c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c912d7ac1a99008578118b4d75ce2993') in 0.007719 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
