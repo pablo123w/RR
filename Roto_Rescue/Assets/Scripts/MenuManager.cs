@@ -11,7 +11,7 @@ public class MenuManager : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject levelSelectUI;
     public int level;
-
+   // public bool goreAllowed = false;
     public void Start()
     {
         Time.timeScale = 1f;
@@ -41,6 +41,7 @@ public class MenuManager : MonoBehaviour
             Pause();
         }
     }
+   
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

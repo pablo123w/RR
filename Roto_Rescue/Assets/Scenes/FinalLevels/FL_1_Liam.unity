@@ -8258,36 +8258,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1366705407 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6582945359376498253, guid: 59d93cdd09508de4babb1ed01b54e9a6, type: 3}
-  m_PrefabInstance: {fileID: 1168738848}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1366705411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366705407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bfba80e94f867947a899e05ebc37ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &1366705412
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366705407}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1374477632
 GameObject:
   m_ObjectHideFlags: 0
@@ -14984,6 +14954,9 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  Gore: {fileID: 0}
+  gore: 0
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -15369,6 +15342,9 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  Gore: {fileID: 0}
+  gore: 0
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -45700,6 +45676,9 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  Gore: {fileID: 0}
+  gore: 0
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -56256,6 +56235,9 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  Gore: {fileID: 0}
+  gore: 0
   GoobStrength: 2
   isGrabbed: 0
   Splat:
@@ -56455,6 +56437,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[7].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1672824720}
+    - target: {fileID: 9102320649905171361, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
 --- !u!1 &6803078064943761549 stripped
@@ -61260,7 +61246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!198 &7265425531509272660
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -66066,6 +66052,9 @@ MonoBehaviour:
   hpdivider: 0.5
   BloodMagnitude: 10
   Player: {fileID: 0}
+  can: {fileID: 0}
+  Gore: {fileID: 0}
+  gore: 0
   GoobStrength: 2
   isGrabbed: 0
   Splat:
