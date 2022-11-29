@@ -36,7 +36,7 @@ public class GoobTube : MonoBehaviour
                 UpdateScoreText();
             }
             
-            Destroy(other.transform.root.gameObject);
+            Destroy(other.transform.gameObject);
         }
     }
 }

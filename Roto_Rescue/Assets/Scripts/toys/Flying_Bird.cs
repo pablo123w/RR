@@ -9,6 +9,7 @@ public class Flying_Bird : MonoBehaviour
     public bool isRight;
     public bool isLeft;
     private SpriteRenderer sp;
+    public GameObject gmOver;
     public void Start()
     {
         sp = GetComponent<SpriteRenderer>();
@@ -33,7 +34,9 @@ public class Flying_Bird : MonoBehaviour
         }
         if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            gmOver.SetActive(true);
+           Debug.Log("Light Yagami Almost Became a God");
         }
         if(other.gameObject.tag == "RGBullet")
         {
