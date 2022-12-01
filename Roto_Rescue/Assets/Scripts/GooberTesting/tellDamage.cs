@@ -10,9 +10,10 @@ public class tellDamage : MonoBehaviour
 	public float BloodMagnitude = 10;
 
 	public GameObject Player;
-
+	public GoreSetting can;
+	public GameObject Gore;
 	private float HitImpact;
-	 
+	public bool gore;
 	public float GoobStrength = 0;
 	public bool isGrabbed = false;
 
@@ -24,6 +25,8 @@ public class tellDamage : MonoBehaviour
 	{
 		GoobScript = DaddyGoob.GetComponent<goobScript>();
 		Player = GameObject.Find("player_Claw");
+		can = Gore.GetComponent<GoreSetting>();
+		
 	}
 
 	private void OnCollisionEnter(Collision other)
@@ -57,17 +60,21 @@ public class tellDamage : MonoBehaviour
 	{
 		if (HitImpact > GoobStrength)
 		{
-			//splat
-			//Instantiate(Splat1, this.transform.position, Quaternion.identity);
-			//Instantiate(Splat2, this.transform.position, Quaternion.identity);
-			Debug.Log("goob impact is " + HitImpact);
-			if (HitImpact > BloodMagnitude && GoobScript.goobhp > 0)
-			{
-				//for (int i = 0; i < Splat.Length; i++)
-				//{
-				//	Splat[i].Play();
-				//}
+            //splat
+            //Instantiate(Splat1, this.transform.position, Quaternion.identity);
+            //Instantiate(Splat2, this.transform.position, Quaternion.identity);
+            Debug.Log("goob impact is " + HitImpact);
+			if(GoreSetting.goreAllowed == true)
+            {
+				if (HitImpact > BloodMagnitude && GoobScript.goobhp > 0)
+				{
+					for (int i = 0; i < Splat.Length; i++)
+					{
+						Splat[i].Play();
+					}
+				}
 			}
+           
 
 			//take damage
 			GoobScript.TakeDamage((HitImpact*hpdivider));

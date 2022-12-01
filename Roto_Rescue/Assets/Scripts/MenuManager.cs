@@ -11,7 +11,11 @@ public class MenuManager : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject levelSelectUI;
     public int level;
-
+   // public bool goreAllowed = false;
+    public void Start()
+    {
+        Time.timeScale = 1f;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -37,6 +41,7 @@ public class MenuManager : MonoBehaviour
             Pause();
         }
     }
+   
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -103,7 +108,10 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(level);
     }
-   
+   public void LoadLevelMenu()
+    {
+        SceneManager.LoadScene("LevelsMenu");
+    }
     public void FeedBack()
     {
         Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSfe-IbHGC93m3ysvZFCT8lD2ASLccXP6rexaZLjNLuM0D6Iyw/viewform");
