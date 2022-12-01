@@ -36,6 +36,11 @@ public class Flying_Bird : MonoBehaviour
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             gmOver.SetActive(true);
+            Rigidbody rg;
+            rg = other.GetComponent<Rigidbody>();
+            rg.constraints = RigidbodyConstraints.FreezeAll;
+           
+         
            Debug.Log("Light Yagami Almost Became a God");
         }
         if(other.gameObject.tag == "RGBullet")
