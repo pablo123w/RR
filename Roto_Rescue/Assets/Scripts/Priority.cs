@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- 
+
 public class Priority : MonoBehaviour
 {
     List<GameObject> collisions = new List<GameObject>();

@@ -9,7 +9,7 @@ public class ScoreTutTrigger : MonoBehaviour
 
 	private void Start()
 	{
-		ST = TutManager.GetComponent<ScoreTut>(); 
+		ST = TutManager.GetComponent<ScoreTut>();
 	}
 	private void OnTriggerEnter(Collider other)
 	{
