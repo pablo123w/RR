@@ -40,26 +40,20 @@ public class Railgun : ToolBase_Guns
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("f"))
-        {
-                shooting();
-                //shshs();
-                KickBack();
-            fg.Play();
-            StartCoroutine(WaitToShoot());
-           
-        }
-        if (Input.GetKeyUp("f"))
-        {
-            //rg.Stop();
-        }
-        //Aim();
+        //if (Input.GetKeyDown("f"))
+        //{
+        //    shooting();
+        //    fg.Play();
+        //    KickBack();
+        //    StartCoroutine(WaitToShoot());
+
+        //}
+        //if (Input.GetKeyUp("f"))
+        //{
+        //    //rg.Stop();
+        //}
     }
-    
-  //public void Aim()
-  //{
-  //      transform.LookAt(speedRot * new Vector3(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2, 0));
-  //}
+
     public void KickBack()
     {
         if (_shakeTimer > 0)
@@ -83,28 +77,15 @@ public class Railgun : ToolBase_Guns
 		if (CanShoot)
 		{
             shooting();
+            fg.Play();
             KickBack();
             StartCoroutine(WaitToShoot());
         }
     }
-    public void aim(InputAction.CallbackContext context)
-    {
-        
-        //targetPosition = context.ReadValue<Vector2>();
-
-        //gunPivot.transform.rotation = Quaternion.Euler(0, 0, targetPosition.x * 90 + targetPosition.y * 90);
-
-
-        //if (targetPosition.y < 0)
-        //    gunPivot.transform.rotation = Quaternion.FromToRotation(gunPivot.transform.position, targetPosition);
-        //else if (targetPosition.y > 0 && targetPosition.x < 0)
-        //    gunPivot.transform.rotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.left);
-        //else if (targetPosition.y > 0 && targetPosition.x > 0)
-        //    gunPivot.transform.rotation = Quaternion.FromToRotation(gunPivot.transform.position, Vector3.right);
-    }
 
 	public IEnumerator WaitToShoot()
 	{
+        
         CanShoot = false;
         yield return new WaitForSeconds(1f);
         CanShoot = true;
