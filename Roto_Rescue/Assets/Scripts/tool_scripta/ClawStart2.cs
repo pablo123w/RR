@@ -27,6 +27,9 @@ public class ClawStart2 : MonoBehaviour
     public Material GreenLight;
     public Material YellowLight;
 
+    //audio
+    public AudioSource Grab;
+
     private void Start()
 	{
         HM = Ply.gameObject.GetComponent<HeloMovement>();
@@ -116,6 +119,8 @@ public class ClawStart2 : MonoBehaviour
                     ObjectInQuestion.transform.parent = gameObject.transform;
                     Rigidbody rb = ObjectInQuestion.GetComponent<Rigidbody>();
 
+                    
+
 					//add joint to picked up object
 					if (rb != null && !IsGoober)
 					{
@@ -126,6 +131,13 @@ public class ClawStart2 : MonoBehaviour
 
 					//animate
 					Animator.SetBool("isClosed", true);
+
+					//play grab sfx
+					if (!IsGoober)
+					{
+                        Grab.pitch = (Random.Range(1f, 1.5f));
+                        Grab.Play();
+                    }
 
                     rb.velocity = Vector3.zero;
                     rb.useGravity = true;

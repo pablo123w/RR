@@ -9,6 +9,9 @@ public class WeaponsSwitch : MonoBehaviour
     public GameObject tool_3;
     public GameObject tool_2;
 
+    public AudioSource ClawEquip;
+    public AudioSource RailEquip;
+
     Railgun rg;
     private void Start()
     {
@@ -52,6 +55,9 @@ public class WeaponsSwitch : MonoBehaviour
         tool_2.SetActive(false);
       //  tool_3.SetActive(false);
         GameObject.Find("railgun_placeholder").GetComponent<Railgun>().enabled = false;
+        //play claw sound
+        ClawEquip.Play();
+        
 
     }
     public void sWeaponsTwo(InputAction.CallbackContext context)
@@ -59,6 +65,9 @@ public class WeaponsSwitch : MonoBehaviour
         tool_1.SetActive(false);
         tool_2.SetActive(true);
         //tool_3.SetActive(false);
+        //play railgun sound
+        RailEquip.Play();
+
        
     }
     public void sWeaponsThree(InputAction.CallbackContext context)

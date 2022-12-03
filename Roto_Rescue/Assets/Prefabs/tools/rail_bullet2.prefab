@@ -219,6 +219,7 @@ MonoBehaviour:
   GreenLight: {fileID: 2100000, guid: 1899896da2d06294c8db9169714864bd, type: 2}
   OrangeLight: {fileID: 2100000, guid: f88d1c5411734eb438c3492887845af2, type: 2}
   Explosion: {fileID: 5141389379725151250, guid: c15f6c74f55f3ed4bbb6e21b0905b145, type: 3}
+  RailExplosion: {fileID: 0}
 --- !u!54 &7003504756490020993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -245,9 +246,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6fbcfbbbf739bdf4b9bccab6b501f6fd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0d709e9b0d956a04b97acf0971f5b859, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0

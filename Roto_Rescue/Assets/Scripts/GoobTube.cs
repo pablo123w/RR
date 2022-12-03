@@ -12,6 +12,8 @@ public class GoobTube : MonoBehaviour
     public GameObject Canvas;
     LevelProgression LP;
 
+    public AudioSource GoobYay;
+
     void Start()
     {
         LP = Canvas.GetComponent<LevelProgression>();
@@ -27,16 +29,22 @@ public class GoobTube : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("C_Goober"))
+        if (other.gameObject.CompareTag("C_Goober"))
         {
             //collectedhp = other.GetComponent<goobScript>().goobhp;
             if (other.GetComponent<goobScript>().goobhp > 0)
             {
                 LP.AddGoober();
                 UpdateScoreText();
+
+                //play sfx
+                GoobYay.pitch = (Random.Range(0.5f, 1.5f));
+                GoobYay.Play();
+                
             }
-            
-            Destroy(other.transform.gameObject);
+           // other.gameObject.SetActive(false);
+            Destroy(other);
         }
     }
+    
 }
