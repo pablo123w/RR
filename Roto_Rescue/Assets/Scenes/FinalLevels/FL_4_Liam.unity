@@ -7449,6 +7449,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 57745472}
     m_Modifications:
+    - target: {fileID: 131614795904555911, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239159490093542946, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -10.4941225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239159490093542946, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 11.684248
+      objectReference: {fileID: 0}
     - target: {fileID: 2337060222852063369, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
       propertyPath: m_Name
       value: Player_Final
@@ -7513,7 +7525,8 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[7].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ctrlMenu
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6800265136096261832, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 03918672d93e2fe4ab6f7dd60197a7d9, type: 3}
 --- !u!4 &1613580277 stripped
 Transform:
