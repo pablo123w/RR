@@ -12,6 +12,8 @@ public class GoobTube : MonoBehaviour
     public GameObject Canvas;
     LevelProgression LP;
 
+    public AudioSource GoobYay;
+
     void Start()
     {
         LP = Canvas.GetComponent<LevelProgression>();
@@ -34,7 +36,12 @@ public class GoobTube : MonoBehaviour
             {
                 LP.AddGoober();
                 UpdateScoreText();
+
+                //play sfx
+                GoobYay.pitch = (Random.Range(0.5f, 1.5f));
+                GoobYay.Play();
             }
+            
             
             Destroy(other.transform.gameObject);
         }

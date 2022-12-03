@@ -6,9 +6,9 @@ public class goobScript : MonoBehaviour
 {
 	public float goobhp = 100f;
 	private float originGoobhp;
-    public float deadGoober = 0f;
+	public float deadGoober = 0f;
 	public bool isDead = false;
-    public float impact;
+	public float impact;
 	public int deathNote = 0;
 	//color change stuff
 	public GameObject daddyGoob;
@@ -29,12 +29,25 @@ public class goobScript : MonoBehaviour
 	public bool IsGrabbed;
 
 	//shaking
-	
+
 	private Transform transformG;
 	public float shakeDuration;
 	public float shakeMagnitude;
 	private float dampingSpeed = 1.0f;
 	Vector3 initialPosition;
+
+	//sound for grab
+	public AudioSource GrabGoober;
+
+	//sounds for hurt
+	public AudioSource HurtAS;
+	public AudioClip[] Hurt;
+	public AudioClip HurtClip;
+
+	//sounds for death
+	public AudioSource DeathAS;
+	public AudioClip[] Death;
+	public AudioClip DeathClip;
 
 	void Start()
 	{
@@ -88,11 +101,20 @@ public class goobScript : MonoBehaviour
 
 	public void death()
 	{
+		if (isDead)
+		{
+			//play sound
+			int index = Random.Range(0, Death.Length);
+			DeathClip = Death[index];
+			DeathAS.clip = HurtClip;
+			DeathAS.pitch = (Random.Range(0.5f, 1.5f));
+			DeathAS.Play();
 
-		mat.color = new Color(0.13f, 0f, 0.98f);
-		//deathNote++;
-		//gameObject.tag = "Pickupable";
-    }
+			mat.color = new Color(0.13f, 0f, 0.98f);
+			//deathNote++;
+			//gameObject.tag = "Pickupable";
+		}
+	}
 
 
 	public void TakeDamage(float impact)
@@ -103,6 +125,13 @@ public class goobScript : MonoBehaviour
 			HealthConversion();
 			//Debug.Log(this.name + " HEALTH: " + goobhp);
 			LP.LoseBlood(impact);
+
+			//play sound
+			int index = Random.Range(0, Hurt.Length);
+			HurtClip = Hurt[index];
+			HurtAS.clip = HurtClip;
+			HurtAS.pitch = (Random.Range(0.5f, 1.5f));
+			HurtAS.Play();
 		}
 	}
 	private void HealthConversion()
@@ -118,7 +147,7 @@ public class goobScript : MonoBehaviour
 
 	public void TellGrabbed()
 	{
-		Debug.Log("tell grabbed");
+		
 		foreach (Transform transform in this.GetComponentsInChildren<Transform>())
 		{
 			if(transform.GetComponent<tellDamage>() != null)
@@ -127,6 +156,12 @@ public class goobScript : MonoBehaviour
 				Debug.Log("is grabbed = " + transform.GetComponent<tellDamage>().isGrabbed);
 			}
 		}
+		if (!isDead)
+		{
+			GrabGoober.pitch = (Random.Range(0.5f, 1.5f));
+			GrabGoober.Play();
+		}
+
 	}
 
 	public void TellNotGrabbed()

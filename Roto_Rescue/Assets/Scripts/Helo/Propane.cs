@@ -12,6 +12,8 @@ public class Propane : Splosive
 	public Vector3 Power;
 	public float Twist;
 
+	public AudioSource Hiss;
+
 	private void Start()
 	{
 		Farter = GetComponent<ConstantForce>();
@@ -25,6 +27,9 @@ public class Propane : Splosive
 
 	IEnumerator Fart()
 	{
+		// play sound
+		Hiss.Play();
+
 		//play particle systems
 		for (int i = 0; i < Trail.Length; i++)
 		{
