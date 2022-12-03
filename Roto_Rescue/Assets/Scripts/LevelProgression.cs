@@ -56,7 +56,7 @@ public class LevelProgression : MonoBehaviour
     {
         POPUPNT();
         scoreUI.text = scorePercentUI + "%";
-       POPfail();
+        POPfail();
         //LosePoint();
         Debug.Log("k: " + TotalGoobHP);
         
