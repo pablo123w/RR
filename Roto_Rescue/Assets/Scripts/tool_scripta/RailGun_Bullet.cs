@@ -21,10 +21,13 @@ public class RailGun_Bullet : Splosive
 
     public ParticleSystem Explosion;
 
+    public AudioSource RailExplosion;
+
     // Start is called before the first frame update
     void Start()
     {
         ThisBullet = this.gameObject;
+        RailExplosion = GameObject.Find("Player_Final").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -64,8 +67,9 @@ public class RailGun_Bullet : Splosive
         yield return new WaitForSeconds(3f);
 
         //explode
-
+        RailExplosion.Play();
         Explode();
+        
 
 		//Instantiate(Explosion, this.transform.position, Quaternion.identity);
 
