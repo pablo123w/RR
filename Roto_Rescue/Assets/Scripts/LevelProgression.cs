@@ -22,6 +22,13 @@ public class LevelProgression : MonoBehaviour
     public Image GooberSavedImage;
     public GameObject NTLevel;
     public GameObject NextLevelButton;
+    public GameObject gh;
+    public GameObject gf;
+    public GameObject gt;
+    public GameObject gs;
+    public GameObject ga;
+    public GameObject TT;
+
     public GameObject fail;
 
     private GameObject[] TotalGoobers;
@@ -118,10 +125,17 @@ public class LevelProgression : MonoBehaviour
     }
     public void POPUPNT()
     {
-        if (ScorePercent > 0.5f)
+        if (Score == GoobCount)
         {
             Debug.Log("50% has been reached!");
             NTLevel.SetActive(true);
+            NextLevelButton.SetActive(true);
+           // ga.SetActive(false);
+            gs.SetActive(false);
+            gh.SetActive(false);
+            gf.SetActive(false);
+            gt.SetActive(false);
+            TT.SetActive(true);
         }
     }
     public void POPfail()
