@@ -110,7 +110,7 @@ public class goobScript : MonoBehaviour
 			DeathAS.pitch = (Random.Range(0.5f, 1.5f));
 			DeathAS.Play();
 
-			mat.color = new Color(0.13f, 0f, 0.98f);
+			mat.color = new Color(0.3f, 0.3f, 0.4f);
 			//deathNote++;
 			//gameObject.tag = "Pickupable";
 		}
@@ -197,11 +197,12 @@ public class goobScript : MonoBehaviour
 
         }
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == "de")
-        {
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "de")
+		{
 			Destroy(this.gameObject);
-        }
-    }
+		}
+	}
+   
 }
