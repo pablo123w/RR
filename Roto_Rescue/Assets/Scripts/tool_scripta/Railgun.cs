@@ -40,14 +40,14 @@ public class Railgun : ToolBase_Guns
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown("f"))
-        //{
-        //    shooting();
-        //    fg.Play();
-        //    KickBack();
-        //    StartCoroutine(WaitToShoot());
+        if (Input.GetKeyDown("f"))
+        {
+            shooting();
+            fg.Play();
+            KickBack();
+            StartCoroutine(WaitToShoot());
 
-        //}
+        }
         //if (Input.GetKeyUp("f"))
         //{
         //    //rg.Stop();
