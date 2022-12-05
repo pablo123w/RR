@@ -11,13 +11,14 @@ public class TeleporterIn : MonoBehaviour
 	{
 		Teleporter = tpm.GetComponent<Teleporter>();
 	}
-	private void OnTriggerEnter(Collider other)
-	{
-		if (other.gameObject.tag == "prop")
-		{
-			Teleporter.PropGoIn();
-			Destroy(other.gameObject);
-		}
-	}
+	//private void OnTriggerEnter(Collider other)
+	//{
+	//	if (other.CompareTag("Pickupable"))
+	//	{
+	//		Vector3 ObjectVelocity = other.GetComponent<Rigidbody>().velocity;
+	//		Teleporter.PropGoIn(ObjectVelocity);
+	//		Destroy(other.gameObject);
+	//	}
+	//}
 
 }

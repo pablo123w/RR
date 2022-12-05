@@ -57,12 +57,10 @@ public class RailGun_Bullet : Splosive
     public IEnumerator TimedCharge(Collision collision)
 	{
         //stick to wall
-        this.GetComponent<Collider>().enabled = false;
         this.transform.parent = collision.gameObject.transform;
-        
         this.GetComponent<Rigidbody>().useGravity = false;
         this.GetComponent<Rigidbody>().isKinematic = true;
-        
+        this.GetComponent<Collider>().enabled = false;
 
         //timer bullshit
 		Light.GetComponent<MeshRenderer>().material = RedLight;
