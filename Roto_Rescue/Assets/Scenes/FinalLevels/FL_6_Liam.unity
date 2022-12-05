@@ -651,6 +651,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7620859929287367087, guid: dd4e7625e64e9a645babd86fb33522f7, type: 3}
   m_PrefabInstance: {fileID: 105845671}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &105845673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7100324030072144661, guid: dd4e7625e64e9a645babd86fb33522f7, type: 3}
+  m_PrefabInstance: {fileID: 105845671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &123664234
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,8 +2164,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Resume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d88094e238d3cef48ae64985173f0281, type: 2}
+  m_sharedMaterial: {fileID: -2381231289909024498, guid: d88094e238d3cef48ae64985173f0281, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2833,8 +2838,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Game Paused
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d88094e238d3cef48ae64985173f0281, type: 2}
+  m_sharedMaterial: {fileID: -2381231289909024498, guid: d88094e238d3cef48ae64985173f0281, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5594,8 +5599,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d88094e238d3cef48ae64985173f0281, type: 2}
+  m_sharedMaterial: {fileID: -2381231289909024498, guid: d88094e238d3cef48ae64985173f0281, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6534,11 +6539,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_Pivot.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_Pivot.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_RootOrder
@@ -6546,19 +6551,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6602,7 +6607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 213
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7215,6 +7220,7 @@ MonoBehaviour:
   gs: {fileID: 105207185}
   ga: {fileID: 0}
   TT: {fileID: 2139992845}
+  pl: {fileID: 105845673}
   fail: {fileID: 2125866771}
 --- !u!114 &1672824722
 MonoBehaviour:

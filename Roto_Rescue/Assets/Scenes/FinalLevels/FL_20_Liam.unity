@@ -3800,6 +3800,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63e79be17afc9c4c900070a85bb0ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &368540928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7100324030072144661, guid: dd4e7625e64e9a645babd86fb33522f7, type: 3}
+  m_PrefabInstance: {fileID: 368540925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &373963374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5166,8 +5171,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Resume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d88094e238d3cef48ae64985173f0281, type: 2}
+  m_sharedMaterial: {fileID: -2381231289909024498, guid: d88094e238d3cef48ae64985173f0281, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5230,7 +5235,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &562081906
@@ -7001,8 +7006,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Game Paused
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d88094e238d3cef48ae64985173f0281, type: 2}
+  m_sharedMaterial: {fileID: -2381231289909024498, guid: d88094e238d3cef48ae64985173f0281, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7065,7 +7070,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &782258189
@@ -13120,8 +13125,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d88094e238d3cef48ae64985173f0281, type: 2}
+  m_sharedMaterial: {fileID: -2381231289909024498, guid: d88094e238d3cef48ae64985173f0281, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13184,7 +13189,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1398522286
@@ -14891,21 +14896,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1071042561}
     m_Modifications:
+    - target: {fileID: 3683156559863981269, guid: e5179d229def25848aefd3707f430f95, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098804, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_Name
       value: Button Next Level
       objectReference: {fileID: 0}
-    - target: {fileID: 3683156561741098804, guid: e5179d229def25848aefd3707f430f95, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_Pivot.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_Pivot.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_RootOrder
@@ -14913,19 +14918,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_SizeDelta.x
@@ -14969,7 +14974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 213
       objectReference: {fileID: 0}
     - target: {fileID: 3683156561741098805, guid: e5179d229def25848aefd3707f430f95, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14987,14 +14992,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1672824721}
-    - target: {fileID: 3683156561741098806, guid: e5179d229def25848aefd3707f430f95, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 3683156561741098806, guid: e5179d229def25848aefd3707f430f95, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelProgression, Assembly-CSharp
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5179d229def25848aefd3707f430f95, type: 3}
 --- !u!224 &1518781490 stripped
@@ -16362,7 +16359,8 @@ MonoBehaviour:
   gt: {fileID: 782258186}
   gs: {fileID: 19287301}
   ga: {fileID: 0}
-  TT: {fileID: 0}
+  TT: {fileID: 9008538425870492172}
+  pl: {fileID: 368540928}
   fail: {fileID: 342540834}
 --- !u!114 &1672824722
 MonoBehaviour:
@@ -21497,3 +21495,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a8fbd7e726c05b4daafaf72252ee0e5, type: 3}
+--- !u!1 &9008538425870492172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9008538425694239628, guid: 2a8fbd7e726c05b4daafaf72252ee0e5, type: 3}
+  m_PrefabInstance: {fileID: 9008538425870492171}
+  m_PrefabAsset: {fileID: 0}
