@@ -197,4 +197,12 @@ public class goobScript : MonoBehaviour
 
         }
     }
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "de")
+		{
+			Destroy(this.gameObject);
+		}
+	}
+   
 }
