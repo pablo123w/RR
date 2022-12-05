@@ -12,7 +12,7 @@ public class Railgun : ToolBase_Guns
     private GameObject gunEnd;
     public float rand;
     public AudioSource fg;
-    
+
     public float amp;
     public float freq;
     public float _shakeTimer;
@@ -31,11 +31,11 @@ public class Railgun : ToolBase_Guns
         gunEnd = GameObject.Find("gunEnd");
         _shakeTimer = shakeLast;
         rand = Random.value;
-       
+
     }
     private void Start()
     {
-        
+
     }
     // Update is called once per frame
     void Update()
@@ -47,50 +47,51 @@ public class Railgun : ToolBase_Guns
             KickBack();
             StartCoroutine(WaitToShoot());
 
+            //}
+            //if (Input.GetKeyUp("f"))
+            //{
+            //    //rg.Stop();
+            //}
         }
-        //if (Input.GetKeyUp("f"))
-        //{
-        //    //rg.Stop();
-        //}
     }
-
-    public void KickBack()
-    {
-        if (_shakeTimer > 0)
+        public void KickBack()
         {
-            
-          player.transform.localRotation = Quaternion.Euler(new Vector3(0,0, maxAngle.z * (Mathf.PerlinNoise(rand + 3, Time.time * amp) * freq)));
+            if (_shakeTimer > 0)
+            {
 
-            
-            _shakeTimer -= Time.deltaTime;
+                player.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, maxAngle.z * (Mathf.PerlinNoise(rand + 3, Time.time * amp) * freq)));
+
+
+                _shakeTimer -= Time.deltaTime;
+            }
+            else
+            {
+                _shakeTimer = 0f;
+
+            }
         }
-        else
+
+
+        public void Fire(InputAction.CallbackContext context)
         {
-            _shakeTimer = 0f;
-
+            if (CanShoot)
+            {
+                shooting();
+                fg.Play();
+                KickBack();
+                StartCoroutine(WaitToShoot());
+            }
         }
-    }
 
-   
-   public void Fire(InputAction.CallbackContext context)
-    {
-		if (CanShoot)
-		{
-            shooting();
-            fg.Play();
-            KickBack();
-            StartCoroutine(WaitToShoot());
+        public IEnumerator WaitToShoot()
+        {
+
+            CanShoot = false;
+            yield return new WaitForSeconds(1f);
+            CanShoot = true;
         }
-    }
 
-	public IEnumerator WaitToShoot()
-	{
-        
-        CanShoot = false;
-        yield return new WaitForSeconds(1f);
-        CanShoot = true;
-	}
-
-}       
+    
+}
     
 

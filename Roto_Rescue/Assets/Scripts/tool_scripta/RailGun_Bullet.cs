@@ -27,7 +27,7 @@ public class RailGun_Bullet : Splosive
     void Start()
     {
         ThisBullet = this.gameObject;
-        RailExplosion = GameObject.Find("Player_Final").GetComponent<AudioSource>();
+        RailExplosion = GameObject.Find("pla").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

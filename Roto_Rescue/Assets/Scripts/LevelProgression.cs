@@ -28,7 +28,7 @@ public class LevelProgression : MonoBehaviour
     public GameObject gs;
     public GameObject ga;
     public GameObject TT;
-
+    public GameObject pl;
     public GameObject fail;
 
     private GameObject[] TotalGoobers;
@@ -87,6 +87,7 @@ public class LevelProgression : MonoBehaviour
 
     public void LosePoint()
     {
+       totalDeadGoober = totalDeadGoober * 10;
         GooberConstraint = GooberConstraint - totalDeadGoober;
         GooberConstraintImage.fillAmount = GooberConstraint;
         Debug.Log("Goober ALIVE ===================================== " + GooberConstraint);
@@ -140,11 +141,14 @@ public class LevelProgression : MonoBehaviour
     }
     public void POPfail()
     {
-        if (TotalGoobHP <= 0)
-        {
-            fail.SetActive(true);
-            Debug.Log("Light Yagami Almost Became a God");
-           // Debug.Log("Names In deathnote: " + gS.deathNote);
-        }
+        //if (totalDeadGoober == 1)
+        //{
+        //    //Rigidbody rg;
+        //    //rg = pl.GetComponent<Rigidbody>();
+        //    //rg.constraints = RigidbodyConstraints.FreezeAll;
+        //    //fail.SetActive(true);
+        //    //Debug.Log("Light Yagami Almost Became a God");
+        //   // Debug.Log("Names In deathnote: " + gS.deathNote);
+        //}
     }
 }
